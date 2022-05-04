@@ -23,9 +23,9 @@ Wiki de Python do segundo ano de Técnico em Informática para Internet Integrad
 
 ## Não atribuídos 
 
-Classes: herança múltipla, variáveis privadas, geradores
-Módulos
-Pacotes
+* Classes: herança múltipla, variáveis privadas, geradores
+* Módulos
+* Pacotes
 
 
 ## Exemplo de Wiki
