@@ -1,4 +1,4 @@
-# wikiPythonTerceirao
+# wikiPythonDepressao
 Wiki de Python do segundo ano de Técnico em Informática para Internet Integrado ao Ensino Médio do Colégio Técnico Industrial de Santa Maria. Turma de 2022.
 
 
