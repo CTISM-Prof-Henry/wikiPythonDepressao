@@ -44,6 +44,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 
 #### Resumo simplificado
 
+
 Python é 🔝
 
 #### Resumo expandido
@@ -67,6 +68,9 @@ Sério, Python é muito 🔝
 #### Resumo simplificado
 
 É if e é else.
+
+
+
 
 #### Resumo expandido
 
