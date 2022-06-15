@@ -69,13 +69,21 @@ Sério, Python é muito 🔝
 É if e é else.
 
 #### Resumo expandido
-
-Tem mais coisa, mas não tô afim de escrever agora.
-
 #### Exercícios
+
 
 Fiquei com preguiça de fazer.
 
 #### Resolução
 
 Depois eu faço.
+
+###Exceções
+
+###Resumo expandido 
+Exemplo:
+numero = int( input("Digite um numero "))
+try:
+    resultado = 45 / numero
+except:
+    print("Não foi posivel calcular o resultado")
