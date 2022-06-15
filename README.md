@@ -1,4 +1,4 @@
-# wikiPythonTerceirao
+# wikiPythonDepressao
 
 Wiki de Python do segundo ano de Técnico em Informática para Internet Integrado ao Ensino Médio do Colégio Técnico Industrial de Santa Maria. Turma de 2022.
 
@@ -28,9 +28,9 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 
 ## Não atribuídos 
 
-Classes: herança múltipla, variáveis privadas, geradores
-Módulos
-Pacotes
+* Classes: herança múltipla, variáveis privadas, geradores
+* Módulos
+* Pacotes
 
 
 ## Exemplo de Wiki
