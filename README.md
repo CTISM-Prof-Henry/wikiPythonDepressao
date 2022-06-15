@@ -33,15 +33,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 * Pacotes
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-## Wiki juh e jhenni
-=======
-## Estruturas de Dados : listas
->>>>>>> 8b5933ccce0b9a6ca2f196fc43d6790ed7512ff0
-=======
 ## Exemplo de Wiki
->>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
 
 ### Sumário
 
@@ -49,10 +41,6 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 2. [if-else](#if-else)
 3. [Escrita de arquivos](#escrita-de-arquivos)
 
-<<<<<<< HEAD
-Estrutura de dados : Estrutura de dados é a área da computação que estuda os meios de organização de dados para atender as diferentes necessidades de processamento. 
-As estruturas de dados definem a organização, métodos de acesso e opções de processamento para a informação usada pelo programa.
-=======
 ### Introdução
 
 #### Resumo simplificado
@@ -62,7 +50,6 @@ Python é 🔝
 #### Resumo expandido
 
 Sério, Python é muito 🔝
->>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
 
 #### Exercícios
 
@@ -72,16 +59,12 @@ Sério, Python é muito 🔝
 
 #### Resolução
 
-<<<<<<< HEAD
-=======
 1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
 2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
 3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
 
-<<<<<<< HEAD
 ### If-Else
-=======
->>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
+
 ### Implementação de listas :
 
 #### List comprehension
@@ -184,36 +167,15 @@ print(lista)
 2. Rode um programa Python pelo console.
 3. Rode um script Python pelo console.
 
-<<<<<<< HEAD
+
 ### Juh e Jhenni
+### Sumário
+
+1. [Números e expressões aritméticas](#números-e-expressões-aritméticas)
+2. [Comando Pass](#comando-pass)
+3. [Escrita de arquivos](#escrita-de-arquivos)
 
 
-#### Resumo simplificado
-
-=======
-## Funções 
-
-### Definindo Funções
->>>>>>> 2cf1e5c34f3a77d05bc32da3ec11b06593e215a8
-
-#### Resumo simplificado
-
-É if e é else.
->>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
-
-#### Resumo expandido
-
-Tem mais coisa, mas não tô afim de escrever agora.
-
-#### Exercícios
-
-Fiquei com preguiça de fazer.
-
-#### Resolução
-
-Depois eu faço.
-
-<<<<<<< HEAD
 ### Números e expessões aritiméticas
 
 #### Resumo simplificado
@@ -226,6 +188,13 @@ Para exponenciação é possível usar o operador ** .
 Para atribuir valor para uma variável é necessário usar o sinal de igual; caso uma variável não for atribuída, tentar utiliza-la gerará um erro.
 A variável _ é usada para definir a quantidade de números após a vírgula; nun ca defina um valor, do contrário será criada outra variável independente que mascararia a variável especial.
 
+### Exercícios
+
+
+
+### Resolução
+
+
 
 ### Comando Pass
 
@@ -236,22 +205,25 @@ Python é 🔝
 #### Resumo expandido
 
 A instrução pass é usada em Python quando algum código é solicitado sintaticamente, mas o usuário não quer que o programa faça nada. Também podemos ignorar exceções em Python usando a instrução pass, uma instrução específica do Python usada como um espaço reservado quando o usuário deseja que o programa não faça nada.
+
 #### Exercícios
-=======
-#### Escrita de arquivos
->>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
 
-#### Resumo simplificado 
 
-É usada a função **open()** para abrir arquivos podemos acessar arquivos só para para leitura, só para escrita e para leitura e escrita
 
-<<<<<<< HEAD
-=======
-#### Resumo expandido
 
-Abrindo arquivos:
+### Resolução
 
-Para isso usamos a função open().
 
-Fechando arquivos
->>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
+
+### Formatação de strings
+
+### Resumo simplificado
+
+
+### Resumo expandido
+
+
+### Exercícios
+
+
+### Resolução
