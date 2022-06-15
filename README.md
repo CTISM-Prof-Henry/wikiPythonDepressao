@@ -385,6 +385,7 @@ A instrução pass é usada em Python quando algum código é solicitado sintati
 Depois eu faço.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ###Exceções
 
 ###Resumo expandido 
@@ -395,6 +396,138 @@ try:
 except:
     print("Não foi posivel calcular o resultado")
 =======
+=======
+## Escrita de arquivos
+
+### Resumo simplificado 
+
+Existem dois tipos de arquivos que podem ser manipulados em python, **arquivos de texto** e **arquivos binários**. A função **open()** para abrir arquivos podemos acessar arquivos só para para leitura, só para escrita e para leitura e escrita.
+
+### Resumo expandido
+
+####Abrindo arquivos:
+
+Abrir arquivos só para a escrita (write)
+
+```python
+arquivo = open('nome_arquivo', 'w')
+```
+####Fechando arquivos
+=======
+
+## Funções 
+### Definindo Funções
+
+ #### Resumo simplificado
+
+def - define;
+
+
+
+#### Resumo Expandido
+
+Para definir uma função em Python, utilizamos o comando `def`, que significa literalmente definir. Após `def`, o nome da função deve ser estabelecido, seguido pelos parâmetros formais entre parênteses.
+	
+
+#### Exercícios
+
+#### Resolução
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Argumentos com valor padrão e Argumentos nomeados
+
+### Resumo Simplicado
+In - Verifica se uma sequência contém ou não um determinado valor.
+
+
+
+É possivel definir funções com um número variável de argumentos
+// essas formas podem ser combinadas
+#### Argumento com valor padrão
+
+É utilizado para especificar um valor padrão para um ou mais argumentos.
+
+Por exemplo  :
+’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’
+
+def ask_ok(prompt, retries=4, reminder='Please try again!'):
+    while True:
+        ok = input(prompt)
+        if ok in ('y', 'ye', 'yes'):
+            return True
+        if ok in ('n', 'no', 'nop', 'nope'):
+            return False
+        retries = retries - 1
+        if retries < 0:
+            raise ValueError('invalid user response')
+        print(reminder)
+’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’
+
+
+Podemos chamar essa função com varias formas
+
+Dando apenas o argumento Obrigatório :   ask_ok('voce quer realmente sair?')
+
+Dando um argumento opcional :  ask_ok('Ok para sobrescrever o arquivo?', 2)
+
+ou dando todos os argumentos : ask_ok('Ok para sobrescrever o arquivo??', 2, 'vamos, apenas sim ou não!
+
+Importante:  Valores padrões só são avaliados uma vez. veja que isso fará diferença quando um valor é um objeto mutável, lista, dicionário ou instâncias de classes. 
+
+// Argumento posicional é o nome utilizado para a passagem de valores onde cada valor estara na ordem conforme implementado na função.
+#### Argumentos nomeados
+Essa função chama outros argumentos utilizando
+ 
+‘’Chave’’ = ‘’valor’’
+A chave seria o nome dado dentro da função
+
+Exemplo:
+
+def Moitinha ( perfeito, lindo, gostoso,pomposo):
+  print('perfeito:{}/nlindo:{}/ngostoso{}/npomposo{}')
+
+Moitinha("perfeitão", lindo="lindão", gostoso='gostoso', pomposo='pomposinho')
+
+
+
+
+Colocamos a chave como cabeludo  e o valor = cabeludão
+
+a função a seguir
+
+def moita(lindo, cabeludo= 'um cabeludão', acao='ser lindo', tipo='Perfeito'):
+   moita(1000)  # 1 argumento posicional
+   moita(lindo=1000)  # 1 chave de argumento
+   moita(lindo=1000000, ação='LINDAAAAOOOOO')  # 2 chave de argumento
+   moita(ação='lindaaaaaaaa', lindo=1000000)  # 2 chave de argumento
+   moita('um milhão', 'o cara e foda', 'pula fio')  # 3 argumento posicional
+   moita('milzão', cabeludo='mostrando o cabelão')  # 1 posicional, 1 chave de argumento
+
+Aceita um argumento obrigatório(Lindo)
+Três argumentos opcionais ( cabeludo, acao, tipo)
+
+essa função pode ser chamada de qualquer uma dessas formas
+
+Importante : 
+Nenhum argumento pode receber mais de um valor
+
+
+>>>>>>> 86ce0e874dd3e6f64af2e850cd58cbdb26c13888
 
 ###Exceções 
 
