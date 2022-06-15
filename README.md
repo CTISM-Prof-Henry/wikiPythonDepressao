@@ -121,7 +121,32 @@ print(lista)
 ```python
 ['rhandres' , 'davi' , 'o theo ta mal' , 'breno' , 'breno falta aula']
 ```
-##### 
+##### list.**pop**([i])
+Remove um item a lista, na posição determinada pelo usuário, iniciando a contagem a partir do 0. Ação opcional, se não dado um índice ele irá remover o último item da lista.
+Ex :
+```python
+lista = [‘rhandres’ , ‘davi’ , 'o theo ta mal' , ‘breno’ , 'breno falta aula' ,]
+lista.pop(2)
+
+print(lista)
+```
+```python
+['rhandres' , 'davi' , 'breno' , 'breno falta aula']
+```
+
+#### list.**clear**()
+Remove todos itens da lista. Para esta ação também pode ser usado o `del lista[:]`
+Ex :
+```python
+lista = [‘rhandres’ , ‘davi’ , 'o theo ta mal' , ‘breno’ , 'breno falta aula' ]
+lista.clear()
+
+print(lista)
+```
+```python
+[]
+```
+
 ### Operadores :
 
 #### and
