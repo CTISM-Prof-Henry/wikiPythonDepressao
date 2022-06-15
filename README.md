@@ -33,149 +33,23 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 * Pacotes
 
 
-## Estruturas de Dados : listas
+## Exemplo de Wiki
 
 ### Sumário
 
-1. [Estrutura](#Estrutura)
-2. [Exercícios](#Exercícios)
+1. [Introdução](#introdução)
+2. [if-else](#if-else)
+3. [Escrita de arquivos](#escrita-de-arquivos)
 
 ### Introdução
 
 #### Resumo simplificado
 
-Estrutura de dados : É uma coleção de valores e operações, também uma implementação concreta de um tipo de dado, básico ou primitivo.
+Python é 🔝
 
 #### Resumo expandido
 
-Estrutura de dados : Estrutura de dados é a área da computação que estuda os meios de organização de dados para atender as diferentes necessidades de processamento. 
-As estruturas de dados definem a organização, métodos de acesso e opções de processamento para a informação usada pelo programa.
-
-### Listas
-
-#### Resumo simplificado
-
-Uma Lista em python, é basicamente uma coleção de valores ordenada, separados por vírgula (,) e dentro de colchetes ([ ]). São usadas para armazenar diferentes itens em uma variável.
-Ex:
-lista = [ ‘rhandres’ , ‘davi’ , ‘breno’ ]
-print (lista) 
-
-#### Resumo expandido
-
-Tem mais coisa, mas não tô afim de escrever agora.
-
-### Implementação de listas :
-
-#### List comprehension
-
-### Métodos da classe lista :
-
-##### list.**append**(x)
-
-Adiciona um novo item ao fim da lista.
-Ex :
-```python
-lista = [ ‘rhandres’ , ‘davi’ , ‘breno’ ]
-lista.append('breno falta aula')
-
-print(lista)
-```
-```python
-['rhandres' , 'davi' , 'breno' , 'breno falta aula']
-```
-##### list.**remove**(x)
-Remove um item da lista.
-Ex :
-```python
-lista = [‘rhandres’ , ‘davi’ , ‘breno’ , 'breno falta aula']
-lista.remove('breno')
-
-print(lista)
-```
-```python
-['rhandres' , 'davi' , 'breno falta aula']
-```
-##### list.**extend**(iterable)
-Faz a junção de duas listas.
-Ex :
-```python
-lista = [‘rhandres’ , ‘davi’ , ‘breno’]
-lista2 = ['breno falta aula']
-lista.extend(lista2)
-
-print(lista)
-```
-```python
-['rhandres' , 'davi' , 'breno' , 'breno falta aula']
-```
-##### list.**insert**(i,x)
-Adiciona um item a lista, na posição determinada pelo usuário, iniciando a contagem a partir do 0.
-Ex :
-
-```python
-lista = [‘rhandres’ , ‘davi’ , ‘breno’ , 'breno falta aula']
-lista.insert(2,'o theo ta mal')
-
-print(lista)
-```
-```python
-['rhandres' , 'davi' , 'o theo ta mal' , 'breno' , 'breno falta aula']
-```
-##### list.**pop**([i])
-Remove um item a lista, na posição determinada pelo usuário, iniciando a contagem a partir do 0. Ação opcional, se não dado um índice ele irá remover o último item da lista.
-Ex :
-```python
-lista = [‘rhandres’ , ‘davi’ , 'o theo ta mal' , ‘breno’ , 'breno falta aula' ,]
-lista.pop(2)
-
-print(lista)
-```
-```python
-['rhandres' , 'davi' , 'breno' , 'breno falta aula']
-```
-
-#### list.**clear**()
-Remove todos itens da lista. Para esta ação também pode ser usado o `del lista[:]`
-Ex :
-```python
-lista = [‘rhandres’ , ‘davi’ , 'o theo ta mal' , ‘breno’ , 'breno falta aula' ]
-lista.clear()
-
-print(lista)
-```
-```python
-[]
-```
-
-### Operadores :
-
-#### and
-
-#### or
-
-#### in 
-
-#### not in
-
-
-### Funções 
-
-#### Definindo Funções
-
-#### Resumo simplificado
-
-* def - define;
-
-
-#### Resumo Expandido
-
-Para definir uma função em Python, utilizamos o comando `def`, que significa literalmente definir. Após `def`, o nome da função deve ser estabelecido, seguido pelos parâmetros formais entre parênteses.
-	
-
-#### Exercícios
-
-#### Resolução
-
+Sério, Python é muito 🔝
 
 #### Exercícios
 
@@ -189,4 +63,34 @@ Para definir uma função em Python, utilizamos o comando `def`, que significa l
 2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
 3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
 
+### If-Else
 
+#### Resumo simplificado
+
+É if e é else.
+
+#### Resumo expandido
+
+Tem mais coisa, mas não tô afim de escrever agora.
+
+#### Exercícios
+
+Fiquei com preguiça de fazer.
+
+#### Resolução
+
+Depois eu faço.
+
+#### Escrita de arquivos
+
+#### Resumo simplificado 
+
+É usada a função **open()** para abrir arquivos podemos acessar arquivos só para para leitura, só para escrita e para leitura e escrita
+
+#### Resumo expandido
+
+Abrindo arquivos:
+
+Para isso usamos a função open().
+
+Fechando arquivos
