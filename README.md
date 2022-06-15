@@ -3,27 +3,14 @@
 Wiki de Python do segundo ano de Técnico em Informática para Internet Integrado ao Ensino Médio do Colégio Técnico Industrial de Santa Maria. Turma de 2022.
 
 
-![careca](images/careca.jpg)
+![careca](https://pm1.narvii.com/6727/31271b6a66c8f56f3a31f1f2734b85d28045170ev2_hq.jpg)
 
-# Problemas resolvendo conflitos no git? 🤠
-
-Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 
 # Grupos & tópicos
 
-| grupo | tópico |
-|:------|:-------|
-| julia e jhennifer | Números, expressões aritméticas, formatação de strings, comando pass |
-| kamilli e nicolle | Controle de fluxo: if, else, elif |
-| augusto e theo | Laços de repetição: while, for, função range, break, continue |
-| davi, breno e rhandres | Estrutura de dados: listas, list comprehension, métodos da classe lista, operadores and, or, in, not in para listas |
-| miguel | Estrutura de dados: tuplas, sets, operadores and, or, in, not in para tuplas/sets     |
-| alexandre e bernardo | Estrutura de dados: dicionáros, construção de dicionários, iteração sobre dicionários, operadores and, or, in, not in para dicionários     |
-| nicole, thianna e joão | Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação     |
+
 | stéfani e valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
-| rafaela | Leitura e escrita de arquivos, método with, biblioteca csv, Gravando dados estruturados com json|
-| nathielly e vanessa | Exceções     |
-| gabriela, manuela e mateus | Classes: sintaxe de definição de calsses, objetos de class, objetos instância, objetos método, variáveis de classe e instância, observações aleatórias     |
+
 
 
 ## Não atribuídos 
@@ -38,17 +25,35 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 ### Sumário
 
 1. [Introdução](#introdução)
-2. [if-else](#if-else)
+2. [Exercícios](#exercicios)
+3. [Resolução](#resolução)
+
 
 ### Introdução
 
-#### Resumo simplificado
+#### Resumo simplificado de Funções ✨
 
-Python é 🔝
+Blocos de códigos que executam alguma tarefa e que tem um nome, ou manipulam algum dado e são capazes de receber (ou não) parâmetros e/ou argumentos, ou seja, processam informações e retornam valores. Dessa forma, são denominadas funções em python, que possuem alguns tipos, dentre eles: funções especiais, funções anônimas e listas de argumentos arbitrárias. 
 
-#### Resumo expandido
 
-Sério, Python é muito 🔝
+#### Resumo expandido ✨
+
+Funções são ..    a função inicia com "def" e um nome é atribuído, após isso um parâmetro é criado.
+(exemplo)
+
+
+• Evita repetição de código
+• Deixa o código Menor
+• Mais legível
+• Mais modularizado
+. def parâmetros são 
+
+Funções especiais: são funções passadas por parâmetros que consistem em posições que são preenchidas por parâmetros
+
+
+
+
+Por padrão, argumentos podem ser passadas para uma função Python tanto por posição quanto explicitamente pelo nome. Para uma melhor legibilidade e desempenho, faz sentido restringir a maneira pelo qual argumentos possam ser passados, assim um desenvolvedor precisa apenas olhar para a definição da função para determinar se os itens são passados por posição, por posição e nome, ou por nome.
 
 #### Exercícios
 
