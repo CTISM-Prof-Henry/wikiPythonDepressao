@@ -1,8 +1,13 @@
 # wikiPythonTerceirao
+
 Wiki de Python do segundo ano de Técnico em Informática para Internet Integrado ao Ensino Médio do Colégio Técnico Industrial de Santa Maria. Turma de 2022.
 
 
 ![careca](images/careca.jpg)
+
+# Problemas resolvendo conflitos no git? 🤠
+
+Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 
 # Grupos & tópicos
 
