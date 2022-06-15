@@ -79,3 +79,10 @@ Fiquei com preguiça de fazer.
 #### Resolução
 
 Depois eu faço.
+
+
+###Exceções 
+
+###Resumo simplificado
+Exceções são erros inesperados que acontecem na hora de executar o código. Elas não são fatais e podem ser resolvidas com intruções.
+
