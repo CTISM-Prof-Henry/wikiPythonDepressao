@@ -63,7 +63,107 @@ Sério, Python é muito 🔝
 2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
 3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
 
+<<<<<<< HEAD
 ### If-Else
+=======
+### Implementação de listas :
+
+#### List comprehension
+
+### Métodos da classe lista :
+
+##### list.**append**(x)
+
+Adiciona um novo item ao fim da lista.
+Ex :
+```python
+lista = [ ‘rhandres’ , ‘davi’ , ‘breno’ ]
+lista.append('breno falta aula')
+
+print(lista)
+```
+```python
+['rhandres' , 'davi' , 'breno' , 'breno falta aula']
+```
+##### list.**remove**(x)
+Remove um item da lista.
+Ex :
+```python
+lista = [‘rhandres’ , ‘davi’ , ‘breno’ , 'breno falta aula']
+lista.remove('breno')
+
+print(lista)
+```
+```python
+['rhandres' , 'davi' , 'breno falta aula']
+```
+##### list.**extend**(iterable)
+Faz a junção de duas listas.
+Ex :
+```python
+lista = [‘rhandres’ , ‘davi’ , ‘breno’]
+lista2 = ['breno falta aula']
+lista.extend(lista2)
+
+print(lista)
+```
+```python
+['rhandres' , 'davi' , 'breno' , 'breno falta aula']
+```
+##### list.**insert**(i,x)
+Adiciona um item a lista, na posição determinada pelo usuário, iniciando a contagem a partir do 0.
+Ex :
+
+```python
+lista = [‘rhandres’ , ‘davi’ , ‘breno’ , 'breno falta aula']
+lista.insert(2,'o theo ta mal')
+
+print(lista)
+```
+```python
+['rhandres' , 'davi' , 'o theo ta mal' , 'breno' , 'breno falta aula']
+```
+##### list.**pop**([i])
+Remove um item a lista, na posição determinada pelo usuário, iniciando a contagem a partir do 0. Ação opcional, se não dado um índice ele irá remover o último item da lista.
+Ex :
+```python
+lista = [‘rhandres’ , ‘davi’ , 'o theo ta mal' , ‘breno’ , 'breno falta aula' ,]
+lista.pop(2)
+
+print(lista)
+```
+```python
+['rhandres' , 'davi' , 'breno' , 'breno falta aula']
+```
+
+#### list.**clear**()
+Remove todos itens da lista. Para esta ação também pode ser usado o `del lista[:]`
+Ex :
+```python
+lista = [‘rhandres’ , ‘davi’ , 'o theo ta mal' , ‘breno’ , 'breno falta aula' ]
+lista.clear()
+
+print(lista)
+```
+```python
+[]
+```
+
+### Operadores :
+
+#### and
+
+#### or
+
+#### in 
+
+#### not in
+
+
+## Funções 
+
+### Definindo Funções
+>>>>>>> 2cf1e5c34f3a77d05bc32da3ec11b06593e215a8
 
 #### Resumo simplificado
 
