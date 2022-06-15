@@ -181,16 +181,19 @@ Fiquei com preguiça de fazer.
 
 Depois eu faço.
 
-#### Escrita de arquivos
+## Escrita de arquivos
 
-#### Resumo simplificado 
+### Resumo simplificado 
 
-É usada a função **open()** para abrir arquivos podemos acessar arquivos só para para leitura, só para escrita e para leitura e escrita
+Existem dois tipos de arquivos que podem ser manipulados em python, **arquivos de texto** e **arquivos binários**. A função **open()** para abrir arquivos podemos acessar arquivos só para para leitura, só para escrita e para leitura e escrita.
 
-#### Resumo expandido
+### Resumo expandido
 
-Abrindo arquivos:
+####Abrindo arquivos:
 
-Para isso usamos a função open().
+Abrir arquivos só para a escrita (write)
 
-Fechando arquivos
+```python
+arquivo = open('nome_arquivo', 'w')
+```
+####Fechando arquivos
