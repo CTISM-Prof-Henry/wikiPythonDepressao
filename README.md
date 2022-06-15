@@ -160,7 +160,7 @@ print(lista)
 
 ## Funções 
 
-#### Definindo Funções
+### Definindo Funções
 
 #### Resumo simplificado
 
