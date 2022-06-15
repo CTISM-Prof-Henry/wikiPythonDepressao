@@ -193,7 +193,8 @@ print(lista)
 ### Números e expessões aritiméticas
 
 #### Resumo simplificado
-
+Os números em python são conceituados em dois tipos numéricos, os números inteiros e os números de ponto flutuante que são dados como (float) Funciona como uma calculadora simples, para isso você deve digitar uma expressão e o resultado será exibido.Expressões como operadores +, -, * e funcionam da mesma forma que em outras linguagens como: (pascal ou C).
+O sinal de igual ('=') é usado para atribuir um valor de variável, se a variável não tiver um valor atribuído, constituirá um erro. No modo interativo a variável (' _ ') deve ser somente leitura pelo usuário, pois não especifica um valor, ela cria outra variável.
 
 #### Resumo expandido
 O interpretador números funciona como uma calculadora, deve-se digitar uma expressão, com os operadores usuais ( +, -, * e / ), e o resultado será apresentado. Assim como nas linguagens tradicionais, os parênteses podem ser usados para agfrupar as expressões. 
@@ -213,11 +214,7 @@ A variável _ é usada para definir a quantidade de números após a vírgula; n
 ### Comando Pass
 
 #### Resumo simplificado
-
-Python é 🔝
-
-
-
+O git pass é usado para ignorar erros. 
 
 #### Resumo expandido
 
