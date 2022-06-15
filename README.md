@@ -34,30 +34,54 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Wiki juh e jhenni
 =======
 ## Estruturas de Dados : listas
 >>>>>>> 8b5933ccce0b9a6ca2f196fc43d6790ed7512ff0
+=======
+## Exemplo de Wiki
+>>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
 
 ### Sumário
 
-1. [Estrutura](#Estrutura)
-2. [Exercícios](#Exercícios)
+1. [Introdução](#introdução)
+2. [if-else](#if-else)
+3. [Escrita de arquivos](#escrita-de-arquivos)
 
+<<<<<<< HEAD
 Estrutura de dados : Estrutura de dados é a área da computação que estuda os meios de organização de dados para atender as diferentes necessidades de processamento. 
 As estruturas de dados definem a organização, métodos de acesso e opções de processamento para a informação usada pelo programa.
-
-### Listas
+=======
+### Introdução
 
 #### Resumo simplificado
 
-Uma Lista em python, é basicamente uma coleção de valores ordenada, separados por vírgula (,) e dentro de colchetes ([ ]). São usadas para armazenar diferentes itens em uma variável.
-Ex:
-lista = [ ‘rhandres’ , ‘davi’ , ‘breno’ ]
-print (lista) 
+Python é 🔝
 
 #### Resumo expandido
 
+Sério, Python é muito 🔝
+>>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
+
+#### Exercícios
+
+1. Abra o console do Python.
+2. Rode um programa Python pelo console.
+3. Rode um script Python pelo console.
+
+#### Resolução
+
+<<<<<<< HEAD
+=======
+1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
+2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
+3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
+
+<<<<<<< HEAD
+### If-Else
+=======
+>>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
 ### Implementação de listas :
 
 #### List comprehension
@@ -160,23 +184,36 @@ print(lista)
 2. Rode um programa Python pelo console.
 3. Rode um script Python pelo console.
 
+<<<<<<< HEAD
 ### Juh e Jhenni
 
 
 #### Resumo simplificado
 
+=======
+## Funções 
 
-#### Resumo Expandido
+### Definindo Funções
+>>>>>>> 2cf1e5c34f3a77d05bc32da3ec11b06593e215a8
 
-Para definir uma função em Python, utilizamos o comando `def`, que significa literalmente definir. Após `def`, o nome da função deve ser estabelecido, seguido pelos parâmetros formais entre parênteses.
-	
+#### Resumo simplificado
+
+É if e é else.
+>>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
+
+#### Resumo expandido
+
+Tem mais coisa, mas não tô afim de escrever agora.
 
 #### Exercícios
+
+Fiquei com preguiça de fazer.
 
 #### Resolução
 
 Depois eu faço.
 
+<<<<<<< HEAD
 ### Números e expessões aritiméticas
 
 #### Resumo simplificado
@@ -200,10 +237,21 @@ Python é 🔝
 
 A instrução pass é usada em Python quando algum código é solicitado sintaticamente, mas o usuário não quer que o programa faça nada. Também podemos ignorar exceções em Python usando a instrução pass, uma instrução específica do Python usada como um espaço reservado quando o usuário deseja que o programa não faça nada.
 #### Exercícios
+=======
+#### Escrita de arquivos
+>>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
 
-1. Abra o console do Python.
-2. Rode um programa Python pelo console.
-3. Rode um script Python pelo console.
+#### Resumo simplificado 
 
-#### Resolução
+É usada a função **open()** para abrir arquivos podemos acessar arquivos só para para leitura, só para escrita e para leitura e escrita
 
+<<<<<<< HEAD
+=======
+#### Resumo expandido
+
+Abrindo arquivos:
+
+Para isso usamos a função open().
+
+Fechando arquivos
+>>>>>>> 64dc79b9e69162a33cd46948c709fd4ff4912c11
