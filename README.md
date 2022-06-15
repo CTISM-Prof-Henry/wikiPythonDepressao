@@ -158,6 +158,25 @@ print(lista)
 #### not in
 
 
+### Funções 
+
+#### Definindo Funções
+
+#### Resumo simplificado
+
+* def - define;
+
+
+#### Resumo Expandido
+
+Para definir uma função em Python, utilizamos o comando `def`, que significa literalmente definir. Após `def`, o nome da função deve ser estabelecido, seguido pelos parâmetros formais entre parênteses.
+	
+
+#### Exercícios
+
+#### Resolução
+
+
 #### Exercícios
 
 1. Abra o console do Python.
