@@ -193,10 +193,8 @@ print(lista)
 ```python
 ['rhandres' , 'davi' , 'o theo ta mal' , 'breno' , 'breno falta aula']
 ```
-<<<<<<< HEAD
 ##### 
-=======
->>>>>>> 9e16e3ae1837a8e54b1a64dcff49b59e75296b0d
+
 ##### list.**pop**([i])
 Remove um item a lista, na posição determinada pelo usuário, iniciando a contagem a partir do 0. Ação opcional, se não dado um índice ele irá remover o último item da lista.
 Ex :
@@ -226,10 +224,9 @@ print(lista)
 ```
 
 ### Operadores :
->>>>>>> 9e16e3ae1837a8e54b1a64dcff49b59e75296b0d
+
 
 print(lista)
-```
 ```python
 ['rhandres' , 'davi' , 'breno' , 'breno falta aula']
 ```
@@ -277,10 +274,6 @@ Ex :
 ```python
 lista = [1 , 3 , 8 , 5 , 7]
 lista.sort()
-=======
-#### Resolução
-
->>>>>>> 9e16e3ae1837a8e54b1a64dcff49b59e75296b0d
 
 print(lista)
 ```
