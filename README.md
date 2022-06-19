@@ -139,11 +139,11 @@ Por padrão, argumentos podem ser passadas para uma função Python tanto por po
 
 ### If-Else
 
->>>>>>> 9e16e3ae1837a8e54b1a64dcff49b59e75296b0d
-### Implementação de listas :
-#### List comprehension
-### Métodos da classe lista :
-##### list.**append**(x)
+
+## Implementação de listas :
+## List comprehension
+## Métodos da classe lista :
+### list.**append**(x)
 
 Adiciona um novo item ao fim da lista.
 Ex :
@@ -156,7 +156,7 @@ print(lista)
 ```python
 ['rhandres' , 'davi' , 'breno' , 'breno falta aula']
 ```
-##### list.**remove**(x)
+### list.**remove**(x)
 Remove um item da lista.
 Ex :
 ```python
@@ -168,7 +168,7 @@ print(lista)
 ```python
 ['rhandres' , 'davi' , 'breno falta aula']
 ```
-##### list.**extend**(iterable)
+### list.**extend**(iterable)
 Faz a junção de duas listas.
 Ex :
 ```python
@@ -181,7 +181,7 @@ print(lista)
 ```python
 ['rhandres' , 'davi' , 'breno' , 'breno falta aula']
 ```
-##### list.**insert**(i,x)
+### list.**insert**(i,x)
 Adiciona um item a lista, na posição determinada pelo usuário, iniciando a contagem a partir do 0.
 Ex :
 ```python
@@ -192,17 +192,14 @@ print(lista)
 ```
 ```python
 ['rhandres' , 'davi' , 'o theo ta mal' , 'breno' , 'breno falta aula']
-```
-##### 
+``` 
 
-##### list.**pop**([i])
+### list.**pop**([i])
 Remove um item a lista, na posição determinada pelo usuário, iniciando a contagem a partir do 0. Ação opcional, se não dado um índice ele irá remover o último item da lista.
 Ex :
 ```python
 lista = [‘rhandres’ , ‘davi’ , 'o theo ta mal' , ‘breno’ , 'breno falta aula' ,]
 lista.pop(2)
-<<<<<<< HEAD
-=======
 
 print(lista)
 ```
@@ -210,7 +207,7 @@ print(lista)
 ['rhandres' , 'davi' , 'breno' , 'breno falta aula']
 ```
 
-#### list.**clear**()
+### list.**clear**()
 Remove todos itens da lista. Para esta ação também pode ser usado o `del lista[:]`
 Ex :
 ```python
@@ -223,7 +220,7 @@ print(lista)
 []
 ```
 
-### Operadores :
+## Operadores :
 
 
 print(lista)
@@ -231,7 +228,7 @@ print(lista)
 ['rhandres' , 'davi' , 'breno' , 'breno falta aula']
 ```
 
-#### list.**clear**()
+### list.**clear**()
 Remove todos itens da lista. Para esta ação também pode ser usado o `del lista[:]`
 Ex :
 ```python
@@ -243,7 +240,7 @@ print(lista)
 ```python
 []
 ```
-#### list.**count**()
+### list.**count**()
 Conta a quantidade de vezes que o item aparece na lista.
 Ex :
 ```python
@@ -255,7 +252,7 @@ print(lista.count('breno'))
 ```python
 2
 ```
-#### list.**index**()
+### list.**index**()
 Informa o índice do item selecionado pelo usuário, podendo ser usado indices para determinar o inicio e o fim. Caso o valor não esteja presente na lista o programa irá retornar `ValueError` 
 Ex :
 ```python
@@ -268,7 +265,7 @@ print(lista.index('breno', 0, 4))
 ```python
 3
 ```
-#### list.**sort**()
+### list.**sort**()
 Ordena os itens de uma lista de acordo com a informação passada pelo usuário.
 Ex :
 ```python
@@ -290,7 +287,7 @@ print(lista)
 ```python
 [8 , 7 , 5 , 3 , 1]
 ```
-#### list.**reverse**()
+### list.**reverse**()
 Inverte a ordem da lista.
 Ex :
 ```python
@@ -302,7 +299,7 @@ print(lista)
 ```python
 ['breno' , 'breno falta aula' , 'breno' , 'o theo ta mal' , 'davi' , 'rhandres']
 ```
-#### list.**copy**()
+### list.**copy**()
 Faz uma cópia rasa da lista. Podendo ser usado também o `a[:]`
 Ex :
 ```python
@@ -317,11 +314,11 @@ print(lista.copy())
 
 ### Operadores :
 
-#### and
-#### or
-#### in 
-#### not in
-#### Exercícios
+### and
+### or
+### in 
+### not in
+## Exercícios
 1. Abra o console do Python.
 2. Rode um programa Python pelo console.
 3. Rode um script Python pelo console.
