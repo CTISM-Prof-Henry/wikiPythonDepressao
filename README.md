@@ -74,7 +74,6 @@ Tem mais coisa, mas não tô afim de escrever agora.
 2. [Exercícios](#exercicios)
 3. [Resolução](#resolução)
 
-=======
 2. [if-else](#if-else)
 3. [Escrita de arquivos](#escrita-de-arquivos)
 
@@ -444,7 +443,7 @@ Para definir uma função em Python, utilizamos o comando `def`, que significa l
 
 
 
-
+### nicole, thianna e joão
 
 ### Argumentos com valor padrão e Argumentos nomeados
 
@@ -524,7 +523,6 @@ Importante :
 Nenhum argumento pode receber mais de um valor
 
 
->>>>>>> 86ce0e874dd3e6f64af2e850cd58cbdb26c13888
 
 ###Exceções 
 
@@ -549,6 +547,3 @@ Exceções são erros inesperados que acontecem na hora de executar o código. E
 
 
 ### Resolução
->>>>>>> fd64e6525cc036e388c4dc62aa5941ceda2bff9b
->>>>>>> 9e16e3ae1837a8e54b1a64dcff49b59e75296b0d
->>>>>>> e728a2715a4662d312f47c017d31386b4aeca00b
