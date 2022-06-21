@@ -318,17 +318,17 @@ print(lista.copy())
 
 
 
-### Juh e Jhenni
-### Sumário
+# Juh e Jhenni
+## Sumário
 
 1. [Números e expressões aritméticas](#números-e-expressões-aritméticas)
 2. [Comando Pass](#comando-pass)
 3. [Formatação de string](#formatação-de-string)
 
 
-### Números e expessões aritiméticas
+## Números e expessões aritiméticas
 
-#### Resumo simplificado
+### Resumo simplificado
 Os números em python são conceituados em dois tipos numéricos, os números inteiros e os números de ponto flutuante que são dados como (float) Funciona como uma calculadora simples, para isso você deve digitar uma expressão e o resultado será exibido.Expressões como operadores +, -, * e funcionam da mesma forma que em outras linguagens como: (pascal ou C).
 O sinal de igual ('=') é usado para atribuir um valor de variável, se a variável não tiver um valor atribuído, constituirá um erro. No modo interativo a variável (' _ ') deve ser somente leitura pelo usuário, pois não especifica um valor, ela cria outra variável.
 
@@ -339,7 +339,7 @@ Para exponenciação é possível usar o operador ** .
 Para atribuir valor para uma variável é necessário usar o sinal de igual; caso uma variável não for atribuída, tentar utiliza-la gerará um erro.
 A variável _ é usada para definir a quantidade de números após a vírgula; nun ca defina um valor, do contrário será criada outra variável independente que mascararia a variável especial.
 
-### Exercícios
+## Exercícios
 ```python
 
 ```
@@ -348,25 +348,25 @@ A variável _ é usada para definir a quantidade de números após a vírgula; n
 ```
 
 
-### Resolução
+## Resolução
 
 
 
-### Comando Pass
+## Comando Pass
 
-#### Resumo simplificado
+### Resumo simplificado
 O git pass é usado para ignorar erros. 
 
 #### Resumo expandido
 A instrução pass é usada em Python quando algum código é solicitado sintaticamente, mas o usuário não quer que o programa faça nada. Também podemos ignorar exceções em Python usando a instrução pass, uma instrução específica do Python usada como um espaço reservado quando o usuário deseja que o programa não faça nada.
 
-#### Exercícios
+## Exercícios
 
 
-#### Resolução
+## Resolução
 
 
-### Formatação de string
+## Formatação de string
 
 ### Resumo simplificado
 
