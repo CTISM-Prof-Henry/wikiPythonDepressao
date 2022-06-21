@@ -382,9 +382,9 @@ A instrução pass é usada em Python quando algum código é solicitado sintati
 
 
 ### vanessa e nathy
-###Exceções
+### Exceções
 
-###Resumo expandido 
+### Resumo expandido 
 Exemplo:
 numero = int( input("Digite um numero "))
 try:
