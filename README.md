@@ -524,10 +524,19 @@ Nenhum argumento pode receber mais de um valor
 
 
 
-###Exceções 
+## Exceções 
 
-###Resumo simplificado
-Exceções são erros inesperados que acontecem na hora de executar o código. Elas não são fatais e podem ser resolvidas com intruções.
+### Resumo simplificado
+
+Exceções são erros inesperados que acontecem na hora de executar o código. Elas não são fatais e podem ser resolvidas com instruções.
+
+### Resumo expandido
+
+
+### Exercícios
+
+
+### Resolução
 
 =======
 
