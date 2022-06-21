@@ -39,12 +39,12 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 
 
 
->>>>>>> 9e16e3ae1837a8e54b1a64dcff49b59e75296b0d
+
 ## Não atribuídos 
 * Classes: herança múltipla, variáveis privadas, geradores
 * Módulos
 * Pacotes
-<<<<<<< HEAD
+
 ## Estruturas de Dados : listas
 ### Sumário
 1. [Estrutura](#Estrutura)
@@ -71,24 +71,21 @@ Tem mais coisa, mas não tô afim de escrever agora.
 ### Sumário
 
 1. [Introdução](#introdução)
-<<<<<<< HEAD
 2. [Exercícios](#exercicios)
 3. [Resolução](#resolução)
 
 =======
 2. [if-else](#if-else)
 3. [Escrita de arquivos](#escrita-de-arquivos)
->>>>>>> cde19e0824b19cde52b35084b135f4bd9db181f9
 
 ### Introdução
 
-<<<<<<< HEAD
 # If, Else, Elif. Nicolle Moreira E Kamilli Razera
 
 #### Resumo simplificado
 
 If, Else e elif são comandos de desvio de fluxo.
-=======
+
 #### Resumo simplificado de Funções ✨
 
 Blocos de códigos que executam alguma tarefa e que tem um nome, ou manipulam algum dado e são capazes de receber (ou não) parâmetros e/ou argumentos, ou seja, processam informações e retornam valores. Dessa forma, são denominadas funções em python, que possuem alguns tipos, dentre eles: funções especiais, funções anônimas e listas de argumentos arbitrárias. 
@@ -108,22 +105,15 @@ Funções são ..    a função inicia com "def" e um nome é atribuído, após 
 
 Funções especiais: são funções passadas por parâmetros que consistem em posições que são preenchidas por parâmetros
 
-<<<<<<< HEAD
 
 Python é 🔝
-=======
->>>>>>> 48aa13fc8368026d7b88fd4bdb1bdf05688bcbc5
-
->>>>>>> d6e0f8517a43100b8ad6a27ff87e060e34b7b6b5
 
 
-<<<<<<< HEAD
 If(se) é uma condicional que permite avaliar se a expressão é afirmativa.
 Else(se não) é a condicional que avalia se a condição é negativa.
 Elif(se não se) é a junção de else + if, ele faz com que as condições sejam interligadas (se ele satisfizer uma condição ele não verifica as outras). 
-=======
+
 Por padrão, argumentos podem ser passadas para uma função Python tanto por posição quanto explicitamente pelo nome. Para uma melhor legibilidade e desempenho, faz sentido restringir a maneira pelo qual argumentos possam ser passados, assim um desenvolvedor precisa apenas olhar para a definição da função para determinar se os itens são passados por posição, por posição e nome, ou por nome.
->>>>>>> d6e0f8517a43100b8ad6a27ff87e060e34b7b6b5
 
 #### Exercícios
 
@@ -259,7 +249,6 @@ Ex :
 lista = ['rhandres' , 'davi' , 'o theo ta mal' , 'breno' , 'breno falta aula' , 'breno' ]
 lista.index('breno', 0, 4)
 
-<<<<<<< HEAD
 print(lista.index('breno', 0, 4))
 ```
 ```python
@@ -322,12 +311,12 @@ print(lista.copy())
 1. Abra o console do Python.
 2. Rode um programa Python pelo console.
 3. Rode um script Python pelo console.
-<<<<<<< HEAD
+
 #### Resolução
 1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
 2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
 3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
-=======
+
 
 
 ### Juh e Jhenni
@@ -335,7 +324,7 @@ print(lista.copy())
 
 1. [Números e expressões aritméticas](#números-e-expressões-aritméticas)
 2. [Comando Pass](#comando-pass)
-3. [Escrita de arquivos](#escrita-de-arquivos)
+3. [Formatação de string](#formatação-de-string)
 
 
 ### Números e expessões aritiméticas
@@ -352,7 +341,12 @@ Para atribuir valor para uma variável é necessário usar o sinal de igual; cas
 A variável _ é usada para definir a quantidade de números após a vírgula; nun ca defina um valor, do contrário será criada outra variável independente que mascararia a variável especial.
 
 ### Exercícios
+```python
 
+```
+```python
+
+```
 
 
 ### Resolução
@@ -365,25 +359,30 @@ A variável _ é usada para definir a quantidade de números após a vírgula; n
 O git pass é usado para ignorar erros. 
 
 #### Resumo expandido
-<<<<<<< HEAD
-#### Exercícios
-
-
-Fiquei com preguiça de fazer.
-=======
-
 A instrução pass é usada em Python quando algum código é solicitado sintaticamente, mas o usuário não quer que o programa faça nada. Também podemos ignorar exceções em Python usando a instrução pass, uma instrução específica do Python usada como um espaço reservado quando o usuário deseja que o programa não faça nada.
 
 #### Exercícios
 
->>>>>>> e728a2715a4662d312f47c017d31386b4aeca00b
+
+#### Resolução
 
 
-<<<<<<< HEAD
-Depois eu faço.
+### Formatação de string
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+### Resumo simplificado
+
+
+### Resumo expandido
+
+
+### Exercícios
+
+
+### Resolução
+
+
+
+### vanessa e nathy
 ###Exceções
 
 ###Resumo expandido 
@@ -393,8 +392,9 @@ try:
     resultado = 45 / numero
 except:
     print("Não foi posivel calcular o resultado")
-=======
-=======
+
+
+### Rafaela
 ## Escrita de arquivos
 
 ### Resumo simplificado 
@@ -411,7 +411,6 @@ Abrir arquivos só para a escrita (write)
 arquivo = open('nome_arquivo', 'w')
 ```
 ####Fechando arquivos
-=======
 
 ## Funções 
 ### Definindo Funções
