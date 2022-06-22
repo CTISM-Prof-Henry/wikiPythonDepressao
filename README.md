@@ -56,6 +56,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 5. [Escrita arquivos](escrita_arquivos.md)
 2. [if-else](#if-else)
 6. [Introdução : Lista](Introduçaozinha.md)
+7. [Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação](nico_thi_jao.md)
 
 ### Introdução
 
