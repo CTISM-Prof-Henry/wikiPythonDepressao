@@ -26,7 +26,6 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 | rafaela | Leitura e escrita de arquivos, método with, biblioteca csv, Gravando dados estruturados com json|
 | nathielly e vanessa | Exceções     |
 | gabriela, manuela e mateus | Classes: sintaxe de definição de calsses, objetos de class, objetos instância, objetos método, variáveis de classe e instância, observações aleatórias     |
-| stéfani e valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
 
 
 ![careca](https://pm1.narvii.com/6727/31271b6a66c8f56f3a31f1f2734b85d28045170ev2_hq.jpg)
@@ -61,6 +60,20 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 #### Resumo simplificado
 
 If, Else e elif são comandos de desvio de fluxo.
+
+
+
+
+
+
+# Valquíria e Stéfani|funções especiais, funções anônimas e listas de argumentos arbitrárias. 
+
+###Sumário:
+1. [Resumo simplificado de funções](#Resumo-simplificado)
+2. [Resumo expandido](#Resumo-expandido)
+3. [Funções especiais](#Funções-especiais)
+4. [Funções anônimas](#Funções-anônimas)
+4. [Listas de argumentos arbitárias](#Listas-de-argumentos-arbitárias)
 
 #### Resumo simplificado de Funções ✨
 
