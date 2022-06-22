@@ -365,7 +365,7 @@ Exceções são erros inesperados que acontecem na hora de executar o código. E
 
 As exceções, como outros erros, retornam mensagens de erro indicando o que está errado:
 
-### EX1:
+#### EX1:
 ```python
 6 - 9/num
 
@@ -405,12 +405,11 @@ except ZeroDivisionError:
 
 O código acima funciona assim:
 
--O comando try é executado.
+`-O comando try é executado.`
 
--Se não houver nenhuma exceção, o comando except é ignorado e a execução do código acaba.
+`-Se não houver nenhuma exceção, o comando except é ignorado e a execução do código acaba.`
 
--Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.
-
+`-Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.`
 
 
 
