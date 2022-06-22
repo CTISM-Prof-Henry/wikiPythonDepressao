@@ -461,27 +461,27 @@ In - Verifica se uma sequência contém ou não um determinado valor.
 Por exemplo  :
 ’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’
 
-def ask_ok(prompt, retries=4, reminder='Please try again!'):
+def perguntar_ok(prompt, tentativas=4, relembrar='Porfavor Tente Denovo!'):
     while True:
         ok = input(prompt)
-        if ok in ('y', 'ye', 'yes'):
+        if ok in ('sim', 'S', 'yes'):
             return True
-        if ok in ('n', 'no', 'nop', 'nope'):
+        if ok in ('Não', 'Neh', 'nop', 'n'):
             return False
-        retries = retries - 1
-        if retries < 0:
+        tentativas = tentativas - 1
+        if tentativas < 0:
             raise ValueError('invalid user response')
-        print(reminder)
+        print(relembrar)
 ’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’
 
 
 Podemos chamar essa função com varias formas
 
-Dando apenas o argumento Obrigatório :   ask_ok('voce quer realmente sair?')
+Dando apenas o argumento Obrigatório :   perguntar_ok('voce quer realmente sair?')
 
-Dando um argumento opcional :  ask_ok('Ok para sobrescrever o arquivo?', 2)
+Dando um argumento opcional :  perguntar_ok('Ok para sobrescrever o arquivo?', 2)
 
-ou dando todos os argumentos : ask_ok('Ok para sobrescrever o arquivo??', 2, 'vamos, apenas sim ou não!
+ou dando todos os argumentos : perguntar_ok('Ok para sobrescrever o arquivo??', 2, 'vamos, apenas sim ou não!)
 
 Importante:  Valores padrões só são avaliados uma vez. veja que isso fará diferença quando um valor é um objeto mutável, lista, dicionário ou instâncias de classes. 
 
@@ -501,24 +501,6 @@ Moitinha("perfeitão", lindo="lindão", gostoso='gostoso', pomposo='pomposinho')
 
 
 
-
-Colocamos a chave como cabeludo  e o valor = cabeludão
-
-a função a seguir
-
-def moita(lindo, cabeludo= 'um cabeludão', acao='ser lindo', tipo='Perfeito'):
-   moita(1000)  # 1 argumento posicional
-   moita(lindo=1000)  # 1 chave de argumento
-   moita(lindo=1000000, ação='LINDAAAAOOOOO')  # 2 chave de argumento
-   moita(ação='lindaaaaaaaa', lindo=1000000)  # 2 chave de argumento
-   moita('um milhão', 'o cara e foda', 'pula fio')  # 3 argumento posicional
-   moita('milzão', cabeludo='mostrando o cabelão')  # 1 posicional, 1 chave de argumento
-
-Aceita um argumento obrigatório(Lindo)
-Três argumentos opcionais ( cabeludo, acao, tipo)
-
-essa função pode ser chamada de qualquer uma dessas formas
-
 Importante : 
 Nenhum argumento pode receber mais de um valor
 
@@ -534,6 +516,9 @@ Exceções são erros inesperados que acontecem na hora de executar o código. E
 
 
 ### Exercícios
+Exercicio - Argumento padrão
+Crie uma função de argumento padrão pedindo a senha (12345), dando ate 5 tentativas,
+chame esse argumento 
 
 
 ### Resolução
