@@ -1,5 +1,9 @@
 ## Métodos da classe lista :
-### list.**append**(x)
+
+#### Resumo Expandido:
+Os `Métodos de Lista` são codigos capazes de fazer modificações em uma lista.
+
+### list.**append**(x) 
 
 Adiciona um novo item ao fim da lista.
 Ex :
