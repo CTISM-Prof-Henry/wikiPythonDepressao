@@ -210,7 +210,6 @@ print("o resultado de {0} ao quadrado é igual a {1}".format(multiplicacao, P2))
 print("o resultado de {0} ao quadrado é igual a {1}".format(divisao, P1))
 ```
 
-
 ## Comando Pass
 
 ### Resumo simplificado
@@ -245,7 +244,6 @@ O ‘f.write()’ podem resultar a não serem completamente escritos nos discos,
 
 ### Resolução
 
-<<<<<<< HEAD
 ### Rafaela
 ## Escrita de arquivos
 
@@ -263,8 +261,6 @@ Abrir arquivos só para a escrita (write)
 arquivo = open('nome_arquivo', 'w')
 ```
 ####Fechando arquivos
-=======
-
 
 # vanessa e nathy
 ### Exceções
@@ -276,8 +272,6 @@ try:
     resultado = 45 / numero
 except:
     print("Não foi posivel calcular o resultado")
-
->>>>>>> 2b937879771af093792c2c94037beba655e0a0ab
 
 ## Funções 
 ### Definindo Funções
@@ -445,8 +439,24 @@ O conjunto `try … except` pode possuir uma cláusula `else`, que quando presen
 
 
 ### Exercícios
+# Exercício 1: trate a exceção do código abaixo:
+
+resultado = 234 / 0
+
+
 
 
 ### Resolução
 
+<<<<<<< HEAD
+=======
+# Resolução exercício 1:
+
+numero = 0
+try:
+    resultado = 234 / numero
+except ZeroDivisionError:
+    print("Não foi possivel calcular o resultado")
+=======
+>>>>>>> f4d205deda1237b02dff866acdbcb1f40b2d8a82
 
