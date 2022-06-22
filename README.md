@@ -444,8 +444,21 @@ O código acima funciona assim:
 
 
 ### Exercícios
+# Exercício 1: trate a exceção do código abaixo:
+
+resultado = 234 / 0
+
+
 
 
 ### Resolução
 
 =======
+# Resolução exercício 1:
+
+numero = 0
+try:
+    resultado = 234 / numero
+except ZeroDivisionError:
+    print("Não foi possivel calcular o resultado")
+
