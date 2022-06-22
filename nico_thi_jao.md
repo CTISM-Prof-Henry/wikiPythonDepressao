@@ -1,12 +1,12 @@
 ### Sumário
 
-1. [Expressões Lambda](#Expressões_Lambda)
-2. [Strings de documentação](#Strings_de_documentação)
+1. [Expressões Lambda](#expressões-lambda)
+2. [Strings de documentação](#strings-de-documentação)
 3. 
 
 #####nico
 
-###Expressões_Lambda
+###Expressões Lambda
 #### Resumo simplificado
 
 - pequenas funções anônimas
@@ -53,7 +53,7 @@ a
 
 a
 
-###Strings_de_documentação
+###Strings de documentação
 #### Resumo simplificado
 
 - definição de função/método/classe/módulo - da maior parte do código
