@@ -369,7 +369,7 @@ A instrução pass é usada em Python quando algum código é solicitado sintati
 ## Formatação de string
 
 ### Resumo simplificado
-
+Temos assim varias maneiras de formatar uma saída, as strings são basicamente um conjunto de caracteres de texto que também podem ser informações que estão escritas dentro de um código.
 
 ### Resumo expandido
 
