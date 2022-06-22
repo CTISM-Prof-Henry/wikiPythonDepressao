@@ -100,9 +100,51 @@ Funções são ..    a função inicia com "def" e um nome é atribuído, após 
 • Deixa o código Menor
 • Mais legível
 • Mais modularizado
-. def parâmetros são 
+
 
 Funções especiais: são funções passadas por parâmetros que consistem em posições que são preenchidas por parâmetros
+
+Funções anônimas: Funções anônimas ou também popularmente conhecida como
+função Lambda; representa um nome que advém da matemática,
+apresentado pelo matemático americano Alonzo Church em 1930, na qual era
+orientador de Alan Turing. O cálculo lambda trata as funções como
+valores, fazendo com que elas sejam entradas para outras funções, assim
+como funções podem retornar funções como saída, ou seja, funções que
+operam em funções (melhor no exemplo kkk).
+
+Veja logo abaixo um exemplo de uma função normal:
+
+```def funcao (arg,arg2):
+return arg*arg2
+var = funcao (2,2)
+print (var)
+```
+Aqui pode-se notar que definimos uma função, dentro dela atribuímos os
+argumentos que queremos passar para a função e jogamos ela em uma
+variável chamada var que guarda dois valores que vão ser multiplicados no
+return. 
+
+Agora vamos ver como esta função ficaria sendo lambda, logo temos que:
+
+```python
+a = lambda x , y: x*y
+print (a(2,2))
+```
+
+Nesta função atribuímos o nome da função como lambda, que recebe uma
+string (a) como uma variável que armazena dois números inteiros (x=2,y=2)
+que vão ser multiplicados, mas desta vez sem utilizar o return.
+
+listas de argumentos arbitrárias:
+
+
+
+
+
+
+
+
+
 
 
 Python é 🔝
