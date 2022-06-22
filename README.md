@@ -26,16 +26,13 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 | rafaela | Leitura e escrita de arquivos, método with, biblioteca csv, Gravando dados estruturados com json|
 | nathielly e vanessa | Exceções     |
 | gabriela, manuela e mateus | Classes: sintaxe de definição de calsses, objetos de class, objetos instância, objetos método, variáveis de classe e instância, observações aleatórias     |
-=======
+| stéfani e valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
 
 
 ![careca](https://pm1.narvii.com/6727/31271b6a66c8f56f3a31f1f2734b85d28045170ev2_hq.jpg)
 
 
-# Grupos & tópicos
 
-
-| stéfani e valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
 
 
 
@@ -340,16 +337,41 @@ Para atribuir valor para uma variável é necessário usar o sinal de igual; cas
 A variável _ é usada para definir a quantidade de números após a vírgula; nun ca defina um valor, do contrário será criada outra variável independente que mascararia a variável especial.
 
 ## Exercícios
-```python
 
-```
-```python
-
-```
-
+### 1. Faça um código que converta reais em dólares:
 
 ## Resolução
+```python
+dolar = float(input("Informe a quantidade de dólar para conversão: US$ "))
+valor = float(input ("Informe o valor do dólar: R$ "))
+conversao = dolar*valor
+print('A quantidade de dólar em real é: R$', conversao)
+```
+### 2. Faça um código, onde, dado dois números, mostre o valor da divisão inteira, e o resto da divisão
 
+## Resolução
+```python
+n1 = int(input("Digite um número:"))
+n2 = int(input("Digite outro número:"))
+DI = n1 // n2
+RD = n1 % n2
+print("O resultado da divisão inteira é igual a: {0} , e o resto da divisão é igual a: {1} ".format(DI, RD) )
+```
+### 3. Faça um código que pegue dois números, faça a multiplicação, e a divisão inteira entre eles, mostre o resultado na tela e depois eleve o resultado de ambos ao quadrado
+
+## Resolução
+```python
+n1 = int(input("Digite um número:"))
+n2 = int(input("Digite outro número:"))
+divisao = n1 // n2
+multiplicacao = n1 * n2
+P1 = divisao ** 2
+P2 = multiplicacao ** 2
+print("o resultado da divisão inteira entre {0}, e {1}, é igual a {2}".format(n1, n2, divisao))
+print("o resultado da multiplicação entre {0}, e {1}, é igual a {2}".format(n1, n2, multiplicacao))
+print("o resultado de {0} ao quadrado é igual a {1}".format(multiplicacao, P2))
+print("o resultado de {0} ao quadrado é igual a {1}".format(divisao, P1))
+```
 
 
 ## Comando Pass
