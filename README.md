@@ -366,31 +366,35 @@ Exceções são erros inesperados que acontecem na hora de executar o código. E
 As exceções, como outros erros, retornam mensagens de erro indicando o que está errado:
 
 <<<<<<< HEAD
+#### EX1:
+=======
+<<<<<<< HEAD
 ### Exercícios
 Exercicio - Argumento padrão
 Crie uma função de argumento padrão pedindo a senha (12345), dando ate 5 tentativas,
 chame esse argumento 
 =======
 ###EX1:
+>>>>>>> 0333cc11134af41cb5399052460b73cacf3ee7a5
 ```python
 6 - 9/num
 >>>>>>> b53bd3677c2605832b25ba44314b8a83db556fee
 
-A mensagem de erro seria:
+#A mensagem de erro seria:
 
 File "C:\Users\aluno\PycharmProjects\pythonProject\main.py", line 1, in <module>
     6-9/num
 NameError: name 'num' is not defined
 ```
 
-###EX2:
+#### EX2:
 ```python
 n=9
 
 while True:
 print(n)
 
-A mensagem de erro seria:
+#A mensagem de erro seria:
 
 File "C:\Users\aluno\PycharmProjects\pythonProject\main.py", line 4
     print(n)
@@ -400,9 +404,10 @@ IndentationError: expected an indented block
 
 Exceções específicas podem ser tratadas por instruções dadas pelo usuário, usando comandos como `try`, `else` e `except`:
 
-###EX:
+#### EX:
 ```python
 numero = int(input("Digite um numero "))
+
 try:
     resultado = 45 / numero
 except ZeroDivisionError:
@@ -410,9 +415,13 @@ except ZeroDivisionError:
 ```
 
 O código acima funciona assim:
+
 -O comando try é executado.
+
 -Se não houver nenhuma exceção, o comando except é ignorado e a execução do código acaba.
+
 -Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.
+
 
 
 
