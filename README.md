@@ -366,10 +366,20 @@ O código acima funciona assim:
 `-Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.`
 
 
+O conjunto `try … except` pode possuir uma cláusula `else`, que quando presente, deve ser colocada depois de todas as outras cláusulas. É útil quando você tem uma parte do código que precisa ser executada se nenhuma exceção for executada. 
+
+#### EX:
+```python
+
+
+
+```
+
+
 
 ### Exercícios
 
 
 ### Resolução
 
-=======
+
