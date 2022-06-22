@@ -232,7 +232,6 @@ print("o resultado de {0} ao quadrado é igual a {1}".format(multiplicacao, P2))
 print("o resultado de {0} ao quadrado é igual a {1}".format(divisao, P1))
 ```
 
-<<<<<<< HEAD
 =======
 
 ## Comando Pass
@@ -269,7 +268,6 @@ O ‘f.write()’ podem resultar a não serem completamente escritos nos discos,
 
 ### Resolução
 
-<<<<<<< HEAD
 ### Rafaela
 ## Escrita de arquivos
 
@@ -287,10 +285,6 @@ Abrir arquivos só para a escrita (write)
 arquivo = open('nome_arquivo', 'w')
 ```
 ####Fechando arquivos
-=======
-
-
->>>>>>> 0333cc11134af41cb5399052460b73cacf3ee7a5
 # vanessa e nathy
 ### Exceções
 
@@ -302,7 +296,6 @@ try:
 except:
     print("Não foi posivel calcular o resultado")
 
->>>>>>> 2b937879771af093792c2c94037beba655e0a0ab
 
 ## Funções 
 ### Definindo Funções
