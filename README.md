@@ -53,6 +53,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 5. [Escrita arquivos](escrita_arquivos.md)
 2. [if-else](#if-else)
 6. [Introdução : Lista](Introduçaozinha.md)
+7. [Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação](nico_thi_jao.md)
 
 ### Introdução
 
@@ -156,22 +157,45 @@ Por padrão, argumentos podem ser passadas para uma função Python tanto por po
 1. [Números e expressões aritméticas](#números-e-expressões-aritméticas)
 2. [Comando Pass](#comando-pass)
 3. [Formatação de string](#formatação-de-string)
+4. [Exercícios](#exercícios)
 
 
-## Números e expessões aritiméticas
+# Números e expessões aritiméticas
 
 ### Resumo simplificado
 Os números em python são conceituados em dois tipos numéricos, os números inteiros e os números de ponto flutuante que são dados como (float) Funciona como uma calculadora simples, para isso você deve digitar uma expressão e o resultado será exibido.Expressões como operadores +, -, * e funcionam da mesma forma que em outras linguagens como: (pascal ou C).
 O sinal de igual ('=') é usado para atribuir um valor de variável, se a variável não tiver um valor atribuído, constituirá um erro. No modo interativo a variável (' _ ') deve ser somente leitura pelo usuário, pois não especifica um valor, ela cria outra variável.
 
-#### Resumo expandido
+### Resumo expandido
 O interpretador números funciona como uma calculadora, deve-se digitar uma expressão, com os operadores usuais ( +, -, * e / ), e o resultado será apresentado. Assim como nas linguagens tradicionais, os parênteses podem ser usados para agfrupar as expressões. 
 Números inteiros, são do tipo int, enquanto números decimais são do tipo float. Divisão sempre retorna númetros do tipo float, para retornar números inteiros, é necessário usar o operador //; e para saber somente o resto da expressão é preciso usar o operador %.
 Para exponenciação é possível usar o operador ** .
 Para atribuir valor para uma variável é necessário usar o sinal de igual; caso uma variável não for atribuída, tentar utiliza-la gerará um erro.
 A variável _ é usada para definir a quantidade de números após a vírgula; nun ca defina um valor, do contrário será criada outra variável independente que mascararia a variável especial.
 
-## Exercícios
+
+# Comando Pass
+
+### Resumo simplificado
+O pass é usado para ignorar erros. 
+
+### Resumo expandido
+A instrução pass é usada em Python quando algum código é solicitado sintaticamente, mas o usuário não quer que o programa faça nada. Também podemos ignorar exceções em Python usando a instrução pass, uma instrução específica do Python usada como um espaço reservado quando o usuário deseja que o programa não faça nada.
+
+## Formatação de string
+
+### Resumo simplificado
+Temos assim varias maneiras de formatar uma saída, as strings são basicamente um conjunto de caracteres de texto que também podem ser informações que estão escritas dentro de um código.
+
+### Resumo expandido
+Para usarmos strings literais que são formatadas devemos começar com uma string (f) ou podemos também com (F), podemos escrever também uma expressão mas ela deve ser antes de abrir as aspas ou aspas triplas, ( aspas triplas são usadas para as strings que usam varias linhas), (aspas simples são usadas para declarar uma string). 
+Quando uma string for muito longa e não queremos quebra-la, podemos fazer algumas referencias dos valores que serão formatados por nome, podemos fazer isso usando os colchetes ‘[ ]’ (os colchetes sempre marcam o inicio e o fim da lista e os elementos que são separados da virgula. 
+O ‘str.rjust()’ ele move uma stgring a direita, que tenha um campo de tamanho definido. 
+O ‘str.ljust()’  ele move uma string a esquerda. 
+O ‘str.center()’ é usado para centralizar, eles não escrevem nada, são usados apenas para retornar uma nova string. 
+O ‘f.write()’ podem resultar a não serem completamente escritos nos discos, mesmo se acaso o programa for encerrado. Mas não podemos usar a palavra reservada (WITH) OU também “f.close()”. Logo depois que um arquivo é fechado com o ‘with’ não podemos usar o arquivo, ele basicamente ira falhar automaticamente. 
+ 
+# Exercícios
 
 ### 1. Faça um código que converta reais em dólares:
 
@@ -208,6 +232,8 @@ print("o resultado de {0} ao quadrado é igual a {1}".format(multiplicacao, P2))
 print("o resultado de {0} ao quadrado é igual a {1}".format(divisao, P1))
 ```
 
+<<<<<<< HEAD
+=======
 
 ## Comando Pass
 
@@ -264,6 +290,7 @@ arquivo = open('nome_arquivo', 'w')
 =======
 
 
+>>>>>>> 0333cc11134af41cb5399052460b73cacf3ee7a5
 # vanessa e nathy
 ### Exceções
 
