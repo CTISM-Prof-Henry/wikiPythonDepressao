@@ -440,14 +440,12 @@ Para definir uma função em Python, utilizamos o comando `def`, que significa l
 
 
 
+# nicole, thianna e joão
 
-
-
-### nicole, thianna e joão
 
 ### Argumentos com valor padrão e Argumentos nomeados
 
-### Resumo Simplicado
+#### Resumo Simplicado
 In - Verifica se uma sequência contém ou não um determinado valor.
 
 
