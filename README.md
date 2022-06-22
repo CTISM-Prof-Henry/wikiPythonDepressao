@@ -53,6 +53,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 5. [Escrita arquivos](escrita_arquivos.md)
 2. [if-else](#if-else)
 6. [Introdução : Lista](Introduçaozinha.md)
+7. [introdução : Laços de repetição](laços.md)
 
 ### Introdução
 
@@ -325,27 +326,27 @@ In - Verifica se uma sequência contém ou não um determinado valor.
 Por exemplo  :
 ’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’
 
-def ask_ok(prompt, retries=4, reminder='Please try again!'):
+def perguntar_ok(prompt, tentativas=4, relembrar='Porfavor Tente Denovo!'):
     while True:
         ok = input(prompt)
-        if ok in ('y', 'ye', 'yes'):
+        if ok in ('sim', 'S', 'yes'):
             return True
-        if ok in ('n', 'no', 'nop', 'nope'):
+        if ok in ('Não', 'Neh', 'nop', 'n'):
             return False
-        retries = retries - 1
-        if retries < 0:
+        tentativas = tentativas - 1
+        if tentativas < 0:
             raise ValueError('invalid user response')
-        print(reminder)
+        print(relembrar)
 ’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’
 
 
 Podemos chamar essa função com varias formas
 
-Dando apenas o argumento Obrigatório :   ask_ok('voce quer realmente sair?')
+Dando apenas o argumento Obrigatório :   perguntar_ok('voce quer realmente sair?')
 
-Dando um argumento opcional :  ask_ok('Ok para sobrescrever o arquivo?', 2)
+Dando um argumento opcional :  perguntar_ok('Ok para sobrescrever o arquivo?', 2)
 
-ou dando todos os argumentos : ask_ok('Ok para sobrescrever o arquivo??', 2, 'vamos, apenas sim ou não!
+ou dando todos os argumentos : perguntar_ok('Ok para sobrescrever o arquivo??', 2, 'vamos, apenas sim ou não!)
 
 Importante:  Valores padrões só são avaliados uma vez. veja que isso fará diferença quando um valor é um objeto mutável, lista, dicionário ou instâncias de classes. 
 
@@ -365,24 +366,6 @@ Moitinha("perfeitão", lindo="lindão", gostoso='gostoso', pomposo='pomposinho')
 
 
 
-
-Colocamos a chave como cabeludo  e o valor = cabeludão
-
-a função a seguir
-
-def moita(lindo, cabeludo= 'um cabeludão', acao='ser lindo', tipo='Perfeito'):
-   moita(1000)  # 1 argumento posicional
-   moita(lindo=1000)  # 1 chave de argumento
-   moita(lindo=1000000, ação='LINDAAAAOOOOO')  # 2 chave de argumento
-   moita(ação='lindaaaaaaaa', lindo=1000000)  # 2 chave de argumento
-   moita('um milhão', 'o cara e foda', 'pula fio')  # 3 argumento posicional
-   moita('milzão', cabeludo='mostrando o cabelão')  # 1 posicional, 1 chave de argumento
-
-Aceita um argumento obrigatório(Lindo)
-Três argumentos opcionais ( cabeludo, acao, tipo)
-
-essa função pode ser chamada de qualquer uma dessas formas
-
 Importante : 
 Nenhum argumento pode receber mais de um valor
 
@@ -399,9 +382,16 @@ Exceções são erros inesperados que acontecem na hora de executar o código. E
 
 As exceções, como outros erros, retornam mensagens de erro indicando o que está errado:
 
+<<<<<<< HEAD
+### Exercícios
+Exercicio - Argumento padrão
+Crie uma função de argumento padrão pedindo a senha (12345), dando ate 5 tentativas,
+chame esse argumento 
+=======
 ###EX1:
 ```python
 6 - 9/num
+>>>>>>> b53bd3677c2605832b25ba44314b8a83db556fee
 
 A mensagem de erro seria:
 
@@ -442,6 +432,16 @@ O código acima funciona assim:
 -Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.
 
 
+O conjunto `try … except` pode possuir uma cláusula `else`, que quando presente, deve ser colocada depois de todas as outras cláusulas. É útil quando você tem uma parte do código que precisa ser executada se nenhuma exceção for executada. 
+
+#### EX:
+```python
+
+
+
+```
+
+
 
 ### Exercícios
 # Exercício 1: trate a exceção do código abaixo:
@@ -453,6 +453,7 @@ resultado = 234 / 0
 
 ### Resolução
 
+<<<<<<< HEAD
 =======
 # Resolução exercício 1:
 
@@ -461,4 +462,6 @@ try:
     resultado = 234 / numero
 except ZeroDivisionError:
     print("Não foi possivel calcular o resultado")
+=======
+>>>>>>> f4d205deda1237b02dff866acdbcb1f40b2d8a82
 
