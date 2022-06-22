@@ -26,6 +26,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 | rafaela | Leitura e escrita de arquivos, método with, biblioteca csv, Gravando dados estruturados com json|
 | nathielly e vanessa | Exceções     |
 | gabriela, manuela e mateus | Classes: sintaxe de definição de calsses, objetos de class, objetos instância, objetos método, variáveis de classe e instância, observações aleatórias     |
+| stéfani e valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
 
 
 ![careca](https://pm1.narvii.com/6727/31271b6a66c8f56f3a31f1f2734b85d28045170ev2_hq.jpg)
@@ -50,9 +51,10 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 2. [Exercícios](#exercicios)
 3. [Resolução](#resolução)
 5. [Escrita arquivos](escrita_arquivos.md)
-2. [if-else](If,else,elif.md)
+2. [if-else](#if-else)
 6. [Introdução : Lista](Introduçaozinha.md)
 7. [Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
+7. [introdução : Laços de repetição](laços.md)
 
 ### Introdução
 
@@ -156,45 +158,22 @@ Por padrão, argumentos podem ser passadas para uma função Python tanto por po
 1. [Números e expressões aritméticas](#números-e-expressões-aritméticas)
 2. [Comando Pass](#comando-pass)
 3. [Formatação de string](#formatação-de-string)
-4. [Exercícios](#exercícios)
 
 
-# Números e expessões aritiméticas
+## Números e expessões aritiméticas
 
 ### Resumo simplificado
 Os números em python são conceituados em dois tipos numéricos, os números inteiros e os números de ponto flutuante que são dados como (float) Funciona como uma calculadora simples, para isso você deve digitar uma expressão e o resultado será exibido.Expressões como operadores +, -, * e funcionam da mesma forma que em outras linguagens como: (pascal ou C).
 O sinal de igual ('=') é usado para atribuir um valor de variável, se a variável não tiver um valor atribuído, constituirá um erro. No modo interativo a variável (' _ ') deve ser somente leitura pelo usuário, pois não especifica um valor, ela cria outra variável.
 
-### Resumo expandido
+#### Resumo expandido
 O interpretador números funciona como uma calculadora, deve-se digitar uma expressão, com os operadores usuais ( +, -, * e / ), e o resultado será apresentado. Assim como nas linguagens tradicionais, os parênteses podem ser usados para agfrupar as expressões. 
 Números inteiros, são do tipo int, enquanto números decimais são do tipo float. Divisão sempre retorna númetros do tipo float, para retornar números inteiros, é necessário usar o operador //; e para saber somente o resto da expressão é preciso usar o operador %.
 Para exponenciação é possível usar o operador ** .
 Para atribuir valor para uma variável é necessário usar o sinal de igual; caso uma variável não for atribuída, tentar utiliza-la gerará um erro.
 A variável _ é usada para definir a quantidade de números após a vírgula; nun ca defina um valor, do contrário será criada outra variável independente que mascararia a variável especial.
 
-
-# Comando Pass
-
-### Resumo simplificado
-O pass é usado para ignorar erros. 
-
-### Resumo expandido
-A instrução pass é usada em Python quando algum código é solicitado sintaticamente, mas o usuário não quer que o programa faça nada. Também podemos ignorar exceções em Python usando a instrução pass, uma instrução específica do Python usada como um espaço reservado quando o usuário deseja que o programa não faça nada.
-
-## Formatação de string
-
-### Resumo simplificado
-Temos assim varias maneiras de formatar uma saída, as strings são basicamente um conjunto de caracteres de texto que também podem ser informações que estão escritas dentro de um código.
-
-### Resumo expandido
-Para usarmos strings literais que são formatadas devemos começar com uma string (f) ou podemos também com (F), podemos escrever também uma expressão mas ela deve ser antes de abrir as aspas ou aspas triplas, ( aspas triplas são usadas para as strings que usam varias linhas), (aspas simples são usadas para declarar uma string). 
-Quando uma string for muito longa e não queremos quebra-la, podemos fazer algumas referencias dos valores que serão formatados por nome, podemos fazer isso usando os colchetes ‘[ ]’ (os colchetes sempre marcam o inicio e o fim da lista e os elementos que são separados da virgula. 
-O ‘str.rjust()’ ele move uma stgring a direita, que tenha um campo de tamanho definido. 
-O ‘str.ljust()’  ele move uma string a esquerda. 
-O ‘str.center()’ é usado para centralizar, eles não escrevem nada, são usados apenas para retornar uma nova string. 
-O ‘f.write()’ podem resultar a não serem completamente escritos nos discos, mesmo se acaso o programa for encerrado. Mas não podemos usar a palavra reservada (WITH) OU também “f.close()”. Logo depois que um arquivo é fechado com o ‘with’ não podemos usar o arquivo, ele basicamente ira falhar automaticamente. 
- 
-# Exercícios
+## Exercícios
 
 ### 1. Faça um código que converta reais em dólares:
 
@@ -231,6 +210,42 @@ print("o resultado de {0} ao quadrado é igual a {1}".format(multiplicacao, P2))
 print("o resultado de {0} ao quadrado é igual a {1}".format(divisao, P1))
 ```
 
+
+## Comando Pass
+
+### Resumo simplificado
+O git pass é usado para ignorar erros. 
+
+#### Resumo expandido
+A instrução pass é usada em Python quando algum código é solicitado sintaticamente, mas o usuário não quer que o programa faça nada. Também podemos ignorar exceções em Python usando a instrução pass, uma instrução específica do Python usada como um espaço reservado quando o usuário deseja que o programa não faça nada.
+
+## Exercícios
+
+
+## Resolução
+
+
+## Formatação de string
+
+### Resumo simplificado
+Temos assim varias maneiras de formatar uma saída, as strings são basicamente um conjunto de caracteres de texto que também podem ser informações que estão escritas dentro de um código.
+
+### Resumo expandido
+Para usarmos strings literais que são formatadas devemos começar com uma string (f) ou podemos também com (F), podemos escrever também uma expressão mas ela deve ser antes de abrir as aspas ou aspas triplas, ( aspas triplas são usadas para as strings que usam varias linhas), (aspas simples são usadas para declarar uma string). 
+Quando uma string for muito longa e não queremos quebra-la, podemos fazer algumas referencias dos valores que serão formatados por nome, podemos fazer isso usando os colchetes ‘[ ]’ (os colchetes sempre marcam o inicio e o fim da lista e os elementos que são separados da virgula. 
+O ‘str.rjust()’ ele move uma stgring a direita, que tenha um campo de tamanho definido. 
+O ‘str.ljust()’  ele move uma string a esquerda. 
+O ‘str.center()’ é usado para centralizar, eles não escrevem nada, são usados apenas para retornar uma nova string. 
+O ‘f.write()’ podem resultar a não serem completamente escritos nos discos, mesmo se acaso o programa for encerrado. Mas não podemos usar a palavra reservada (WITH) OU também “f.close()”. Logo depois que um arquivo é fechado com o ‘with’ não podemos usar o arquivo, ele basicamente ira falhar automaticamente. 
+
+
+
+### Exercícios
+
+
+### Resolução
+
+<<<<<<< HEAD
 ### Rafaela
 ## Escrita de arquivos
 
@@ -248,6 +263,9 @@ Abrir arquivos só para a escrita (write)
 arquivo = open('nome_arquivo', 'w')
 ```
 ####Fechando arquivos
+=======
+
+
 # vanessa e nathy
 ### Exceções
 
@@ -259,6 +277,7 @@ try:
 except:
     print("Não foi posivel calcular o resultado")
 
+>>>>>>> 2b937879771af093792c2c94037beba655e0a0ab
 
 ## Funções 
 ### Definindo Funções
@@ -364,25 +383,32 @@ Exceções são erros inesperados que acontecem na hora de executar o código. E
 
 As exceções, como outros erros, retornam mensagens de erro indicando o que está errado:
 
-#### EX1:
+<<<<<<< HEAD
+### Exercícios
+Exercicio - Argumento padrão
+Crie uma função de argumento padrão pedindo a senha (12345), dando ate 5 tentativas,
+chame esse argumento 
+=======
+###EX1:
 ```python
 6 - 9/num
+>>>>>>> b53bd3677c2605832b25ba44314b8a83db556fee
 
-#A mensagem de erro seria:
+A mensagem de erro seria:
 
 File "C:\Users\aluno\PycharmProjects\pythonProject\main.py", line 1, in <module>
     6-9/num
 NameError: name 'num' is not defined
 ```
 
-#### EX2:
+###EX2:
 ```python
 n=9
 
 while True:
 print(n)
 
-#A mensagem de erro seria:
+A mensagem de erro seria:
 
 File "C:\Users\aluno\PycharmProjects\pythonProject\main.py", line 4
     print(n)
@@ -392,10 +418,9 @@ IndentationError: expected an indented block
 
 Exceções específicas podem ser tratadas por instruções dadas pelo usuário, usando comandos como `try`, `else` e `except`:
 
-#### EX:
+###EX:
 ```python
 numero = int(input("Digite um numero "))
-
 try:
     resultado = 45 / numero
 except ZeroDivisionError:
@@ -403,12 +428,19 @@ except ZeroDivisionError:
 ```
 
 O código acima funciona assim:
+-O comando try é executado.
+-Se não houver nenhuma exceção, o comando except é ignorado e a execução do código acaba.
+-Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.
 
-`-O comando try é executado.`
 
-`-Se não houver nenhuma exceção, o comando except é ignorado e a execução do código acaba.`
+O conjunto `try … except` pode possuir uma cláusula `else`, que quando presente, deve ser colocada depois de todas as outras cláusulas. É útil quando você tem uma parte do código que precisa ser executada se nenhuma exceção for executada. 
 
-`-Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.`
+#### EX:
+```python
+
+
+
+```
 
 
 
@@ -417,4 +449,4 @@ O código acima funciona assim:
 
 ### Resolução
 
-=======
+
