@@ -1,8 +1,13 @@
 ### Operadores :
+
 **and**	: Retorna True se ambas as afirmações forem verdadeiras. 
+
 **or**	: Retorna True se uma das afirmações for verdadeira.
+
 **not**	: Retorna False se o resultado for verdadeiro.
+
 **in**	: Retorna True caso o valor seja encontrado na sequência.
+
 **not in** : Retorna True caso o valor não seja encontrado na sequência.
 
 ### and
