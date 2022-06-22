@@ -4,8 +4,6 @@
 2. [Strings de documentação](#strings-de-documentação)
 3. 
 
-#####nico
-
 ### Expressões Lambda
 #### Resumo simplificado
 
@@ -53,7 +51,7 @@ a
 
 a
 
-###Strings de documentação
+### Strings de documentação
 #### Resumo simplificado
 
 - definição de função/método/classe/módulo - da maior parte do código
