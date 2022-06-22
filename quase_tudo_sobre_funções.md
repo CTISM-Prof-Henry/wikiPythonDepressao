@@ -1,9 +1,17 @@
 ### Sumário
 
-1. [Expressões Lambda](#expressões-lambda)
-2. [Strings de documentação](#strings-de-documentação)
-3. 
+1. [Definindo funções](#link)
+2. [Argumento com valor padrão](#link)
+3. [Argumentos nomeados](#link)
+4. [Expressões Lambda](#expressões-lambda)
+5. [Strings de documentação](#strings-de-documentação)
+6. [Exercícios](#exercícios)
+7. [Resoluções](#resolução)
 
+<<<<<<< HEAD:quase_tudo_sobre_funções.md
+
+=======
+>>>>>>> d1390b32ed4894bcd92999605aa806c189b1377b:nico_thi_jao.md
 ### Expressões Lambda
 #### Resumo simplificado
 
@@ -15,12 +23,12 @@
 
 #### Resumo expandido
 
-	“lambda” é a palavra-chave para definir pequenas funções anônimas em Python, é uma forma mais sucinta de definir uma função.
+   “lambda” é a palavra-chave para definir pequenas funções anônimas em Python, é uma forma mais sucinta de definir uma função.
 Uma função lambda retorna nada mais nada menos que a soma de seus 2 argumentos: 
 ```python
 	lambda a, b: a+b;
 ```
-	Podem ser usadas para representar objetos função, que ficam restritos a uma expressão;
+Podem ser usadas para representar objetos função, que ficam restritos a uma expressão;
 	Ou como argumento, onde uma função é um dos argumentos em uma fórmula com uma função (chamado de aninhamento). Aí podem referenciar variáveis contidas no escopo.
 Exemplo: expressão lambda para retornar uma função:
 ```python
@@ -43,14 +51,16 @@ Saída:
 ```
 
 
-#### Exercícios
 
+<<<<<<< HEAD:quase_tudo_sobre_funções.md
+=======
 a
 
 #### Resolução
 
 a
 
+>>>>>>> d1390b32ed4894bcd92999605aa806c189b1377b:nico_thi_jao.md
 ### Strings de documentação
 #### Resumo simplificado
 
@@ -60,9 +70,9 @@ a
 
 #### Resumo expandido
 texto pra caraio aqui, dps eu faço
-[docs python](https://docs.python.org/pt-br/3.9/tutorial/controlflow.html#documentation-strings "docs.python.org")
-[datacamp](https://www.datacamp.com/tutorial/docstrings-python "datacamp.com")
-[programiz](https://www.programiz.com/python-programming/docstrings "programiz.com")
+[docs python](https://docs.python.org/pt-br/3.9/tutorial/controlflow.html#documentation-strings "docs.python.org") <br />
+[datacamp](https://www.datacamp.com/tutorial/docstrings-python "datacamp.com") <br /> 
+[programiz](https://www.programiz.com/python-programming/docstrings "programiz.com") <br />
 
 
 Estrutura básica:
@@ -162,12 +172,12 @@ some_function(argument1)
     Nao esquece das letra maiuscula eh isso flw
 ```
 
-#### Exercícios
+### Exercícios
+#### Docstring:
+Identifique o que o codigo está fazendo, colocando strings (do jeito certo ta ok, estuda ai filho) no máximo de lugares possível (é pra ficar gigante mesmo tipo eu tlg)
 
-a
-identifique o que o codigo esta fazendo e coloque em uma docstring do jeito certo (katiau)
 
-#### Resolução
+### Resoluções
 
 a
 
