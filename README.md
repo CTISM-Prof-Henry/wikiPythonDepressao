@@ -445,8 +445,24 @@ O conjunto `try … except` pode possuir uma cláusula `else`, que quando presen
 
 
 ### Exercícios
+# Exercício 1: trate a exceção do código abaixo:
+
+resultado = 234 / 0
+
+
 
 
 ### Resolução
 
+<<<<<<< HEAD
+=======
+# Resolução exercício 1:
+
+numero = 0
+try:
+    resultado = 234 / numero
+except ZeroDivisionError:
+    print("Não foi possivel calcular o resultado")
+=======
+>>>>>>> f4d205deda1237b02dff866acdbcb1f40b2d8a82
 
