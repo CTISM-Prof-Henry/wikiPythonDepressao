@@ -24,9 +24,10 @@ Funções são ..    a função inicia com "def" e um nome é atribuído, após 
 • Mais modularizado
 
 
-Funções especiais: são funções passadas por parâmetros que consistem em posições que são preenchidas por parâmetros
+#Funções especiais: são funções passadas por parâmetros que consistem em posições que são preenchidas por parâmetros
 
-Funções anônimas: Funções anônimas ou também popularmente conhecida como
+#Funções anônimas: 
+Funções anônimas ou também popularmente conhecida como
 função Lambda; representa um nome que advém da matemática,
 apresentado pelo matemático americano Alonzo Church em 1930, na qual era
 orientador de Alan Turing. O cálculo lambda trata as funções como
@@ -57,7 +58,15 @@ Nesta função atribuímos o nome da função como lambda, que recebe uma
 string (a) como uma variável que armazena dois números inteiros (x=2,y=2)
 que vão ser multiplicados, mas desta vez sem utilizar o return.
 
-listas de argumentos arbitrárias:
+#Listas de argumentos arbitrárias:
+ Neste os argumentos da função são agrupados e passados dentro de uma tupla.
+
+ Agora, vendo este exemplo na prática:
+
+```def argumentos_arbitrarias (x, y=3, *args):
+      return  [x + y * w for w in args]
+```
+
 
 
 
