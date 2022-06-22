@@ -243,6 +243,25 @@ O ‘f.write()’ podem resultar a não serem completamente escritos nos discos,
 
 ### Resolução
 
+<<<<<<< HEAD
+### Rafaela
+## Escrita de arquivos
+
+### Resumo simplificado 
+
+Existem dois tipos de arquivos que podem ser manipulados em python, **arquivos de texto** e **arquivos binários**. A função **open()** para abrir arquivos podemos acessar arquivos só para para leitura, só para escrita e para leitura e escrita.
+
+### Resumo expandido
+
+####Abrindo arquivos:
+
+Abrir arquivos só para a escrita (write)
+
+```python
+arquivo = open('nome_arquivo', 'w')
+```
+####Fechando arquivos
+=======
 
 
 # vanessa e nathy
@@ -256,6 +275,7 @@ try:
 except:
     print("Não foi posivel calcular o resultado")
 
+>>>>>>> 2b937879771af093792c2c94037beba655e0a0ab
 
 ## Funções 
 ### Definindo Funções
@@ -368,13 +388,59 @@ Nenhum argumento pode receber mais de um valor
 
 
 
-## Exceções 
+## Exceções (nathy e nessa)
 
 ### Resumo simplificado
 
 Exceções são erros inesperados que acontecem na hora de executar o código. Elas não são fatais e podem ser resolvidas com instruções.
 
+
 ### Resumo expandido
+
+As exceções, como outros erros, retornam mensagens de erro indicando o que está errado:
+
+###EX1:
+```python
+6 - 9/num
+
+A mensagem de erro seria:
+
+File "C:\Users\aluno\PycharmProjects\pythonProject\main.py", line 1, in <module>
+    6-9/num
+NameError: name 'num' is not defined
+```
+
+###EX2:
+```python
+n=9
+
+while True:
+print(n)
+
+A mensagem de erro seria:
+
+File "C:\Users\aluno\PycharmProjects\pythonProject\main.py", line 4
+    print(n)
+    ^
+IndentationError: expected an indented block
+```
+
+Exceções específicas podem ser tratadas por instruções dadas pelo usuário, usando comandos como `try`, `else` e `except`:
+
+###EX:
+```python
+numero = int(input("Digite um numero "))
+try:
+    resultado = 45 / numero
+except ZeroDivisionError:
+    print("Não foi possivel calcular o resultado")
+```
+
+O código acima funciona assim:
+-O comando try é executado.
+-Se não houver nenhuma exceção, o comando except é ignorado e a execução do código acaba.
+-Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.
+
 
 
 ### Exercícios
@@ -383,20 +449,3 @@ Exceções são erros inesperados que acontecem na hora de executar o código. E
 ### Resolução
 
 =======
-
-### Resolução
-
-
-
-### Formatação de strings
-
-### Resumo simplificado
-
-
-### Resumo expandido
-
-
-### Exercícios
-
-
-### Resolução
