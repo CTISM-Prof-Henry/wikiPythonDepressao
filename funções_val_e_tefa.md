@@ -63,7 +63,8 @@ que vão ser multiplicados, mas desta vez sem utilizar o return.
 
  Agora, vendo este exemplo na prática:
 
-```def argumentos_arbitrarias (x, y=3, *args):
+``` 
+def argumentos_arbitrarias (x, y=3, *args):
       return  [x + y * w for w in args]
 ```
 
