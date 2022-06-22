@@ -1,25 +1,3 @@
-## Estruturas de Dados: listas
-### Sumário
-1. [Estrutura](#Estrutura)
-2. [Exercícios](#Exercícios)
-
-### Introdução
-#### Resumo simplificado
-Estrutura de dados : É uma coleção de valores e operações, também uma implementação concreta de um tipo de dado, básico ou primitivo.
-#### Resumo expandido
-Estrutura de dados : Estrutura de dados é a área da computação que estuda os meios de organização de dados para atender as diferentes necessidades de processamento. 
-As estruturas de dados definem a organização, métodos de acesso e opções de processamento para a informação usada pelo programa.
-### Listas
-#### Resumo simplificado
-Uma Lista em python, é basicamente uma coleção de valores ordenada, separados por vírgula (,) e dentro de colchetes ([ ]). São usadas para armazenar diferentes itens em uma variável.
-Ex:
-```python
-lista = [ ‘rhandres’ , ‘davi’ , ‘breno’ ]
-print (lista)
-```
-
-## Implementação de listas :
-## List comprehension
 ## Métodos da classe lista :
 ### list.**append**(x)
 
@@ -173,18 +151,3 @@ print(lista.copy())
 ['rhandres' , 'davi' , 'o theo ta mal' , 'breno' , 'breno falta aula' , 'breno' ]
 ```
 
-### Operadores :
-
-### and
-### or
-### in 
-### not in
-## Exercícios
-1. Abra o console do Python.
-2. Rode um programa Python pelo console.
-3. Rode um script Python pelo console.
-
-#### Resolução
-1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
-2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
-3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
