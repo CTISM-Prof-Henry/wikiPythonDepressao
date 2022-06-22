@@ -51,16 +51,9 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 2. [Exercícios](#exercicios)
 3. [Resolução](#resolução)
 5. [Escrita arquivos](escrita_arquivos.md)
-2. [if-else](#if-else)
+2. [if-else](If,else,elif.md)
 6. [Introdução : Lista](Introduçaozinha.md)
 
-### Introdução
-
-# If, Else, Elif. Nicolle Moreira E Kamilli Razera
-
-#### Resumo simplificado
-
-If, Else e elif são comandos de desvio de fluxo.
 
 #### Resumo simplificado de Funções ✨
 
@@ -125,11 +118,6 @@ listas de argumentos arbitrárias:
 
 
 Python é 🔝
-
-
-If(se) é uma condicional que permite avaliar se a expressão é afirmativa.
-Else(se não) é a condicional que avalia se a condição é negativa.
-Elif(se não se) é a junção de else + if, ele faz com que as condições sejam interligadas (se ele satisfizer uma condição ele não verifica as outras). 
 
 Por padrão, argumentos podem ser passadas para uma função Python tanto por posição quanto explicitamente pelo nome. Para uma melhor legibilidade e desempenho, faz sentido restringir a maneira pelo qual argumentos possam ser passados, assim um desenvolvedor precisa apenas olhar para a definição da função para determinar se os itens são passados por posição, por posição e nome, ou por nome.
 
