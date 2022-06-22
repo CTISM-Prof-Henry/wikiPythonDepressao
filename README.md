@@ -26,7 +26,6 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 | rafaela | Leitura e escrita de arquivos, método with, biblioteca csv, Gravando dados estruturados com json|
 | nathielly e vanessa | Exceções     |
 | gabriela, manuela e mateus | Classes: sintaxe de definição de calsses, objetos de class, objetos instância, objetos método, variáveis de classe e instância, observações aleatórias     |
-| stéfani e valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
 
 
 ![careca](https://pm1.narvii.com/6727/31271b6a66c8f56f3a31f1f2734b85d28045170ev2_hq.jpg)
@@ -51,7 +50,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 2. [Exercícios](#exercicios)
 3. [Resolução](#resolução)
 5. [Escrita arquivos](escrita_arquivos.md)
-2. [if-else](#if-else)
+2. [if-else](If,else,elif.md)
 6. [Introdução : Lista](Introduçaozinha.md)
 7. [Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
 
@@ -232,42 +231,6 @@ print("o resultado de {0} ao quadrado é igual a {1}".format(multiplicacao, P2))
 print("o resultado de {0} ao quadrado é igual a {1}".format(divisao, P1))
 ```
 
-=======
-
-## Comando Pass
-
-### Resumo simplificado
-O git pass é usado para ignorar erros. 
-
-#### Resumo expandido
-A instrução pass é usada em Python quando algum código é solicitado sintaticamente, mas o usuário não quer que o programa faça nada. Também podemos ignorar exceções em Python usando a instrução pass, uma instrução específica do Python usada como um espaço reservado quando o usuário deseja que o programa não faça nada.
-
-## Exercícios
-
-
-## Resolução
-
-
-## Formatação de string
-
-### Resumo simplificado
-Temos assim varias maneiras de formatar uma saída, as strings são basicamente um conjunto de caracteres de texto que também podem ser informações que estão escritas dentro de um código.
-
-### Resumo expandido
-Para usarmos strings literais que são formatadas devemos começar com uma string (f) ou podemos também com (F), podemos escrever também uma expressão mas ela deve ser antes de abrir as aspas ou aspas triplas, ( aspas triplas são usadas para as strings que usam varias linhas), (aspas simples são usadas para declarar uma string). 
-Quando uma string for muito longa e não queremos quebra-la, podemos fazer algumas referencias dos valores que serão formatados por nome, podemos fazer isso usando os colchetes ‘[ ]’ (os colchetes sempre marcam o inicio e o fim da lista e os elementos que são separados da virgula. 
-O ‘str.rjust()’ ele move uma stgring a direita, que tenha um campo de tamanho definido. 
-O ‘str.ljust()’  ele move uma string a esquerda. 
-O ‘str.center()’ é usado para centralizar, eles não escrevem nada, são usados apenas para retornar uma nova string. 
-O ‘f.write()’ podem resultar a não serem completamente escritos nos discos, mesmo se acaso o programa for encerrado. Mas não podemos usar a palavra reservada (WITH) OU também “f.close()”. Logo depois que um arquivo é fechado com o ‘with’ não podemos usar o arquivo, ele basicamente ira falhar automaticamente. 
-
-
-
-### Exercícios
-
-
-### Resolução
-
 ### Rafaela
 ## Escrita de arquivos
 
@@ -401,20 +364,9 @@ Exceções são erros inesperados que acontecem na hora de executar o código. E
 
 As exceções, como outros erros, retornam mensagens de erro indicando o que está errado:
 
-<<<<<<< HEAD
 #### EX1:
-=======
-<<<<<<< HEAD
-### Exercícios
-Exercicio - Argumento padrão
-Crie uma função de argumento padrão pedindo a senha (12345), dando ate 5 tentativas,
-chame esse argumento 
-=======
-###EX1:
->>>>>>> 0333cc11134af41cb5399052460b73cacf3ee7a5
 ```python
 6 - 9/num
->>>>>>> b53bd3677c2605832b25ba44314b8a83db556fee
 
 #A mensagem de erro seria:
 
@@ -452,12 +404,11 @@ except ZeroDivisionError:
 
 O código acima funciona assim:
 
--O comando try é executado.
+`-O comando try é executado.`
 
--Se não houver nenhuma exceção, o comando except é ignorado e a execução do código acaba.
+`-Se não houver nenhuma exceção, o comando except é ignorado e a execução do código acaba.`
 
--Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.
-
+`-Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.`
 
 
 

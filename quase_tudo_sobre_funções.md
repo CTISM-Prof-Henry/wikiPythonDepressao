@@ -8,7 +8,10 @@
 6. [Exercícios](#exercícios)
 7. [Resoluções](#resolução)
 
+<<<<<<< HEAD:quase_tudo_sobre_funções.md
 
+=======
+>>>>>>> d1390b32ed4894bcd92999605aa806c189b1377b:nico_thi_jao.md
 ### Expressões Lambda
 #### Resumo simplificado
 
@@ -49,6 +52,15 @@ Saída:
 
 
 
+<<<<<<< HEAD:quase_tudo_sobre_funções.md
+=======
+a
+
+#### Resolução
+
+a
+
+>>>>>>> d1390b32ed4894bcd92999605aa806c189b1377b:nico_thi_jao.md
 ### Strings de documentação
 #### Resumo simplificado
 
