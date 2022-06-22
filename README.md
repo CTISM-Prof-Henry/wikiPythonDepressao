@@ -73,9 +73,8 @@ Tem mais coisa, mas não tô afim de escrever agora.
 1. [Introdução](#introdução)
 2. [Exercícios](#exercicios)
 3. [Resolução](#resolução)
-
+5. [Escrita arquivos](escrita_arquivos.md)
 2. [if-else](#if-else)
-3. [Escrita de arquivos](#escrita-de-arquivos)
 
 ### Introdução
 
@@ -392,24 +391,6 @@ try:
 except:
     print("Não foi posivel calcular o resultado")
 
-
-### Rafaela
-## Escrita de arquivos
-
-### Resumo simplificado 
-
-Existem dois tipos de arquivos que podem ser manipulados em python, **arquivos de texto** e **arquivos binários**. A função **open()** para abrir arquivos podemos acessar arquivos só para para leitura, só para escrita e para leitura e escrita.
-
-### Resumo expandido
-
-####Abrindo arquivos:
-
-Abrir arquivos só para a escrita (write)
-
-```python
-arquivo = open('nome_arquivo', 'w')
-```
-####Fechando arquivos
 
 ## Funções 
 ### Definindo Funções
