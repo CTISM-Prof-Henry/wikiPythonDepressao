@@ -6,7 +6,7 @@
 
 #####nico
 
-###Expressões Lambda
+### Expressões Lambda
 #### Resumo simplificado
 
 - pequenas funções anônimas
