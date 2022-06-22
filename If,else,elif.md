@@ -2,12 +2,6 @@
 
 # Nicolle Moreira E Kamilli Razera
 
-### Sumário
-
-1. [Introdução](#Introdução)
-2. [if-else](#if-else)
-2. [Exercícios](#exercicios)
-3. [Resolução](#resolução)
 
 #### Resumo simplificado
 
