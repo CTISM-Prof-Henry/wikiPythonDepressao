@@ -401,20 +401,9 @@ Exceções são erros inesperados que acontecem na hora de executar o código. E
 
 As exceções, como outros erros, retornam mensagens de erro indicando o que está errado:
 
-<<<<<<< HEAD
-#### EX1:
-=======
-<<<<<<< HEAD
-### Exercícios
-Exercicio - Argumento padrão
-Crie uma função de argumento padrão pedindo a senha (12345), dando ate 5 tentativas,
-chame esse argumento 
-=======
-###EX1:
->>>>>>> 0333cc11134af41cb5399052460b73cacf3ee7a5
+### EX1:
 ```python
 6 - 9/num
->>>>>>> b53bd3677c2605832b25ba44314b8a83db556fee
 
 #A mensagem de erro seria:
 
