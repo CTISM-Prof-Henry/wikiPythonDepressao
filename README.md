@@ -232,42 +232,6 @@ print("o resultado de {0} ao quadrado é igual a {1}".format(multiplicacao, P2))
 print("o resultado de {0} ao quadrado é igual a {1}".format(divisao, P1))
 ```
 
-=======
-
-## Comando Pass
-
-### Resumo simplificado
-O git pass é usado para ignorar erros. 
-
-#### Resumo expandido
-A instrução pass é usada em Python quando algum código é solicitado sintaticamente, mas o usuário não quer que o programa faça nada. Também podemos ignorar exceções em Python usando a instrução pass, uma instrução específica do Python usada como um espaço reservado quando o usuário deseja que o programa não faça nada.
-
-## Exercícios
-
-
-## Resolução
-
-
-## Formatação de string
-
-### Resumo simplificado
-Temos assim varias maneiras de formatar uma saída, as strings são basicamente um conjunto de caracteres de texto que também podem ser informações que estão escritas dentro de um código.
-
-### Resumo expandido
-Para usarmos strings literais que são formatadas devemos começar com uma string (f) ou podemos também com (F), podemos escrever também uma expressão mas ela deve ser antes de abrir as aspas ou aspas triplas, ( aspas triplas são usadas para as strings que usam varias linhas), (aspas simples são usadas para declarar uma string). 
-Quando uma string for muito longa e não queremos quebra-la, podemos fazer algumas referencias dos valores que serão formatados por nome, podemos fazer isso usando os colchetes ‘[ ]’ (os colchetes sempre marcam o inicio e o fim da lista e os elementos que são separados da virgula. 
-O ‘str.rjust()’ ele move uma stgring a direita, que tenha um campo de tamanho definido. 
-O ‘str.ljust()’  ele move uma string a esquerda. 
-O ‘str.center()’ é usado para centralizar, eles não escrevem nada, são usados apenas para retornar uma nova string. 
-O ‘f.write()’ podem resultar a não serem completamente escritos nos discos, mesmo se acaso o programa for encerrado. Mas não podemos usar a palavra reservada (WITH) OU também “f.close()”. Logo depois que um arquivo é fechado com o ‘with’ não podemos usar o arquivo, ele basicamente ira falhar automaticamente. 
-
-
-
-### Exercícios
-
-
-### Resolução
-
 ### Rafaela
 ## Escrita de arquivos
 
