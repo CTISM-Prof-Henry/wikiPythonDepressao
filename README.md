@@ -58,12 +58,6 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 
 ### Introdução
 
-# If, Else, Elif. Nicolle Moreira E Kamilli Razera
-
-#### Resumo simplificado
-
-If, Else e elif são comandos de desvio de fluxo.
-
 #### Resumo simplificado de Funções ✨
 
 Blocos de códigos que executam alguma tarefa e que tem um nome, ou manipulam algum dado e são capazes de receber (ou não) parâmetros e/ou argumentos, ou seja, processam informações e retornam valores. Dessa forma, são denominadas funções em python, que possuem alguns tipos, dentre eles: funções especiais, funções anônimas e listas de argumentos arbitrárias. 
