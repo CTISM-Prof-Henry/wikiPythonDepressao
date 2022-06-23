@@ -202,7 +202,7 @@ __doc__ é usado no geral;
 help(função) é usado nas associadas a vários objetos (por exemplo em classes).
 
 ### Exercícios
-#### Docstring:
+#### Lambda e Docstring:
 Escreva um código que retorna 6 nomes em ordem, do menor ao maior (acho que nem preciso falar pra fazer isso com Lambda né). Utilizando docstrings, identifique o que cada parte dele está fazendo (do jeito certo ta ok, estuda ai filho).
 Ps: tem que saber algumas funções peculiares de python
 
