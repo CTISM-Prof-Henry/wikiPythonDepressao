@@ -23,9 +23,10 @@ If(se) é uma condicional que permite avaliar se a expressão é afirmativa.
 ````python
 if <condição_verdadeira>:
 <faça_alguma_coisa>
+````
 
 Else(se não) é a condicional que avalia se a condição é negativa. (só pode existir o else se existir o if.)
-````
+
 ## Exemplo de else
 ````python
 if <condição_verdadeira>:
