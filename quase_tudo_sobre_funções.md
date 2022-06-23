@@ -6,12 +6,8 @@
 4. [Expressões Lambda](#expressões-lambda)
 5. [Strings de documentação](#strings-de-documentação)
 6. [Exercícios](#exercícios)
-7. [Resoluções](#resolução)
 
-<<<<<<< HEAD:quase_tudo_sobre_funções.md
 
-=======
->>>>>>> d1390b32ed4894bcd92999605aa806c189b1377b:nico_thi_jao.md
 ### Expressões Lambda
 #### Resumo simplificado
 
@@ -52,15 +48,6 @@ Saída:
 
 
 
-<<<<<<< HEAD:quase_tudo_sobre_funções.md
-=======
-a
-
-#### Resolução
-
-a
-
->>>>>>> d1390b32ed4894bcd92999605aa806c189b1377b:nico_thi_jao.md
 ### Strings de documentação
 #### Resumo simplificado
 
@@ -155,12 +142,16 @@ Saída:
     int:Returning value
  
     Nao esquece das letra maiuscula eh isso flw
- 
+```
+```python
 help(some_function)
  
 Help on function some_function in module __main__:
  
 some_function(argument1)
+```
+Saída:
+```python
     Ta aqui seria tipo titulo bonitinho da explicacao
  
     Bota um parametro aqui so pra rir:
@@ -175,9 +166,8 @@ some_function(argument1)
 ### Exercícios
 #### Docstring:
 Identifique o que o codigo está fazendo, colocando strings (do jeito certo ta ok, estuda ai filho) no máximo de lugares possível (é pra ficar gigante mesmo tipo eu tlg)
+[codigo]
+[Resolução]
 
 
-### Resoluções
-
-a
 
