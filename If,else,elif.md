@@ -33,9 +33,10 @@ if <condição_verdadeira>:
 <faça_algo>
 else:
 <faça_outra_coisa>
+````
 
 Elif(se não se) é a junção de else + if, é utilizado para verificar a outra expressão caso a primeira seja falsa, ele faz com que as condições sejam interligadas (se ele satisfizer uma condição ele não verifica as outras). 
-````
+
 ## Exemplo de elif
 ````python
 if <condição_verdadeira>:
