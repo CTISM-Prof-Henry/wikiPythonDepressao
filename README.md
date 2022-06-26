@@ -144,8 +144,7 @@ Por padrão, argumentos podem ser passadas para uma função Python tanto por po
 
 ### If-Else
 
-<<<<<<< HEAD
->>>>>>> 9e16e3ae1837a8e54b1a64dcff49b59e75296b0d
+
 ### Implementação de listas :
 #### List comprehension
 ### Métodos da classe lista :
@@ -232,7 +231,7 @@ print(lista)
 ```
 
 ### Operadores :
->>>>>>> 9e16e3ae1837a8e54b1a64dcff49b59e75296b0d
+
 
 print(lista)
 ```
@@ -286,7 +285,7 @@ lista.sort()
 =======
 #### Resolução
 
->>>>>>> 9e16e3ae1837a8e54b1a64dcff49b59e75296b0d
+
 
 print(lista)
 ```
@@ -343,7 +342,7 @@ print(lista.copy())
 3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
 =======
 =======
->>>>>>> a04535e2bce90b3384925365c2d70b8c52f89d96
+
 
 
 
@@ -457,18 +456,7 @@ arquivo = open('nome_arquivo', 'w')
 ```
 ####Fechando arquivos
 
-# vanessa e nathy
-### Exceções
 
-### Resumo expandido 
-Exemplo:
-numero = int( input("Digite um numero "))
-try:
-    resultado = 45 / numero
-except:
-    print("Não foi posivel calcular o resultado")
-
-<<<<<<< HEAD
 * [Funções](Funções/funções.md) 
 
 =======
@@ -502,7 +490,7 @@ Para definir uma função em Python, utilizamos o comando `def`, que significa l
 
 
 # nicole, thianna e joão
->>>>>>> a04535e2bce90b3384925365c2d70b8c52f89d96
+
 
 
 ### Argumentos com valor padrão e Argumentos nomeados
@@ -520,7 +508,7 @@ In - Verifica se uma sequência contém ou não um determinado valor.
 É utilizado para especificar um valor padrão para um ou mais argumentos.
 
 Por exemplo  :
-’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’
+```python
 
 def perguntar_ok(prompt, tentativas=4, relembrar='Porfavor Tente Denovo!'):
     while True:
@@ -533,7 +521,7 @@ def perguntar_ok(prompt, tentativas=4, relembrar='Porfavor Tente Denovo!'):
         if tentativas < 0:
             raise ValueError('invalid user response')
         print(relembrar)
-’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’’
+```
 
 
 Podemos chamar essa função com varias formas
@@ -566,6 +554,11 @@ Moitinha("perfeitão", lindo="lindão", gostoso='gostoso', pomposo='pomposinho')
 Importante : 
 Nenhum argumento pode receber mais de um valor
 
+### Exercícios
+Exercicio - Argumento padrão
+Crie uma função de argumento padrão pedindo a senha (12345), dando ate 5 tentativas,
+chame esse argumento 
+
 
 
 ## Exceções (nathy e nessa)
@@ -579,16 +572,11 @@ Exceções são erros inesperados que acontecem na hora de executar o código. E
 
 As exceções, como outros erros, retornam mensagens de erro indicando o que está errado:
 
-<<<<<<< HEAD
-### Exercícios
-Exercicio - Argumento padrão
-Crie uma função de argumento padrão pedindo a senha (12345), dando ate 5 tentativas,
-chame esse argumento 
-=======
-###EX1:
+
+### EX1:
 ```python
 6 - 9/num
->>>>>>> b53bd3677c2605832b25ba44314b8a83db556fee
+
 
 A mensagem de erro seria:
 
@@ -597,7 +585,7 @@ File "C:\Users\aluno\PycharmProjects\pythonProject\main.py", line 1, in <module>
 NameError: name 'num' is not defined
 ```
 
-###EX2:
+### EX2:
 ```python
 n=9
 
@@ -614,7 +602,7 @@ IndentationError: expected an indented block
 
 Exceções específicas podem ser tratadas por instruções dadas pelo usuário, usando comandos como `try`, `else` e `except`:
 
-###EX:
+### EX:
 ```python
 numero = int(input("Digite um numero "))
 try:
@@ -643,14 +631,17 @@ O conjunto `try … except` pode possuir uma cláusula `else`, que quando presen
 ### Exercícios
 # Exercício 1: trate a exceção do código abaixo:
 
-resultado = 234 / 0
+numero=0
+
+resultado = 234 / numero
+
 
 
 
 
 ### Resolução
 
-<<<<<<< HEAD
+
 =======
 # Resolução exercício 1:
 
@@ -660,5 +651,4 @@ try:
 except ZeroDivisionError:
     print("Não foi possivel calcular o resultado")
 =======
->>>>>>> f4d205deda1237b02dff866acdbcb1f40b2d8a82
 
