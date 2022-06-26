@@ -612,8 +612,11 @@ except ZeroDivisionError:
 ```
 
 O código acima funciona assim:
+
 -O comando try é executado.
+
 -Se não houver nenhuma exceção, o comando except é ignorado e a execução do código acaba.
+
 -Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.
 
 
@@ -639,16 +642,14 @@ resultado = 234 / numero
 
 
 
-### Resolução
+## Resoluções
 
-
-=======
-# Resolução exercício 1:
+### Resolução exercício 1:
 
 numero = 0
 try:
     resultado = 234 / numero
 except ZeroDivisionError:
     print("Não foi possivel calcular o resultado")
-=======
+
 
