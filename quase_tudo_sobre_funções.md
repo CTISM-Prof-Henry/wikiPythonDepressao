@@ -1,11 +1,11 @@
 ### Sumário
 
-1. [Definindo funções](#link)
-2. [Argumento com valor padrão](#link)
-3. [Argumentos nomeados](#link)
-4. [Expressões Lambda](#expressões-lambda)
-5. [Strings de documentação](#strings-de-documentação)
-6. [Exercícios](#exercícios)
+
+1. [Argumento com valor padrão](#link)
+2. [Argumentos nomeados](#link)
+3. [Expressões Lambda](#expressões-lambda)
+4. [Strings de documentação](#strings-de-documentação)
+5. [Exercícios](#exercícios)
 
 
 ### Expressões Lambda
