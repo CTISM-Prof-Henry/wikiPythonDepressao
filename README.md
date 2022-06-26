@@ -318,9 +318,7 @@ lista.copy()
 
 print(lista.copy())
 ```
-```python
-['rhandres' , 'davi' , 'o theo ta mal' , 'breno' , 'breno falta aula' , 'breno' ]
-```
+
 
 ### Operadores :
 
@@ -423,49 +421,20 @@ arquivo = open('nome_arquivo', 'w')
 ####Fechando arquivos
 =======
 
-## Funções 
-### Definindo Funções
-
- #### Resumo simplificado
-
-def - define;
-
-
-
-#### Resumo Expandido
-
-Para definir uma função em Python, utilizamos o comando `def`, que significa literalmente definir. Após `def`, o nome da função deve ser estabelecido, seguido pelos parâmetros formais entre parênteses.
-	
-
-#### Exercícios
-
-#### Resolução
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* [Funções](Funções/funções.md) 
 
 
 
 ### Argumentos com valor padrão e Argumentos nomeados
 
-### Resumo Simplicado
+#### Resumo Simplicado
 In - Verifica se uma sequência contém ou não um determinado valor.
 
 
 
 É possivel definir funções com um número variável de argumentos
 // essas formas podem ser combinadas
+
 #### Argumento com valor padrão
 
 É utilizado para especificar um valor padrão para um ou mais argumentos.
@@ -498,6 +467,7 @@ ou dando todos os argumentos : ask_ok('Ok para sobrescrever o arquivo??', 2, 'va
 Importante:  Valores padrões só são avaliados uma vez. veja que isso fará diferença quando um valor é um objeto mutável, lista, dicionário ou instâncias de classes. 
 
 // Argumento posicional é o nome utilizado para a passagem de valores onde cada valor estara na ordem conforme implementado na função.
+
 #### Argumentos nomeados
 Essa função chama outros argumentos utilizando
  
