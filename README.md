@@ -41,7 +41,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 * Módulos
 * Pacotes
 
-1. [Introdução: Números e expessões aritiméticas](#Sumário:)
+1. [Introdução: Números e expessões aritiméticas](#Sumário)
 2. [Introdução: Listas](2-Introduçaozinha.md)
 3. [Escrita arquivos](escrita_arquivos.md)
 4. [If-Else](If,else,elif.md)
