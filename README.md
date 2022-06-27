@@ -52,7 +52,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 3. [Resolução](#resolução)
 5. [Escrita arquivos](escrita_arquivos.md)
 2. [if-else](#if-else)
-6. [Introdução : Lista](..\wikiPythonDepressao\Brenozo, Rhandreco e Davi A LENDA)
+6. [Introdução : Lista](..\wikiPythonDepressao\Brenozo,RhandrecoeDaviALENDA)
 7. [Funções: definindo funções](funções.md)
 8. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
 7. [introdução : Laços de repetição](laços.md)
