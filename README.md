@@ -563,12 +563,12 @@ chame esse argumento
 
 ## Exceções (nathy e nessa)
 
-### Resumo simplificado
+## Resumo simplificado
 
 Exceções são erros inesperados que acontecem na hora de executar o código. Elas não são fatais e podem ser resolvidas com instruções.
 
 
-### Resumo expandido
+## Resumo expandido
 
 As exceções, como outros erros, retornam mensagens de erro indicando o que está errado:
 
@@ -577,8 +577,7 @@ As exceções, como outros erros, retornam mensagens de erro indicando o que est
 ```python
 6 - 9/num
 
-
-A mensagem de erro seria:
+//A mensagem de erro seria:
 
 File "C:\Users\aluno\PycharmProjects\pythonProject\main.py", line 1, in <module>
     6-9/num
@@ -592,7 +591,7 @@ n=9
 while True:
 print(n)
 
-A mensagem de erro seria:
+//A mensagem de erro seria:
 
 File "C:\Users\aluno\PycharmProjects\pythonProject\main.py", line 4
     print(n)
@@ -620,19 +619,27 @@ O código acima funciona assim:
 -Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.
 
 
+
 O conjunto `try … except` pode possuir uma cláusula `else`, que quando presente, deve ser colocada depois de todas as outras cláusulas. É útil quando você tem uma parte do código que precisa ser executada se nenhuma exceção for executada. 
 
 #### EX:
 ```python
+list = ['1','6','9','4','7']
 
-
+try:
+    print(list[8])
+except IndexError:
+        print('nem tem esse índice doido')
+else:
+        print('deu certo')
 
 ```
 
 
 
-### Exercícios
-# Exercício 1: trate a exceção do código abaixo:
+## Exercícios
+
+### Exercício 1: trate a exceção do código abaixo:
 
 numero=0
 
@@ -646,10 +653,11 @@ resultado = 234 / numero
 
 ### Resolução exercício 1:
 
+```python
 numero = 0
 try:
     resultado = 234 / numero
 except ZeroDivisionError:
     print("Não foi possivel calcular o resultado")
 
-
+```
