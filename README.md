@@ -13,20 +13,19 @@ https://ead06.proj.ufsm.br/mod/assign/view.php?id=1649422
 Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 
 # Grupos & tópicos
-| grupo | tópico |
+| Grupo | Tópico |
 |:------|:-------|
-| julia e jhennifer | Números, expressões aritméticas, formatação de strings, comando pass |
-| kamilli e nicolle | Controle de fluxo: if, else, elif |
-| augusto e theo | Laços de repetição: while, for, função range, break, continue |
-| davi, breno e rhandres | [Estrutura de dados:](1-Introduçaozinha.md) listas, list comprehension, métodos da classe lista, operadores and, or, in, not in para listas |
-| miguel | Estrutura de dados: tuplas, sets, operadores and, or, in, not in para tuplas/sets     |
-| alexandre e bernardo | Estrutura de dados: dicionáros, construção de dicionários, iteração sobre dicionários, operadores and, or, in, not in para dicionários     |
-| nicole, thianna e joão | Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação     |
-| stéfani e valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
-| rafaela | Leitura e escrita de arquivos, método with, biblioteca csv, Gravando dados estruturados com json|
-| nathielly e vanessa | Exceções     |
-| gabriela, manuela e mateus | Classes: sintaxe de definição de calsses, objetos de class, objetos instância, objetos método, variáveis de classe e instância, observações aleatórias     |
-| stéfani e valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
+| Julia e Jhennifer | Números, expressões aritméticas, formatação de strings, comando pass |
+| Kamilli e Nicolle | Controle de fluxo: if, else, elif |
+| Augusto e Theo | Laços de repetição: while, for, função range, break, continue |
+| Davi, Breno e Rhandres | [Estrutura de dados:](1-Introduçaozinha.md) listas, list comprehension, métodos da classe lista, operadores and, or, in, not in para listas |
+| Miguel | Estrutura de dados: tuplas, sets, operadores and, or, in, not in para tuplas/sets     |
+| Alexandre e Bernardo | Estrutura de dados: dicionáros, construção de dicionários, iteração sobre dicionários, operadores and, or, in, not in para dicionários     |
+| Nicole, Thianna e João | Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação     |
+| Stéfani e Valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
+| Rafaela | Leitura e escrita de arquivos, método with, biblioteca csv, Gravando dados estruturados com json|
+| Nathielly e Vanessa | Exceções     |
+| Gabriela, Manuela e Mateus | Classes: sintaxe de definição de calsses, objetos de class, objetos instância, objetos método, variáveis de classe e instância, observações aleatórias     |
 
 
 ![careca](https://pm1.narvii.com/6727/31271b6a66c8f56f3a31f1f2734b85d28045170ev2_hq.jpg)
@@ -50,11 +49,12 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 1. [Introdução](#introdução)
 2. [Exercícios](#exercicios)
 3. [Resolução](#resolução)
-4. [Escrita arquivos](escrita_arquivos.md)
-5. [if-else](#if-else)
-6. [Funções: definindo funções](funções.md)
-7. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
-8. [introdução: Laços de repetição](laços.md)
+4. [introdução: Listas](2-Introduçaozinha.md)
+5. [Escrita arquivos](escrita_arquivos.md)
+6. [if-else](#if-else)
+7. [Funções: definindo funções](funções.md)
+8. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
+9. [introdução: Laços de repetição](laços.md)
 
 ### Introdução
 
