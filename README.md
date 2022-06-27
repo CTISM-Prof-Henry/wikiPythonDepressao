@@ -41,158 +41,51 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 * Módulos
 * Pacotes
 
-
-## Exemplo de Wiki
-
-### Sumário
-
-1. [Introdução](#introdução)
-2. [Exercícios](#exercicios)
-3. [Resolução](#resolução)
-4. [introdução: Listas](2-Introduçaozinha.md)
-5. [Escrita arquivos](escrita_arquivos.md)
-6. [if-else](#if-else)
-7. [Funções: definindo funções](funções.md)
-8. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
-9. [introdução: Laços de repetição](laços.md)
-
-### Introdução
-
-#### Resumo simplificado de Funções ✨
-
-Blocos de códigos que executam alguma tarefa e que tem um nome, ou manipulam algum dado e são capazes de receber (ou não) parâmetros e/ou argumentos, ou seja, processam informações e retornam valores. Dessa forma, são denominadas funções em python, que possuem alguns tipos, dentre eles: funções especiais, funções anônimas e listas de argumentos arbitrárias. 
-
-
-#### Resumo expandido ✨
-
-Funções são ..    a função inicia com "def" e um nome é atribuído, após isso um parâmetro é criado.
-(exemplo)
-
-
-• Evita repetição de código
-• Deixa o código Menor
-• Mais legível
-• Mais modularizado
-
-
-Funções especiais: são funções passadas por parâmetros que consistem em posições que são preenchidas por parâmetros
-
-Funções anônimas: Funções anônimas ou também popularmente conhecida como
-função Lambda; representa um nome que advém da matemática,
-apresentado pelo matemático americano Alonzo Church em 1930, na qual era
-orientador de Alan Turing. O cálculo lambda trata as funções como
-valores, fazendo com que elas sejam entradas para outras funções, assim
-como funções podem retornar funções como saída, ou seja, funções que
-operam em funções (melhor no exemplo kkk).
-
-Veja logo abaixo um exemplo de uma função normal:
-
-```def funcao (arg,arg2):
-return arg*arg2
-var = funcao (2,2)
-print (var)
-```
-Aqui pode-se notar que definimos uma função, dentro dela atribuímos os
-argumentos que queremos passar para a função e jogamos ela em uma
-variável chamada var que guarda dois valores que vão ser multiplicados no
-return. 
-
-Agora vamos ver como esta função ficaria sendo lambda, logo temos que:
-
-```python
-a = lambda x , y: x*y
-print (a(2,2))
-```
-
-Nesta função atribuímos o nome da função como lambda, que recebe uma
-string (a) como uma variável que armazena dois números inteiros (x=2,y=2)
-que vão ser multiplicados, mas desta vez sem utilizar o return.
-
-listas de argumentos arbitrárias:
-
-
-
-
-
-
-
-
-
-
-
-Python é 🔝
-
-
-If(se) é uma condicional que permite avaliar se a expressão é afirmativa.
-Else(se não) é a condicional que avalia se a condição é negativa.
-Elif(se não se) é a junção de else + if, ele faz com que as condições sejam interligadas (se ele satisfizer uma condição ele não verifica as outras). 
-
-Por padrão, argumentos podem ser passadas para uma função Python tanto por posição quanto explicitamente pelo nome. Para uma melhor legibilidade e desempenho, faz sentido restringir a maneira pelo qual argumentos possam ser passados, assim um desenvolvedor precisa apenas olhar para a definição da função para determinar se os itens são passados por posição, por posição e nome, ou por nome.
-
-#### Exercícios
-
-1. Abra o console do Python.
-2. Rode um programa Python pelo console.
-3. Rode um script Python pelo console.
-
-#### Resolução
-
-1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
-2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
-3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
-
-### If-Else
-
-#### Exercícios
-1. Abra o console do Python.
-2. Rode um programa Python pelo console.
-3. Rode um script Python pelo console.
-<<<<<<< HEAD
-#### Resolução
-1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
-2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
-3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
-=======
-=======
-
-
+1. [Introdução: Números e expessões aritiméticas](#Sumário:)
+2. [Introdução: Listas](2-Introduçaozinha.md)
+3. [Escrita arquivos](escrita_arquivos.md)
+4. [If-Else](If,else,elif.md)
+5. [Funções: definindo funções](funções.md)
+6. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
+7. [Introdução: Laços de repetição](laços.md)
+8. [Introdução: Tuplas](Tuplas.md)
 
 
 # Juh e Jhenni
-## Sumário
+## Sumário:
 
 1. [Números e expressões aritméticas](#números-e-expressões-aritméticas)
 2. [Comando Pass](#comando-pass)
 3. [Formatação de string](#formatação-de-string)
 
 
-## Números e expessões aritiméticas
+## Números e expessões aritiméticas:
 
-### Resumo simplificado
+### Resumo simplificado:
 Os números em python são conceituados em dois tipos numéricos, os números inteiros e os números de ponto flutuante que são dados como (float) Funciona como uma calculadora simples, para isso você deve digitar uma expressão e o resultado será exibido.Expressões como operadores +, -, * e funcionam da mesma forma que em outras linguagens como: (pascal ou C).
 O sinal de igual ('=') é usado para atribuir um valor de variável, se a variável não tiver um valor atribuído, constituirá um erro. No modo interativo a variável (' _ ') deve ser somente leitura pelo usuário, pois não especifica um valor, ela cria outra variável.
 
-#### Resumo expandido
+#### Resumo expandido:
 O interpretador números funciona como uma calculadora, deve-se digitar uma expressão, com os operadores usuais ( +, -, * e / ), e o resultado será apresentado. Assim como nas linguagens tradicionais, os parênteses podem ser usados para agfrupar as expressões. 
 Números inteiros, são do tipo int, enquanto números decimais são do tipo float. Divisão sempre retorna númetros do tipo float, para retornar números inteiros, é necessário usar o operador //; e para saber somente o resto da expressão é preciso usar o operador %.
 Para exponenciação é possível usar o operador ** .
 Para atribuir valor para uma variável é necessário usar o sinal de igual; caso uma variável não for atribuída, tentar utiliza-la gerará um erro.
 A variável _ é usada para definir a quantidade de números após a vírgula; nun ca defina um valor, do contrário será criada outra variável independente que mascararia a variável especial.
 
-## Exercícios
+## Exercícios:
 
-### 1. Faça um código que converta reais em dólares:
+### 1. Faça um código que converta reais em dólares.
 
-## Resolução
+## Resolução:
 ```python
 dolar = float(input("Informe a quantidade de dólar para conversão: US$ "))
 valor = float(input ("Informe o valor do dólar: R$ "))
 conversao = dolar*valor
 print('A quantidade de dólar em real é: R$', conversao)
 ```
-### 2. Faça um código, onde, dado dois números, mostre o valor da divisão inteira, e o resto da divisão
+### 2. Faça um código, onde, dado dois números, mostre o valor da divisão inteira, e o resto da divisão.
 
-## Resolução
+## Resolução:
 ```python
 n1 = int(input("Digite um número:"))
 n2 = int(input("Digite outro número:"))
@@ -200,9 +93,9 @@ DI = n1 // n2
 RD = n1 % n2
 print("O resultado da divisão inteira é igual a: {0} , e o resto da divisão é igual a: {1} ".format(DI, RD) )
 ```
-### 3. Faça um código que pegue dois números, faça a multiplicação, e a divisão inteira entre eles, mostre o resultado na tela e depois eleve o resultado de ambos ao quadrado
+### 3. Faça um código que pegue dois números, faça a multiplicação, e a divisão inteira entre eles, mostre o resultado na tela e depois eleve o resultado de ambos ao quadrado.
 
-## Resolução
+## Resolução:
 ```python
 n1 = int(input("Digite um número:"))
 n2 = int(input("Digite outro número:"))
