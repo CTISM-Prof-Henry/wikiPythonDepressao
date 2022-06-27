@@ -1,7 +1,7 @@
 
+# *Tuplas*
 
-
-Tuplas é um tipo de coleção, semeljhante às listas, mas a maior diferença entre elas é que uma tupla é imutável. Ou seja, após criada uma tupla com determinados valores, eles não podem mais ser alterados.
+Tuplas é um tipo de coleção, semelhante às listas, mas a maior diferença entre elas é que uma tupla é imutável. Ou seja, após criada uma tupla com determinados valores, eles não podem mais ser alterados.
 Os valores em uma tupla são arnazenados em  uma sequencia heterogênea, que podem ser acessados por desempacotamento ou índices.
 As tuplas vazias são feitas por parênteses vazios:
 ```python
@@ -32,15 +32,17 @@ Tupla = (2, 3, 4, 5)
 Lista = [2, 3, 4, 5]
 ```
 
-### Exemplo de TUPLAS para realizar:
+# *Exemplo de TUPLAS para realizar:*
 
-# Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista:
-# Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista e mostre apenas os valores da tupla:
+### 1. Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista
 
 
-### Resolucao:
+### 2. Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista e mostre apenas os valores da tupla
 
-# Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista:
+
+# *Resolução*:
+
+### 1. Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista:
 
 ```python
 tupla = (1, 2, 3, 4, 5)
@@ -50,9 +52,9 @@ lista.append(tupla)
 
 print(lista)
 ```
------
 
-# Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista e mostre apenas os valores da tupla
+
+### 2. Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista e mostre apenas os valores da tupla
 
 ```python
 tupla = (1, 2, 3, 4, 5)
@@ -64,15 +66,13 @@ print(lista[2])
 ```
 
 
+# *CONJUNTOS (SETs)*
 
 
-
-
-
-CONJUNTOS (SETs)
  Conjuntos são coleções desordenadas com elementos únicos – desordenada porque a cada vez que é “chamada” os elementos podem aparecer em uma ordem diferente, o que não permite selecionar itens por índices; e de elementos únicos porque, caso ocorra a repetição de algum elemento, as “cópias” serão apagadas, restando apenas um elemento que possui aquele valor, não havendo repetição dos elementos.
 Um conjunto pode ser definido usando-se elementos entre chaves “{}”:
 conj = {1,2,3,4}
+
 Existem algumas funções que podem ser utilizadas com os conjuntos:
 ```python  
 a = {1, 2, 3, 4}
@@ -123,7 +123,7 @@ True
 False
 ```
 
-Verificar se um conjunto é um subconjunto de outro:
+ Verificar se um conjunto é um subconjunto de outro:
 ```python
 a = {1, 2, 3, 4}
 c = {1, 2}
@@ -133,7 +133,7 @@ a.issubset(c):
 False
 ```
 
-Verificar se um conjunto é superconjunto de outro:
+ Verificar se um conjunto é superconjunto de outro:
 ```python
 a.issuperset(c):
 True
@@ -144,3 +144,19 @@ d = {3, 4}
 c.isdisjoint(d):
 True
 ```
+
+# *Exemplo de SETS para realizar:*
+
+### Use a funcao discard ou remove para retirar os numeros 2 do set.
+	```python
+	nums = set([1, 2, 2, 3, 3, 3])
+	```
+
+# *Resolução*
+	```python
+	nums = set([1, 2, 2, 3, 3, 3])
+	nums.remove(2)
+	print("Números: ", nums)
+	```
+	
+
