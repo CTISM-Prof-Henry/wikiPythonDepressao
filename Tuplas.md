@@ -74,7 +74,7 @@ CONJUNTOS (SETs)
 Um conjunto pode ser definido usando-se elementos entre chaves “{}”:
 conj = {1,2,3,4}
 Existem algumas funções que podem ser utilizadas com os conjuntos:
-```python
+```python 
 a = {1, 2, 3, 4}
 b = {3, 4, 5, 6}
 União:
