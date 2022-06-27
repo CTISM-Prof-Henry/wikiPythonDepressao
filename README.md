@@ -18,7 +18,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 | julia e jhennifer | Números, expressões aritméticas, formatação de strings, comando pass |
 | kamilli e nicolle | Controle de fluxo: if, else, elif |
 | augusto e theo | Laços de repetição: while, for, função range, break, continue |
-| [davi, breno e rhandres | Estrutura de dados:](1-Introduçaozinha.md) listas, list comprehension, métodos da classe lista, operadores and, or, in, not in para listas |
+| davi, breno e rhandres | [Estrutura de dados:](1-Introduçaozinha.md) listas, list comprehension, métodos da classe lista, operadores and, or, in, not in para listas |
 | miguel | Estrutura de dados: tuplas, sets, operadores and, or, in, not in para tuplas/sets     |
 | alexandre e bernardo | Estrutura de dados: dicionáros, construção de dicionários, iteração sobre dicionários, operadores and, or, in, not in para dicionários     |
 | nicole, thianna e joão | Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação     |
