@@ -69,7 +69,7 @@ print(lista[2])
 # *CONJUNTOS (SETs)*
 
 
- Conjuntos são coleções desordenadas com elementos únicos – desordenada porque a cada vez que é “chamada” os elementos podem aparecer em uma ordem diferente, o que não permite selecionar itens por índices; e de elementos únicos porque, caso ocorra a repetição de algum elemento, as “cópias” serão apagadas, restando apenas um elemento que possui aquele valor, não havendo repetição dos elementos.
+ ### Conjuntos são coleções desordenadas com elementos únicos – desordenada porque a cada vez que é “chamada” os elementos podem aparecer em uma ordem diferente, o que não permite selecionar itens por índices; e de elementos únicos porque, caso ocorra a repetição de algum elemento, as “cópias” serão apagadas, restando apenas um elemento que possui aquele valor, não havendo repetição dos elementos.
 Um conjunto pode ser definido usando-se elementos entre chaves “{}”:
 conj = {1,2,3,4}
 
@@ -148,15 +148,16 @@ True
 # *Exemplo de SETS para realizar:*
 
 ### Use a funcao discard ou remove para retirar os numeros 2 do set.
-	```python
+```python
 	nums = set([1, 2, 2, 3, 3, 3])
-	```
+```
 
 # *Resolução*
-	```python
+	
+```python
 	nums = set([1, 2, 2, 3, 3, 3])
 	nums.remove(2)
 	print("Números: ", nums)
-	```
+```
 	
 
