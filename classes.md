@@ -1,18 +1,18 @@
-## Classes:
+## Classes:💻
 
-### Sumário:
+### Sumário:🧐
 1. [Exercícios](classes_exercícios.md)
 2. [Resolução](classes_resolução.md)
 
-### RESUMO SIMPLIFICADO:
+### RESUMO SIMPLIFICADO:🤏🏻
 Classes, dentro da linguagem de programação Python, tem a função de otimizar o código e deixar ele mais legível, também servem para fazer um agrupamento de funções, funcionando como um, atributos de um objeto dentro da programação
 
-### RESUMO EXPANDIDO:
+### RESUMO EXPANDIDO:📋
 Primeiramente vamos relembrar o que é Python?
  Python é uma das três linguagens de programação mais utilizadas no mundo por ser extremamente versátil, interativa e fácil de ser aprendida.
 Ela é uma linguagem interpretada e fracamente tipada. Agora vamos estudar classes em python com mais detalhes:
 
-#### Sintaxe de definição de classes:
+#### ⮞ Sintaxe de definição de classes:
 
    Criação de classes é bem simples e nos permite definir quais atributos e métodos uma classe
 irá possuir, Mas como eu começo uma classe? como tranformo em código? Isso que vamos
@@ -34,7 +34,7 @@ caneta1.ExibirInformacoesDaCaneta()
 caneta2 = Caneta('caneta2 - cor: azul', 'marca: faber castell')
 caneta2.ExibirInformacoesDaCaneta()
 ```
-#### Objetos método
+#### ⮞ Objetos método
    Um método é uma função que é criada dentro de uma classe em python!
 exemplo 1: Você quer definir a classe de um "cachorro" e os métodos (funções) vão ser: respirar, comer, beber, entre outros...
 exemplo 2: uma classe com várias pessoas que os métodos seriam como por exemplo falar, andar, comer, entre outros... Todos essas ações são métodos de classes, e lembrando que métodos podem ou não retornar um valor.
