@@ -2,10 +2,10 @@
 ### Sumário:
 
 1. [Listas](#Listas)
-2. [List Coprehension](Comprehensionzinha.md)
-3. [Metodos de Lista](Listinhas.md)
-4. [Operadores](Operadorezinhos.md)
-5. [Exercicios](Exerciciozinhos.md)
+2. [List Coprehension](3-Comprehensionzinha.md)
+3. [Metodos de Lista](2-Listinhas.md)
+4. [Operadores](4-Operadorezinhos.md)
+5. [Exercicios](5-Exerciciozinhos.md)
 
 ### Introdução:
 

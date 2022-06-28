@@ -13,20 +13,19 @@ https://ead06.proj.ufsm.br/mod/assign/view.php?id=1649422
 Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 
 # Grupos & tópicos
-| grupo | tópico |
+| Grupo | Tópico |
 |:------|:-------|
-| julia e jhennifer | Números, expressões aritméticas, formatação de strings, comando pass |
-| kamilli e nicolle | Controle de fluxo: if, else, elif |
-| augusto e theo | Laços de repetição: while, for, função range, break, continue |
-| davi, breno e rhandres | [Estrutura de dados:](1-Introduçaozinha.md) listas, list comprehension, métodos da classe lista, operadores and, or, in, not in para listas |
-| miguel | Estrutura de dados: tuplas, sets, operadores and, or, in, not in para tuplas/sets     |
-| alexandre e bernardo | Estrutura de dados: dicionáros, construção de dicionários, iteração sobre dicionários, operadores and, or, in, not in para dicionários     |
-| nicole, thianna e joão | Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação     |
-| stéfani e valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
-| rafaela | Leitura e escrita de arquivos, método with, biblioteca csv, Gravando dados estruturados com json|
-| nathielly e vanessa | Exceções     |
-| gabriela, manuela e mateus | Classes: sintaxe de definição de calsses, objetos de class, objetos instância, objetos método, variáveis de classe e instância, observações aleatórias     |
-| stéfani e valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
+| Julia e Jhennifer | Números, expressões aritméticas, formatação de strings, comando pass |
+| Kamilli e Nicolle | Controle de fluxo: if, else, elif |
+| Augusto e Theo | Laços de repetição: while, for, função range, break, continue |
+| Davi, Breno e Rhandres | [Estrutura de dados:](1-Introduçaozinha.md) listas, list comprehension, métodos da classe lista, operadores and, or, in, not in para listas |
+| Miguel | Estrutura de dados: tuplas, sets, operadores and, or, in, not in para tuplas/sets     |
+| Alexandre e Bernardo | Estrutura de dados: dicionáros, construção de dicionários, iteração sobre dicionários, operadores and, or, in, not in para dicionários     |
+| Nicole, Thianna e João | Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação     |
+| Stéfani e Valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
+| Rafaela | Leitura e escrita de arquivos, método with, biblioteca csv, Gravando dados estruturados com json|
+| Nathielly e Vanessa | Exceções     |
+| Gabriela, Manuela e Mateus | Classes: sintaxe de definição de calsses, objetos de class, objetos instância, objetos método, variáveis de classe e instância, observações aleatórias     |
 
 
 ![careca](https://pm1.narvii.com/6727/31271b6a66c8f56f3a31f1f2734b85d28045170ev2_hq.jpg)
@@ -42,6 +41,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 * Módulos
 * Pacotes
 
+<<<<<<< HEAD
 
 ## Exemplo de Wiki
 
@@ -160,43 +160,53 @@ Por padrão, argumentos podem ser passadas para uma função Python tanto por po
 3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
 
 
+=======
+1. [Introdução: Números e expessões aritiméticas](#Sumário)
+2. [Introdução: Listas](1-Introduçaozinha.md)
+3. [Escrita arquivos](escrita_arquivos.md)
+4. [If-Else](If,else,elif.md)
+5. [Funções: definindo funções](funções.md)
+6. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
+7. [Introdução: Laços de repetição](laços.md)
+8. [Introdução: Tuplas](Tuplas.md)
+>>>>>>> 5a86cc49a73b102e8ff07d22f58664dc6e63af5a
 
 
 # Juh e Jhenni
-## Sumário
+## Sumário:
 
 1. [Números e expressões aritméticas](#números-e-expressões-aritméticas)
 2. [Comando Pass](#comando-pass)
 3. [Formatação de string](#formatação-de-string)
 
 
-## Números e expessões aritiméticas
+## Números e expessões aritiméticas:
 
-### Resumo simplificado
+### Resumo simplificado:
 Os números em python são conceituados em dois tipos numéricos, os números inteiros e os números de ponto flutuante que são dados como (float) Funciona como uma calculadora simples, para isso você deve digitar uma expressão e o resultado será exibido.Expressões como operadores +, -, * e funcionam da mesma forma que em outras linguagens como: (pascal ou C).
 O sinal de igual ('=') é usado para atribuir um valor de variável, se a variável não tiver um valor atribuído, constituirá um erro. No modo interativo a variável (' _ ') deve ser somente leitura pelo usuário, pois não especifica um valor, ela cria outra variável.
 
-#### Resumo expandido
+#### Resumo expandido:
 O interpretador números funciona como uma calculadora, deve-se digitar uma expressão, com os operadores usuais ( +, -, * e / ), e o resultado será apresentado. Assim como nas linguagens tradicionais, os parênteses podem ser usados para agfrupar as expressões. 
 Números inteiros, são do tipo int, enquanto números decimais são do tipo float. Divisão sempre retorna númetros do tipo float, para retornar números inteiros, é necessário usar o operador //; e para saber somente o resto da expressão é preciso usar o operador %.
 Para exponenciação é possível usar o operador ** .
 Para atribuir valor para uma variável é necessário usar o sinal de igual; caso uma variável não for atribuída, tentar utiliza-la gerará um erro.
 A variável _ é usada para definir a quantidade de números após a vírgula; nun ca defina um valor, do contrário será criada outra variável independente que mascararia a variável especial.
 
-## Exercícios
+## Exercícios:
 
-### 1. Faça um código que converta reais em dólares:
+### 1. Faça um código que converta reais em dólares.
 
-## Resolução
+## Resolução:
 ```python
 dolar = float(input("Informe a quantidade de dólar para conversão: US$ "))
 valor = float(input ("Informe o valor do dólar: R$ "))
 conversao = dolar*valor
 print('A quantidade de dólar em real é: R$', conversao)
 ```
-### 2. Faça um código, onde, dado dois números, mostre o valor da divisão inteira, e o resto da divisão
+### 2. Faça um código, onde, dado dois números, mostre o valor da divisão inteira, e o resto da divisão.
 
-## Resolução
+## Resolução:
 ```python
 n1 = int(input("Digite um número:"))
 n2 = int(input("Digite outro número:"))
@@ -204,9 +214,9 @@ DI = n1 // n2
 RD = n1 % n2
 print("O resultado da divisão inteira é igual a: {0} , e o resto da divisão é igual a: {1} ".format(DI, RD) )
 ```
-### 3. Faça um código que pegue dois números, faça a multiplicação, e a divisão inteira entre eles, mostre o resultado na tela e depois eleve o resultado de ambos ao quadrado
+### 3. Faça um código que pegue dois números, faça a multiplicação, e a divisão inteira entre eles, mostre o resultado na tela e depois eleve o resultado de ambos ao quadrado.
 
-## Resolução
+## Resolução:
 ```python
 n1 = int(input("Digite um número:"))
 n2 = int(input("Digite outro número:"))
