@@ -389,15 +389,27 @@ else:
 
 ## Exercícios
 
-### Exercício 1: trate a exceção do código abaixo:
+Para ajudar a saber qual exceção usar, consulte https://docs.python.org/pt-br/3.9/library/exceptions.html#bltin-exceptions
 
+### Exercício 1: trate a exceção do código abaixo:
+```
 numero=0
 
 resultado = 234 / numero
-
-
-
-
+```
+===========
+### Exercício 2: Trate da exceção abaixo pensando que o usuário pode digitar um caractere invés de um número:
+```
+a= int(input("digita um numero ae: "))
+print(a)
+```
+===========
+### Exercício 3: Insira a exceção correta para corrigir o erro do código abaixo. (Observe que o comando square root está escrito errado)
+```
+ from math import squareroot
+ print(sqrt(25))
+```
+===========
 
 ## Resoluções
 
@@ -410,4 +422,24 @@ try:
 except ZeroDivisionError:
     print("Não foi possivel calcular o resultado")
 
+```
+
+### Resolução exercício 2:
+```python
+try:
+    a= int(input("digita um numero ae: "))
+    print(a)
+
+except ValueError:
+    print("isso não é um numero")
+```
+
+### Resolução exercício 3:
+```python
+try:
+    from math import squareroot
+    print(sqrt(25))
+
+except ImportError:
+    print("tá escrito errado, revisa isso aí")
 ```
