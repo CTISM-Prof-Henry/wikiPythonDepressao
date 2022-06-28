@@ -50,7 +50,6 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 1. [Introdução](#introdução)
 2. [Exercícios](#exercicios)
 3. [Resolução](#resolução)
-<<<<<<< HEAD
 5. [Escrita arquivos](escrita_arquivos.md)
 2. [if-else](#if-else)
 6. [Introdução : Lista](Introduçaozinha.md)
@@ -58,13 +57,11 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 8. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
 7. [introdução : Laços de repetição](laços.md)
 10. [introdução: Tuplas](Tuplas.md)
-=======
 4. [Escrita arquivos](escrita_arquivos.md)
 5. [if-else](#if-else)
 6. [Funções: definindo funções](funções.md)
 7. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
 8. [introdução: Laços de repetição](laços.md)
->>>>>>> 8130747daa2107bf0fe8d635e350cd8c5878fc0d
 
 ### Introdução
 
@@ -157,13 +154,10 @@ Por padrão, argumentos podem ser passadas para uma função Python tanto por po
 1. Abra o console do Python.
 2. Rode um programa Python pelo console.
 3. Rode um script Python pelo console.
-<<<<<<< HEAD
 #### Resolução
 1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
 2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
 3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
-=======
-=======
 
 
 
@@ -302,84 +296,7 @@ Para definir uma função em Python, utilizamos o comando `def`, que significa l
 
 
 
-
-
-
-
-
-
-
-
-
-# nicole, thianna e joão
-
-
-
-### Argumentos com valor padrão e Argumentos nomeados
-
-#### Resumo Simplicado
-In - Verifica se uma sequência contém ou não um determinado valor.
-
-
-
-É possivel definir funções com um número variável de argumentos
-// essas formas podem ser combinadas
-
-#### Argumento com valor padrão
-
-É utilizado para especificar um valor padrão para um ou mais argumentos.
-
-Por exemplo  :
-```python
-
-def perguntar_ok(prompt, tentativas=4, relembrar='Porfavor Tente Denovo!'):
-    while True:
-        ok = input(prompt)
-        if ok in ('sim', 'S', 'yes'):
-            return True
-        if ok in ('Não', 'Neh', 'nop', 'n'):
-            return False
-        tentativas = tentativas - 1
-        if tentativas < 0:
-            raise ValueError('invalid user response')
-        print(relembrar)
-```
-
-
-Podemos chamar essa função com varias formas
-
-Dando apenas o argumento Obrigatório :   perguntar_ok('voce quer realmente sair?')
-
-Dando um argumento opcional :  perguntar_ok('Ok para sobrescrever o arquivo?', 2)
-
-ou dando todos os argumentos : perguntar_ok('Ok para sobrescrever o arquivo??', 2, 'vamos, apenas sim ou não!)
-
-Importante:  Valores padrões só são avaliados uma vez. veja que isso fará diferença quando um valor é um objeto mutável, lista, dicionário ou instâncias de classes. 
-
-// Argumento posicional é o nome utilizado para a passagem de valores onde cada valor estara na ordem conforme implementado na função.
-
-#### Argumentos nomeados
-Essa função chama outros argumentos utilizando
- 
-‘’Chave’’ = ‘’valor’’
-A chave seria o nome dado dentro da função
-
-Exemplo:
-
-def Moitinha ( perfeito, lindo, gostoso,pomposo):
-  print('perfeito:{}/nlindo:{}/ngostoso{}/npomposo{}')
-
-Moitinha("perfeitão", lindo="lindão", gostoso='gostoso', pomposo='pomposinho')
-
-
-
-Importante : 
-Nenhum argumento pode receber mais de um valor
-
-### Exercícios
-Exercicio - Argumento padrão
-Crie uma função de argumento padrão pedindo a senha (12345), dando ate 5 tentativas,
-chame esse argumento 
+# [nicole, thianna e joão](quase_tudo_sobre_funções.md)
 
 
 
