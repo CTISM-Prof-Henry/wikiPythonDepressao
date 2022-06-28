@@ -384,29 +384,16 @@ else:
 
 ```
 
-
-
-## Exercícios
-
-### Exercício 1: trate a exceção do código abaixo:
-
-numero=0
-
-resultado = 234 / numero
-
-
-
-
-
-## Resoluções
-
-### Resolução exercício 1:
-
+O comando try é usado como uma ou mais claúsulas de exceções,utilizado para designar variados tratadores para exceções diferentes.Apenas um tratador executará.Um tratador é frágil a variadas exceções,uma vez que seja designado a uma tupla.
+#### EX:
 ```python
-numero = 0
-try:
-    resultado = 234 / numero
-except ZeroDivisionError:
-    print("Não foi possivel calcular o resultado")
 
+except (TypeError , OverflowError,NameError):                  
+  pass
 ```
+A ordem raise deixa com que o programador force o acontecimento de um tipo expecífico de exceção
+#### EX
+```python
+raise ZeroDivisionError('8/0')
+```
+O comando raise mostra a exceção que sera erguida.Esse comando se da a um pedido de exceções ou classes de excessões.Se for necessário executar se uma exceção foi erguida ou não,porém não quer operar o erro,uma forma facil de comando raise, torna possivel que você a erga novamente.
