@@ -62,6 +62,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 6. [Funções: definindo funções](funções.md)
 7. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
 8. [introdução: Laços de repetição](laços.md)
+11. [classes](classes.md)
 
 ### Introdução
 
