@@ -50,19 +50,19 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 1. [Introdução](#introdução)
 2. [Exercícios](#exercicios)
 3. [Resolução](#resolução)
-5. [Escrita arquivos](escrita_arquivos.md)
-2. [if-else](#if-else)
-6. [Introdução : Lista](Introduçaozinha.md)
-7. [Funções: definindo funções](funções.md)
-8. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
-7. [introdução : Laços de repetição](laços.md)
-10. [introdução: Tuplas](Tuplas.md)
 4. [Escrita arquivos](escrita_arquivos.md)
 5. [if-else](#if-else)
-6. [Funções: definindo funções](funções.md)
-7. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
-8. [introdução: Laços de repetição](laços.md)
-11. [classes](classes.md)
+6. [Introdução : Lista](1-Introduçaozinha.md)
+7. [Funções: definindo funções](funções.md)
+8. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
+9. [introdução : Laços de repetição](laços.md)
+10. [introdução: Tuplas](Tuplas.md)
+11. [Escrita arquivos](escrita_arquivos.md)
+12. [if-else](#if-else)
+13. [Funções: definindo funções](funções.md)
+14. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
+15. [introdução: Laços de repetição](laços.md)
+16. [classes](classes.md)
 
 ### Introdução
 
@@ -119,58 +119,6 @@ que vão ser multiplicados, mas desta vez sem utilizar o return.
 listas de argumentos arbitrárias:
 
 
-
-
-
-
-
-
-
-
-
-Python é 🔝
-
-
-If(se) é uma condicional que permite avaliar se a expressão é afirmativa.
-Else(se não) é a condicional que avalia se a condição é negativa.
-Elif(se não se) é a junção de else + if, ele faz com que as condições sejam interligadas (se ele satisfizer uma condição ele não verifica as outras). 
-
-Por padrão, argumentos podem ser passadas para uma função Python tanto por posição quanto explicitamente pelo nome. Para uma melhor legibilidade e desempenho, faz sentido restringir a maneira pelo qual argumentos possam ser passados, assim um desenvolvedor precisa apenas olhar para a definição da função para determinar se os itens são passados por posição, por posição e nome, ou por nome.
-
-#### Exercícios
-
-1. Abra o console do Python.
-2. Rode um programa Python pelo console.
-3. Rode um script Python pelo console.
-
-#### Resolução
-
-1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
-2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
-3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
-
-### If-Else
-
-#### Exercícios
-1. Abra o console do Python.
-2. Rode um programa Python pelo console.
-3. Rode um script Python pelo console.
-#### Resolução
-1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
-2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
-3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
-
-
-=======
-1. [Introdução: Números e expessões aritiméticas](#Sumário)
-2. [Introdução: Listas](1-Introduçaozinha.md)
-3. [Escrita arquivos](escrita_arquivos.md)
-4. [If-Else](If,else,elif.md)
-5. [Funções: definindo funções](funções.md)
-6. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
-7. [Introdução: Laços de repetição](laços.md)
-8. [Introdução: Tuplas](Tuplas.md)
->>>>>>> 5a86cc49a73b102e8ff07d22f58664dc6e63af5a
 
 
 # Juh e Jhenni
