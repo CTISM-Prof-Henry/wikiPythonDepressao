@@ -62,6 +62,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 6. [Funções: definindo funções](funções.md)
 7. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
 8. [introdução: Laços de repetição](laços.md)
+11. [classes](classes.md)
 
 ### Introdução
 
@@ -384,8 +385,41 @@ else:
 
 ```
 
+<<<<<<< HEAD
 O comando try é usado como uma ou mais claúsulas de exceções,utilizado para designar variados tratadores para exceções diferentes.Apenas um tratador executará.Um tratador é frágil a variadas exceções,uma vez que seja designado a uma tupla.
 #### EX:
+=======
+
+
+## Exercícios
+
+Para ajudar a saber qual exceção usar, consulte https://docs.python.org/pt-br/3.9/library/exceptions.html#bltin-exceptions
+
+### Exercício 1: trate a exceção do código abaixo:
+```
+numero=0
+
+resultado = 234 / numero
+```
+===========
+### Exercício 2: Trate da exceção abaixo pensando que o usuário pode digitar um caractere invés de um número:
+```
+a= int(input("digita um numero ae: "))
+print(a)
+```
+===========
+### Exercício 3: Insira a exceção correta para corrigir o erro do código abaixo. (Observe que o comando square root está escrito errado)
+```
+ from math import squareroot
+ print(sqrt(25))
+```
+===========
+
+## Resoluções
+
+### Resolução exercício 1:
+
+>>>>>>> 3545e4183c7f4f7768b282e2a2f5135a6ee233fa
 ```python
 
 except (TypeError , OverflowError,NameError):                  
@@ -396,4 +430,27 @@ A ordem raise deixa com que o programador force o acontecimento de um tipo expec
 ```python
 raise ZeroDivisionError('8/0')
 ```
+<<<<<<< HEAD
 O comando raise mostra a exceção que sera erguida.Esse comando se da a um pedido de exceções ou classes de excessões.Se for necessário executar se uma exceção foi erguida ou não,porém não quer operar o erro,uma forma facil de comando raise, torna possivel que você a erga novamente.
+=======
+
+### Resolução exercício 2:
+```python
+try:
+    a= int(input("digita um numero ae: "))
+    print(a)
+
+except ValueError:
+    print("isso não é um numero")
+```
+
+### Resolução exercício 3:
+```python
+try:
+    from math import squareroot
+    print(sqrt(25))
+
+except ImportError:
+    print("tá escrito errado, revisa isso aí")
+```
+>>>>>>> 3545e4183c7f4f7768b282e2a2f5135a6ee233fa
