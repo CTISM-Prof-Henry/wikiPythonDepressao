@@ -7,6 +7,7 @@
 4. [Funções anônimas](#Funções-anônimas)
 5. [Listas de argumentos arbitrárias](#Listas-de-argumentos-arbitrárias)
 6. [Exercícios](#Exercícios)
+7. [Resolução](#Resolução)
 
 ### *Resumo simplificado de funções*
 
