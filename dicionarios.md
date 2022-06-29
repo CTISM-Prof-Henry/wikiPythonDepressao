@@ -27,7 +27,7 @@ print('O Total de maçãs é: ',qtd_macas)
 
 - O Total de maçãs é:  55
 ------------------------------------------------------------
--
+
 "items()" Esta função quando usada, retorna uma lista de tuplas contendo as chaves e seus respectivos valores declarados no dicionário. Exemplo:
 
 print(cesta_frutas.items())
@@ -189,7 +189,7 @@ elif ('limão' and 'laranja') or ('açaí' and 'guaraná') in frutas:
 ......................................................................
 
 
-##Versão Simplificada Dicionários:
+## Versão Simplificada Dicionários:
 
 O que são dicionários? São estruturas de dados que já são embutidas no python, que servem para guardar valores dentro, assim como: Listas, Tuplas, Matrizes e conjuntos, Só que usam outros valores chave que você os atribuiu para chamar o valor desse dicionário. As chaves são os nomes das variáveis que contém o valor dela, o dicionário pode ter várias chaves.
 
