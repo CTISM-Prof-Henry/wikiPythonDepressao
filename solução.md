@@ -34,28 +34,19 @@
 
 # 3 
 
-`valor1 = int(input('Digite um primeiro número:'))`
-
-`valor2 = int(input('Digite um segundo número:'))`
-`valor3 = int(input('Digite um terceiro número:'))`
-`dicionario = {'Primeiro Valor': valor1, 'Segundo Valor': valor2, 'Terceiro Valor': valor3}`
-`for teste, valores in dicionario.items():`
-`if valores > 0:`
-
-`print(f'O {teste} {valores} é positivo')`
-    `elif valores == 0:`
-        `print(f"O {teste} {valores} é nulo (ZERO)")`
-    `else:`
-        `print(f'O {teste} {valores} é negativo')`
-
-
-
-
-
-
     
-        
-    `
+`valor1 = int(input('Digite um primeiro número:'))
+valor2 = int(input('Digite um segundo número:'))
+valor3 = int(input('Digite um terceiro número:'))
+dicionario = {'Primeiro Valor': valor1, 'Segundo Valor': valor2, 'Terceiro Valor': valor3}
+for teste, valores in dicionario.items():
+    if valores > 0:
+        print(f'O {teste} {valores} é positivo')
+    elif valores == 0:
+        print(f"O {teste} {valores} é nulo (ZERO)")
+    
+    else:
+        print(f'O {teste} {valores} é negativo')
         
      
         
