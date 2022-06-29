@@ -1,10 +1,12 @@
 # Laços de repetição:
 #### **Sumário**
-1- [For e While](#**for**)
-2- Função range
-3- [Break](#break)
-4- Continue
-5- Exercícios
+
+1. For e While
+2. Função range
+3. Break
+4. Continue
+5. Exercícios
+
 ## Introdução
 
 ### Resumo simplificado
@@ -65,8 +67,37 @@ for numero in range(20):
 print('Fora do seu alcance')
 ```
  
-Exercícios
- 
-Resolução
- 
+**Exercícios**:
+1)Faça um programa que exiba na tela os números de 1 a 100:
 
+
+2)Faça um programa que exiba na tela os números de 1 a 10, pulando de 2 em 2:
+
+
+3)Escreva um programa que peça uma numeração entre 0 e 10. Se o valor não for válido, exiba uma mensagem na tela e continue perguntando até que o usuário digite um número válido.
+
+
+**Resuloções**:
+Exercício 1:
+```python
+x = 1
+while x <= 100:
+    print(x)
+    x = x + 1
+```
+Exercício 2:
+```python
+x = 1
+while x <= 10:
+    print(x)
+    x = x + 2
+```
+Exercício 3:
+```python
+número = float(input("Digite um número entre 0 e 10: "))
+
+while (número < 0) or (número > 10):
+    nota = float(input("O número deve ser entre 0 e 10!\n \
+    Digite novamente:"))
+print("Número válido")
+```

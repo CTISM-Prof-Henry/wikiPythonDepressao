@@ -13,7 +13,7 @@
 
 5. Escreva um codigo que percorra de 0 a 50 pulando de 5 em 5, usando o metodo list comprehension.
 
-[Resolução](Resoluçãozinha.md)
+[Resolução](6-Resoluçãozinha.md)
 
 
 
