@@ -22,7 +22,7 @@ If (se) é uma condicional que permite avaliar se a expressão é afirmativa.
 ## Exemplo de if
 ````python
 if <condição_verdadeira>:
-<faça_alguma_coisa>
+    <faça_alguma_coisa>
 ````
 
 Else (se não) é a condicional que avalia se a condição é negativa. (só pode existir o else se existir o if.)
@@ -30,12 +30,12 @@ Else (se não) é a condicional que avalia se a condição é negativa. (só pod
 ## Exemplo de else
 ````python
 if <condição_verdadeira>:
-<faça_algo>
+    <faça_algo>
 else:
-<faça_outra_coisa>
+    <faça_outra_coisa>
 ````
 
-Elif (se não se) é a junção de else + if, é utilizado para verificar a outra expressão caso a primeira seja falsa, ele faz com que as condições sejam interligadas (se ele satisfizer uma condição ele não verifica as outras). 
+elif (se não se) é a junção de else + if, é utilizado para verificar a outra expressão caso a primeira seja falsa, ele faz com que as condições sejam interligadas (se ele satisfizer uma condição ele não verifica as outras). 
 
 ## Exemplo de elif
 ````python
