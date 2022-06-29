@@ -9,6 +9,7 @@ Tupla = ()
 Desempacotamento:
 Tupla = ('migloro', 'jesus', 'Henry')
 Nome1, Nome2, Nome3 = Tupla
+```
 
 Caso você queira crirar uma TUPLA com apenas um valor atribuído, lembre-se que é necessário incluir uma virgula no final!
 
