@@ -31,3 +31,20 @@ zolin = Filosofia('Zolin','da barba longa')
 print(zolin.nome, zolin.barba) 
 zolin.andardeskate()
 ```
+
+exercício 3:
+```python
+class Documento:
+    def __init__(self, nome, idade, nascimento, horario, local):
+        self.nome = nome
+        self.idade = idade
+        self.nascimento = nascimento
+        self.horario = horario
+        self.local = local
+
+    def __str__(self):
+        return self.nome + ' ' + self.idade + ' ' + self.nascimento + ' ' + self.horario + ' ' + self.local
+
+isso = Documento('mateus', '17', '11/02/2005', '11:30', 'SM')
+print(isso)
+```

@@ -107,3 +107,10 @@ josesarney = Presidentebr('jose sarney', 'PMDB')
 print(lulindo.nome, lulindo.partido, lulindo.nacionalidade)
 print(josesarney.nome, josesarney.partido, josesarney.nacionalidade)
 ```
+#### ⮞ Observações aleatórias
+
+- Atributos de dados podem ser usados por métodos da própria instância;
+
+- Classes não servem para usar tipos abstratos de dados, tudo é baseado em convenção;
+
+- Não existe atalho de referência de atributos de dados em métodos.   
