@@ -73,7 +73,7 @@ else:
 
 ### Exercício 3: 
 
-3. Faça um programa para determinar a situação escolar do aluno. (se tirar maior que 50 está aprovado, se tirar menor que 30 reprovado, menor ou igual a 50 recuperação)
+3. Faça um programa para determinar a situação escolar do aluno. (se tirar maior ou igual a 70 está aprovado, se tirar menor que 30 reprovado, menor que 70 recuperação)
 
 ### Resolução 
 ````python
