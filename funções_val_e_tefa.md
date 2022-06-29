@@ -1,19 +1,19 @@
 # 🎭 𝑭𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒆𝒔𝒑𝒆𝒄𝒊𝒂𝒊𝒔, 𝒇𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒂𝒏𝒐̂𝒏𝒊𝒎𝒂𝒔 𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 𝒅𝒆 𝒂𝒓𝒈𝒖𝒎𝒆𝒏𝒕𝒐𝒔 𝒂𝒓𝒃𝒊𝒕𝒓𝒂́𝒓𝒊𝒂𝒔  🎭-- Stéfani e Valquíria
 
 ### *Sumário:*
-1. [Resumo simplificado de funções](#Resumo-simplificado-de-funções✨)
-2. [Resumo expandido](#Resumo-expandido✨)
+1. [Resumo simplificado de funções](#Resumo-simplificado-de-funções)
+2. [Resumo expandido](#Resumo-expandido)
 3. [Parâmetros especiais](#Parâmetros-especiais)
 4. [Funções anônimas](#Funções-anônimas)
 5. [Listas de argumentos arbitrárias](#Listas-de-argumentos-arbitrárias)
 6. [Exercícios](#Exercícios)
 
-### *Resumo simplificado de funções✨*
+### *Resumo simplificado de funções*
 
 Blocos de códigos que executam alguma tarefa e que tem um nome, ou manipulam algum dado e são capazes de receber (ou não) parâmetros e/ou argumentos, ou seja, processam informações e retornam valores. Dessa forma, são denominadas funções em python, que possuem alguns tipos, dentre eles: funções especiais, funções anônimas e listas de argumentos arbitrárias. 
 
 
-### Resumo expandido✨
+### Resumo expandido
 
 Funções são sequências de comandos que exercem determinadas funções e que possuem um nome. A função inicia com "def" e um nome é atribuído, após isso um parâmetro é criado. Serve, também, para evitar repetição de código, deixar o código menor, mais compreensível, etc. 
 
@@ -70,7 +70,7 @@ def argumentos_arbitrarias (x, y=3, *args):
 
 ### *Exercícios✨*
 
-1. 
+1. Função arbitrária:
 ```Python
 def qualquer_nome (*args, sep="/"):
   return sep.join(args)
@@ -79,8 +79,20 @@ def qualquer_nome (*args, sep="/"):
   print(z)
   ```
 
-2. Rode um programa Python pelo console.
+2. Função anônima:
+```Python
+//Função normal:
+ def nome(b):
+      return b*2
+      nome(24)
+
+//Passando para uma função Lambda: 
+    praticando = lambda a: a*2
+     praticando (45)
+     ```
+
 3. Rode um script Python pelo console.
+
 
 ### *Resolução✨*
 
