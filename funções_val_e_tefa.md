@@ -71,7 +71,7 @@ def argumentos_arbitrarias (x, y=3, *args):
 
 ### *Exercícios✨*
 
-1. Defina uma funçao que dentro dela chame uma varivél que possa ser passado por mais de um valor (qualquer valor), essa função tem que retornar uma lista com vários itens dentro separado por "/", os itens desta lista tem que ser imutavel, mas a lista tem que ter a posibilidade de acresentar um novo item a ela (oque chamamos de lista tipo tupla). Por fim, defina uma variável que seja atribuída ao nome da função dada no inicio, e imprima na tela a lista. 
+1. Defina uma função que dentro dela chame uma variável que possa ser passada por mais de um valor (qualquer valor), essa função tem que retornar uma lista com vários ítens dentro separado por "/", os ítens desta lista têm que ser imutável, mas a lista tem que ter a possibilidade de acrescentar um novo ítem a ela (o que chamamos de lista tipo tupla). Por fim, defina uma variável que seja atribuída ao nome da função dada no início, e imprima na tela a lista. 
 
 2. Passe uma função normal para uma função lambda, e dentro da fução crie uma variável que retorne no resultado o seu dobro.
 
@@ -83,34 +83,49 @@ def argumentos_arbitrarias (x, y=3, *args):
 
 1.
 ```python
-  def qualquer_nome (*args, sep="/"):
+def qualquer_nome (*args, sep="/"):
   return sep.join(args)
 
-  z = qualquer_nome ("minhas bandas do momento são:", "the smiths", "the verve" , "e matchbox twenty") 
-  print(z)
+z = qualquer_nome ("minhas bandas do momento são:", "the smiths", "the verve" , "e matchbox twenty") 
+print(z)
   ```
+```python
+#Essa função está retornando:
+minhas bandas do momento são:/the smiths/the verve/e matchbox twenty
+```
 
-  -Logo, definimos uma função com um nome "qualquer_nome", dentro dela definimos uma variável chamada "args" que vem do nome "argumentos", adjunto a ela observe-se o "*" que é usado para indicar que a variável args pode ser atribuída a qualquer valor e pode ser passada por infinitas casas, e o "sep= /" é o responsavel por colocar a barra para separar os elementos listados. Por fim, definimos uma nova variável chamada "z", na qual vai ser atribuída ao nome da função (qualquer_nome) e que vai printar a ista contida dentro da variável z.
+  -Logo, definimos uma função com um nome "qualquer_nome", dentro dela definimos uma variável chamada "args" que vem do nome "argumentos", adjunto a ela observe-se o "*" que é usado para indicar que a variável args pode ser atribuída a qualquer valor e pode ser passada por infinitas casas, e o "sep= /" é o responsável por colocar a barra para separar os elementos listados. Por fim, definimos uma nova variável chamada "z", na qual vai ser atribuída ao nome da função (qualquer_nome) e que vai printar a lista contida dentro da variável z.
   
 
 2. 
 ```python
-//Função normal :
+#Função normal :
 def nome(b):
-    return b*2
-    nome(24)
+     return b*2
+     nome(24)
 
-//Passando para uma função Lambda: 
-    praticando = lambda a: a*2
-    praticando (45)
-    print(praticando)
+#Passando para uma função Lambda:
+praticando = lambda a: a*2
+
+print (praticando (45))
 ``` 
+```python
+#Essa função está retornando:
+90
+```
 
- -Na função normal definimos uma função chamada "nome" que é atribuída a uma variável (b), esta variável por sua vez vai retornar qualquer valor atribuído a ela, só que o seu dobro (*2). Passando para uma função lambda, temos que: nome = lambda argumentos (a): return (2 *a), na qual o nome da função lambda chama-se "praticando", e sua váriavel representa a letra "a"  como sendo o argumento da função, que por fim vai ser multiplicado por dois no retorno.
+ -Na função normal definimos uma função chamada "nome" que é atribuída a uma variável (b), esta variável por sua vez vai retornar qualquer valor atribuído a ela, só que o seu dobro (*2). Passando para uma função lambda, temos que: nome = lambda argumentos (a): return (2 *a), na qual o nome da função lambda chama-se "praticando", e sua variável representa a letra "a"  como sendo o argumento da função, que por fim vai ser multiplicado por dois no retorno.
 
 
 3. 
 ```python 
- def escolha_algum_nome (a=5, b=6, c=7):
-  return  a + b + c
+def escolha_algum_nome(a=5, b=6, c=7):
+    return a + b + c
+
+print(escolha_algum_nome())
   ```
+```python 
+# Essa função está retornando:
+18
+  ```
+ -Primeiro definimos uma função (escolha_algum_nome), e dentro delas colocamos parâmetros (a,b,c), dentro destes parâmetros definimos números (5,6,7), os valores deste parâmetros vão retornar a soma. Após isso, imprimos a função na tela. 
