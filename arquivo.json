@@ -1,9 +1,4 @@
-import json
-
-with open('dados.json', 'r') as json_file:
-
-    dados = json.load(json_file)
-
-print(dados)
-
-print(type(dados))
+{
+	"nome": "rafaela",
+	"idade": "16+1"
+}

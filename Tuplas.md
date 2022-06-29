@@ -1,3 +1,10 @@
+# ***Súmario***
+
+- [**Tuplas**](#Tuplas)
+- [**CONJUNTOS (SETs)**](#CONJUNTOS_(SETs))
+- [**Exercícios de Tuplas**](#Exercícios_de_Tuplas)
+- [**Exercícios de Conjuntos**](#Exercícios_de_Sets)
+
 
 # *Tuplas*
 
@@ -21,7 +28,7 @@ Tupla = ('a',) – (Tupla)
 Tupla = ('a') – (STR)
 ```
 
-As tuplas podem parecer inúteis, já que não é possível altrerar seus valores. Mas podem ser úteis para armazenar dados que não devem ser alterados nunca, como CPFs, por exemplo. Ou corrdenaddas, ou meses do ano, etc.
+As tuplas podem parecer inúteis, já que não é possível altrerar seus valores. Mas podem ser úteis para armazenar dados que não devem ser alterados nunca, como CPFs, por exemplo. Ou coordenadas, ou meses do ano, etc.
 Caso tentemos mudar algum valor de uma tupla, o interpretador dára um aviso de erro.
 PARA CRIAR UMA TUPLA:
 ```python
@@ -33,7 +40,7 @@ Tupla = (2, 3, 4, 5)
 Lista = [2, 3, 4, 5]
 ```
 
-# *Exemplo de TUPLAS para realizar:*
+# *Exercícios de Tuplas*
 
 ### 1. Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista
 
@@ -43,7 +50,7 @@ Lista = [2, 3, 4, 5]
 
 # *Resolução*:
 
-### 1. Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista:
+### 1. Faça uma tupla com 5 valores e adicione essa tupla dentro de uma lista:
 
 ```python
 tupla = (1, 2, 3, 4, 5)
@@ -55,7 +62,7 @@ print(lista)
 ```
 
 
-### 2. Faca uma tupla com 5 valores e adicione essa tupla dentro de uma lista e mostre apenas os valores da tupla
+### 2. Faça uma tupla com 5 valores e adicione essa tupla dentro de uma lista e mostre apenas os valores da tupla:
 
 ```python
 tupla = (1, 2, 3, 4, 5)
@@ -67,10 +74,10 @@ print(lista[2])
 ```
 
 
-# *CONJUNTOS (SETs)*
+# ***CONJUNTOS (SETs)***
 
 
- ### Conjuntos são coleções desordenadas com elementos únicos – desordenada porque a cada vez que é “chamada” os elementos podem aparecer em uma ordem diferente, o que não permite selecionar itens por índices; e de elementos únicos porque, caso ocorra a repetição de algum elemento, as “cópias” serão apagadas, restando apenas um elemento que possui aquele valor, não havendo repetição dos elementos.
+  Conjuntos são coleções desordenadas com elementos únicos – desordenada porque a cada vez que é “chamada” os elementos podem aparecer em uma ordem diferente, o que não permite selecionar itens por índices; e de elementos únicos porque, caso ocorra a repetição de algum elemento, as “cópias” serão apagadas, restando apenas um elemento que possui aquele valor, não havendo repetição dos elementos.
 Um conjunto pode ser definido usando-se elementos entre chaves “{}”:
 conj = {1,2,3,4}
 
@@ -146,9 +153,9 @@ c.isdisjoint(d):
 True
 ```
 
-# *Exemplo de SETS para realizar:*
+# *Exercícios de Sets*
 
-### Use a funcao discard ou remove para retirar os numeros 2 do set.
+### Use a função discard ou remove para retirar os numeros 2 do set.
 ```python
 	nums = set([1, 2, 2, 3, 3, 3])
 ```

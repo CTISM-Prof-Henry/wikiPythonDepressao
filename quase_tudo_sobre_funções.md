@@ -400,23 +400,25 @@ A soma desses tres numeros eh 73
 
 
 #### Argumento padrão
-Crie uma função de argumento padrão pedindo a senha (12345), dando ate 5 tentativas, chame esse argumento 
+Faça uma função com  4 'tentativas' e chame esse codigo ate acabar as tentivas, faça com que apareça um codigo dizendo `Por favor, tente novamente` a cada erro de tentativa.
 
 ##### Resolução:
 ```
-AAAAAAAAAAAAAAAAAAAAAAAAAA
-A
-A
-A
+def erro(prompt, tentativas=4):
+    i = 0
+    while True:
+        ok = input(prompt)
+        if ok in ('sim', 'S', 'yes'):
+            return True
+        if ok in ('não', 'Neh', 'nem', 'nah'):
+            return False
 
-A
-A
-A
+        tentativas = tentativas - 1
+       
+        if tentativas <= 0:
+            raise ValueError('Por favor, tente novamente')
 
-A
-A
-
-A
+erro('sim ou não?')
 ```
 
 
@@ -425,10 +427,12 @@ A
 Escreva um código que retorna 6 nomes em ordem, do menor ao maior (acho que nem preciso falar pra fazer isso com Lambda né). Utilizando docstrings, identifique o que cada parte dele está fazendo (do jeito certo ta ok, estuda ai filho).
 Ps: tem que saber algumas funções peculiares de python
 
-##### Resolução: sugestão
+##### Resolução: 
 ```py
 	nomes = ["nico", "grandezolin", "jao", "henrynho", "thithi", "henrao"]
+	'''Aqui coloca os nomes.'''
 	nomes.sort(key = lambda x:len(x))
+	'''Isso aqui eh a parte da lambda e imprimir bjs.'''
 	print(nomes)
 ```
 ```py
