@@ -1,7 +1,7 @@
 # ***Súmario***
 
 - [**Tuplas**](#Tuplas)
-- [**CONJUNTOS (SETs)**](#CONJUNTOS_(SETs)))
+- [**CONJUNTOS (SETs)**](#CONJUNTOS_(SETs))
 - [**Exercícios de Tuplas**](#Exercícios_de_Tuplas)
 - [**Exercícios de Conjuntos**](#Exercícios_de_Sets)
 
