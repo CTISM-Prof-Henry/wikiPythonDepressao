@@ -1,4 +1,4 @@
-# 🌈🌞𝑭𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒆𝒔𝒑𝒆𝒄𝒊𝒂𝒊𝒔, 𝒇𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒂𝒏𝒐̂𝒏𝒊𝒎𝒂𝒔 𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 𝒅𝒆 𝒂𝒓𝒈𝒖𝒎𝒆𝒏𝒕𝒐𝒔 𝒂𝒓𝒃𝒊𝒕𝒓𝒂́𝒓𝒊𝒂𝒔 🌞🌈-- Stéfani e Valquíria
+# 🌈 𝑭𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒆𝒔𝒑𝒆𝒄𝒊𝒂𝒊𝒔, 𝒇𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒂𝒏𝒐̂𝒏𝒊𝒎𝒂𝒔 𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 𝒅𝒆 𝒂𝒓𝒈𝒖𝒎𝒆𝒏𝒕𝒐𝒔 𝒂𝒓𝒃𝒊𝒕𝒓𝒂́𝒓𝒊𝒂𝒔  🌈-- Stéfani e Valquíria
 
 ### *Sumário:*
 1. [Resumo simplificado de funções](#Resumo-simplificado-de-funções✨)
@@ -68,7 +68,7 @@ def argumentos_arbitrarias (x, y=3, *args):
       return  [x + y * w for w in args]
 ```
 
-### *Exercícios*
+### *Exercícios✨*
 
 1. 
 ```Python
@@ -82,7 +82,7 @@ def qualquer_nome (*args, sep="/"):
 2. Rode um programa Python pelo console.
 3. Rode um script Python pelo console.
 
-### *Resolução*
+### *Resolução✨*
 
 1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
 2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
