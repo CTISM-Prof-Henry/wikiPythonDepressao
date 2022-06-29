@@ -1,6 +1,6 @@
 ## Classes:💻
 
-### Sumário:🧐
+### Se liga!🧐
 1. [Exercícios](classes_exercícios.md)
 2. [Resolução](classes_resolução.md)
 
