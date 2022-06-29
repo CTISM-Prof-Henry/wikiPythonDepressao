@@ -1,26 +1,26 @@
-# 𝑭𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒆𝒔𝒑𝒆𝒄𝒊𝒂𝒊𝒔, 𝒇𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒂𝒏𝒐̂𝒏𝒊𝒎𝒂𝒔 𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 𝒅𝒆 𝒂𝒓𝒈𝒖𝒎𝒆𝒏𝒕𝒐𝒔 𝒂𝒓𝒃𝒊𝒕𝒓𝒂́𝒓𝒊𝒂𝒔 -- Stéfani e Valquíria
+# 🌈🌞𝑭𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒆𝒔𝒑𝒆𝒄𝒊𝒂𝒊𝒔, 𝒇𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒂𝒏𝒐̂𝒏𝒊𝒎𝒂𝒔 𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 𝒅𝒆 𝒂𝒓𝒈𝒖𝒎𝒆𝒏𝒕𝒐𝒔 𝒂𝒓𝒃𝒊𝒕𝒓𝒂́𝒓𝒊𝒂𝒔 🌞🌈-- Stéfani e Valquíria
 
-### Sumário:
-1. [Resumo simplificado de funções](#Resumo-simplificado)
-2. [Resumo expandido](#Resumo-expandido)
+### *Sumário:*
+1. [Resumo simplificado de funções](#Resumo-simplificado-de-funções✨)
+2. [Resumo expandido](#Resumo-expandido✨)
 3. [Parâmetros especiais](#Parâmetros-especiais)
 4. [Funções anônimas](#Funções-anônimas)
-5. [Listas de argumentos arbitárias](#Listas-de-argumentos-arbitárias)
+5. [Listas de argumentos arbitrárias](#Listas-de-argumentos-arbitrárias)
 6. [Exercícios](#Exercícios)
 
-### Resumo simplificado de Funções ✨
+### *Resumo simplificado de funções✨*
 
 Blocos de códigos que executam alguma tarefa e que tem um nome, ou manipulam algum dado e são capazes de receber (ou não) parâmetros e/ou argumentos, ou seja, processam informações e retornam valores. Dessa forma, são denominadas funções em python, que possuem alguns tipos, dentre eles: funções especiais, funções anônimas e listas de argumentos arbitrárias. 
 
 
-### Resumo expandido ✨
+### *Resumo expandido✨*
 
 Funções são sequências de comandos que exercem determinadas funções e que possuem um nome. A função inicia com "def" e um nome é atribuído, após isso um parâmetro é criado. Serve, também, para evitar repetição de código, deixar o código menor, mais compreensível, etc. 
 
 #### Parâmetros especiais: 
 São funções que consistem em parâmetros, que fazem referência à objetos, e são passados por valor. Assim, após passar uma variável a uma função, é passado a referência ao objeto que a variável se refere. Desse modo, os ítens são passados por posição, por posição e nome, ou por nome.
 A definição de uma função pode parecer com:
-```
+```python
  def combined_example(pos_only, /, standard, *, kwd_only):
      print(pos_only, standard, kwd_only)
 ```
@@ -36,7 +36,8 @@ operam em funções (melhor no exemplo kkk).
 
 Veja logo abaixo um exemplo de uma função normal:
 
-```def funcao (arg,arg2):
+```python
+def funcao (arg,arg2):
 return arg*arg2
 var = funcao (2,2)
 print (var)
@@ -67,13 +68,21 @@ def argumentos_arbitrarias (x, y=3, *args):
       return  [x + y * w for w in args]
 ```
 
-#### Exercícios
+### *Exercícios*
 
-1. Abra o console do Python.
+1. 
+```Python
+def qualquer_nome (*args, sep="/"):
+  return sep.join(args)
+
+  z = qualquer_nome ("minhas bandas do momento são:", "the smiths", "the verve" , "e matchbox twenty") 
+  print(z)
+  ```
+
 2. Rode um programa Python pelo console.
 3. Rode um script Python pelo console.
 
-#### Resolução
+### *Resolução*
 
 1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
 2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
