@@ -35,7 +35,7 @@ quantidade = int(input(f'Digite a quantidade de {cada_material} que deseja: '))
 ```
 # 3 
 
-    ```python
+```python
 valor1 = int(input('Digite um primeiro número:'))
 valor2 = int(input('Digite um segundo número:'))
 valor3 = int(input('Digite um terceiro número:'))
@@ -48,7 +48,7 @@ for teste, valores in dicionario.items():
     
     else:
         print(f'O {teste} {valores} é negativo')
- ```       
+```       
      
         
 
