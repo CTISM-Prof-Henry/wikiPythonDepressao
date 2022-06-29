@@ -1,32 +1,31 @@
-# Valquíria e Stéfani|funções especiais, funções anônimas e listas de argumentos arbitrárias. 
+# 𝑭𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒆𝒔𝒑𝒆𝒄𝒊𝒂𝒊𝒔, 𝒇𝒖𝒏𝒄̧𝒐̃𝒆𝒔 𝒂𝒏𝒐̂𝒏𝒊𝒎𝒂𝒔 𝒆 𝒍𝒊𝒔𝒕𝒂𝒔 𝒅𝒆 𝒂𝒓𝒈𝒖𝒎𝒆𝒏𝒕𝒐𝒔 𝒂𝒓𝒃𝒊𝒕𝒓𝒂́𝒓𝒊𝒂𝒔 -- Stéfani e Valquíria
 
-###Sumário:
+### Sumário:
 1. [Resumo simplificado de funções](#Resumo-simplificado)
 2. [Resumo expandido](#Resumo-expandido)
-3. [Funções especiais](#Funções-especiais)
+3. [Parâmetros especiais](#Parâmetros-especiais)
 4. [Funções anônimas](#Funções-anônimas)
-4. [Listas de argumentos arbitárias](#Listas-de-argumentos-arbitárias)
+5. [Listas de argumentos arbitárias](#Listas-de-argumentos-arbitárias)
+6. [Exercícios](#Exercícios)
 
-#### Resumo simplificado de Funções ✨
+### Resumo simplificado de Funções ✨
 
 Blocos de códigos que executam alguma tarefa e que tem um nome, ou manipulam algum dado e são capazes de receber (ou não) parâmetros e/ou argumentos, ou seja, processam informações e retornam valores. Dessa forma, são denominadas funções em python, que possuem alguns tipos, dentre eles: funções especiais, funções anônimas e listas de argumentos arbitrárias. 
 
 
-#### Resumo expandido ✨
+### Resumo expandido ✨
 
-Funções são ..    a função inicia com "def" e um nome é atribuído, após isso um parâmetro é criado.
-(exemplo)
+Funções são sequências de comandos que exercem determinadas funções e que possuem um nome. A função inicia com "def" e um nome é atribuído, após isso um parâmetro é criado. Serve, também, para evitar repetição de código, deixar o código menor, mais compreensível, etc. 
 
+#### Parâmetros especiais: 
+São funções que consistem em parâmetros, que fazem referência à objetos, e são passados por valor. Assim, após passar uma variável a uma função, é passado a referência ao objeto que a variável se refere. Desse modo, os ítens são passados por posição, por posição e nome, ou por nome.
+A definição de uma função pode parecer com:
+```
+ def combined_example(pos_only, /, standard, *, kwd_only):
+     print(pos_only, standard, kwd_only)
+```
 
-• Evita repetição de código
-• Deixa o código Menor
-• Mais legível
-• Mais modularizado
-
-
-#Funções especiais: são funções passadas por parâmetros que consistem em posições que são preenchidas por parâmetros
-
-#Funções anônimas: 
+#### Funções anônimas: 
 Funções anônimas ou também popularmente conhecida como
 função Lambda; representa um nome que advém da matemática,
 apresentado pelo matemático americano Alonzo Church em 1930, na qual era
@@ -58,7 +57,7 @@ Nesta função atribuímos o nome da função como lambda, que recebe uma
 string (a) como uma variável que armazena dois números inteiros (x=2,y=2)
 que vão ser multiplicados, mas desta vez sem utilizar o return.
 
-#Listas de argumentos arbitrárias:
+#### Listas de argumentos arbitrárias:
  Neste os argumentos da função são agrupados e passados dentro de uma tupla.
 
  Agora, vendo este exemplo na prática:
@@ -67,21 +66,6 @@ que vão ser multiplicados, mas desta vez sem utilizar o return.
 def argumentos_arbitrarias (x, y=3, *args):
       return  [x + y * w for w in args]
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-Python é 🔝
-
-Por padrão, argumentos podem ser passadas para uma função Python tanto por posição quanto explicitamente pelo nome. Para uma melhor legibilidade e desempenho, faz sentido restringir a maneira pelo qual argumentos possam ser passados, assim um desenvolvedor precisa apenas olhar para a definição da função para determinar se os itens são passados por posição, por posição e nome, ou por nome.
 
 #### Exercícios
 
