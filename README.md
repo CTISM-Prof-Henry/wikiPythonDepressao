@@ -63,6 +63,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 15. [Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias](funções_val_e_tefa.md)
 16. [introdução: Laços de repetição](laços.md)
 17. [classes](classes.md)
+18. [dicionarios](dicionarios.md)
 
 ### Introdução
 
