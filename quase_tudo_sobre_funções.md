@@ -78,17 +78,38 @@ somaQuadrado(2,3)
 Repare que os parâmetros `a` e `b` não foram definidos, deixando para fazê-lo no momento de chamar a função.
 
 
-
-
 ### Argumento com valor padrão
 #### Resumo Simplicado
-In - Verifica se uma sequência contém ou não um determinado valor.
+Possivel definir funções com um numero variavel de argumentos
+utilizaremos um operador de atribuição (=) no formato
+`Argumento(chave) = valor`
+```python
+def Nome(Primeironome, ultimonome ='Lopes', idade ='16'):
+ 
+     print(Primeironome, ultimonome, 'ele tem', idade, 'idade')
+
+Nome('John') # colocamos um valor dentro do comando, sendo ele o primeiro nome, pois esta seguindo a ordem
+Nome('John', 'felipe', 'Henrique')    
+    
+Nome('John', 'Gates')                  
+Nome('John', 'Seventh')    
+ ```
+     
+     #Precisamos manter os seguintes pontos em mente ao chamar funções: 
+
+- No caso de passar os argumentos de palavra-chave, a ordem dos argumentos não é importante.
+- Deve haver apenas um valor para um parâmetro.
+- O nome da palavra-chave passado deve corresponder ao nome da palavra-chave real.
+- No caso de chamar uma função contendo argumentos que não sejam palavras-chave, a ordem é importante.
+- Exemplo nº 1: Chamando funções sem argumentos de palavra-chave 
 
 #### Resumo expandido
-É possivel definir funções com um número variável de argumentos
-// essas formas podem ser combinadas
-
-É utilizado para especificar um valor padrão para um ou mais argumentos.
+Agora que ja descobrimos o basico de funções, iremos para argumentos 
+Em argumentos Padrão e possivel definir funções com um Número variavel de argumentos, 
+na função abaixo podemos ver que ha 3 argumentos, 2 argumentos ja tem seu valor definido.
+Para definirmos um valor em uma função utlizaremos o operador de atribuição (=) no formato
+ 
+`Argumento(chave) = valor`
 
 Por exemplo  :
 ```python
@@ -105,43 +126,113 @@ def perguntar_ok(prompt, tentativas=4, relembrar='Porfavor Tente Denovo!'):
             raise ValueError('invalid user response')
         print(relembrar)
 ```
+Retomaremos o basico:
 
+`def` - define;
+`nome` - é o nome da função;
+`qualquer coisa dentro da função` - especificação de argumento da função, que podem ser nenhum ou vários;
+`comandos` - é onde contém o que deve ser executado quando essa função é chamada.
 
-Podemos chamar essa função com varias formas
+Podemos chamar essa função acima de varias formas :
 
-Dando apenas o argumento Obrigatório :   `perguntar_ok('voce quer realmente sair?')`
+ - Dando apenas o argumento Obrigatório :   `perguntar_ok('voce quer realmente sair?')`
 
-Dando um argumento opcional :  `perguntar_ok('Ok para sobrescrever o arquivo?', 2)`
+ -- Dando um argumento opcional :  `perguntar_ok('Ok para sobrescrever o arquivo?', 2)`
 
-ou dando todos os argumentos : `perguntar_ok('Ok para sobrescrever o arquivo??', 2, 'vamos, apenas sim ou não!)`
+ --- ou dando todos os argumentos : `perguntar_ok('Ok para sobrescrever o arquivo??', 2, 'vamos, apenas sim ou não!)`
 
-Importante:  Valores padrões só são avaliados uma vez. veja que isso fará diferença quando um valor é um objeto mutável, lista, dicionário ou instâncias de classes. 
+-------------------------------
 
--> Argumento posicional é o nome utilizado para a passagem de valores onde cada valor estara na ordem conforme implementado na função.
+Esses Valores Padrões só são avaliados uma vez. isso fará diferença quando um valor é um objeto mutável
+ou seja :
+
+--- Tipos mutáveis:
+Listas, Dicionários,instâncias de classes e tipos definidos pelo usuário.
+
+--- Tipos imutáveis:
+Numeros, Strings e Tuplas. 
+
+Por exemplo essa função a seguir acumula os argumentos passados, nas chamadas subsequentes:
+```python
+def f(a, L=[]):
+    L.append(a)
+    return L
+
+print(f(1))
+print(f(2))
+print(f(3))
+```
+Isso exibirá:
+```python
+[1]
+[1, 2]
+[1, 2, 3]
+```
+Se voce quiser que o valor padrão não seja compartilhado entre as chamadas subsequentes, rescreva a função assim :
+```python
+
+def f(a, L=None):
+    if L is None:
+        L = []
+    L.append(a)
+    return L
+```
+Isso exibirá:
+```python
+[1]
+[2]
+[3]
+```
 
 
 ### Argumentos nomeados
 #### Resumo simplificado
-Essa função chama outros argumentos utilizando
+
+Esse recurso chama outros argumentos utilizando
  
 `‘’Chave’’ = ‘’valor’’`
 A chave seria o nome dado dentro da função
+podemos chamar essa argumento pelo nome, pulando a ordem ou posição dos outros argumentos e pegando apenas o que queremos
+exemplo:
+```python
+def func(a, b):
+	print(a, b)
+
+func('olá', 'mundo')  # passando parâmetros por posição
+func(a='olá', b='mundo')  # passando parâmetros por nome
+func(b='mundo', a='olá')  # passando parâmetros por nome
+```
+ - Importante 
+
+  uma função quando começa por ordem, e termina por nome = Ok funciona 100%
+  Quando ela começa por nome e termina por ordem = NÃO Rolaras 100% Não funcional
+ 
+  ex:
+ ```python
+func('olá', b='mundo') Começa por ordem e termina por nome
+func(a='olá', 'mundo') Começa por nome e termina por ordem
+```
+  * Nenhum argumento pode receber mais de um valor.
 
 #### Resumo expandido
-Exemplo:
+Em argumentos nomeados
+ainda Utilizaremos a chamada de funções, mas dessa vez utlizando a forma de `‘’Chave’’ = ‘’valor’’`
+Por exemplo
 ```python
-def Moitinha ( perfeito, lindo, gostoso,pomposo):
-  print('perfeito:{}/nlindo:{}/ngostoso{}/npomposo{}')
+def Func(Notas, Media, entrega,)
+ print(Notas, Media, entrega)
 
-Moitinha("perfeitão", lindo="lindão", gostoso='gostoso', pomposo='pomposinho')
+Func(notas=4, Media='ruim', entrega='dia 11')
 ```
+Podemos ver nessa função que temos 
+- 1 argumento obrigatorio (NOTAS)
+- 2 argumentos Opcionais (Medias, Entrega)
 
-Importante : 
-Nenhum argumento pode receber mais de um valor
+e chamamos essa função chamando pelo nome
+quando chamarmos pelo nome, podemos chamar de qualquer parametro conquanto que seja chamado por ordem
+e termine por nome.
 
-
-
-
+------------------------
 ### Expressões Lambda
 #### Resumo simplificado
 
