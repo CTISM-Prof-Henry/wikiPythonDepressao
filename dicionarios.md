@@ -1,0 +1,1 @@
+print(f"O ingrediente {cada_ingrediente}  tem {calorias} calorias")
