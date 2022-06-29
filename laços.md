@@ -1,10 +1,12 @@
 # Laços de repetição:
 #### **Sumário**
-1- For e While
-2- Função range
-3- Break
-4- Continue
-5- Exercícios
+
+1. For e While
+2. Função range
+3. Break
+4. Continue
+5. Exercícios
+
 ## Introdução
 
 ### Resumo simplificado
