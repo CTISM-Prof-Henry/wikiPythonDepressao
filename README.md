@@ -255,9 +255,9 @@ except ZeroDivisionError:
 
 O código acima funciona assim:
 
--O comando try é executado.
+-O comando `try` é executado.
 
--Se não houver nenhuma exceção, o comando except é ignorado e a execução do código acaba.
+-Se não houver nenhuma exceção, o comando `except` é ignorado e a execução do código acaba.
 
 -Se por acaso alguma exceção acontecer e for a mesma que o usuário especificou, ela é executada. Se não for a mesma, a execeção é considerada não tratada e retorna uma mensagem de erro.
 
@@ -278,16 +278,16 @@ else:
 
 ```
 
-O comando try é usado como uma ou mais claúsulas de exceções,utilizado para designar variados tratadores para exceções diferentes.Apenas um tratador executará.Um tratador é frágil a variadas exceções,uma vez que seja designado a uma tupla.
+O comando `try` é usado como uma ou mais claúsulas de exceções,utilizado para designar variados tratadores para exceções diferentes.Apenas um tratador executará.Um tratador é frágil à variadas exceções,uma vez que seja designado a uma tupla.
 
 
-A ordem raise deixa com que o programador force o acontecimento de um tipo expecífico de exceção
+A ordem `raise` deixa com que o programador force o acontecimento de um tipo expecífico de exceção
 #### EX:
 ```python
 raise ZeroDivisionError('8/0')
 ```
 
-O comando raise mostra a exceção que sera erguida. Esse comando se dá a um pedido de exceções ou classes de exceções.Se for necessário executar se uma exceção foi erguida ou não, porém não quer operar o erro, uma forma fácil de comando raise, torna possível que você a erga novamente.
+O comando `raise` mostra a exceção que será erguida. Esse comando se dá a um pedido de exceções ou classes de exceções.Se for necessário executar se uma exceção foi erguida ou não, porém não quer operar o erro, uma forma fácil de resolver é usando o comando `raise`, torna possível que você a erga novamente.
 
 ```python
 
@@ -295,6 +295,20 @@ except (TypeError , OverflowError,NameError):
   pass
 
 ```
+Uma cláusula `finally` sera realizada como ultima atividade da conclusão do comando `try`.Essa cláusula se executa caso o comando `try`faz uma exceção.A seguir mais ocorrencias de exceções:
+
+-Exceção em cláusula `try` é tratada por cláusula `except`,caso não for tratada,é gerada novamente.
+
+-A Exceção ocorre se necessária na execução de cláusula `except`ou `else`. Ela de novo se relevantará.
+
+-Cláusula `finally` realiza um comando `break`, `continue` ou `return`.Não será erguida novamente nenhuma exceção.
+
+-Caso a cláusula `finally` adicionar um comando `return`, será retornado comando `return` da cláusula `finally` e não o valor do comando `return` cláusula `try`.
+
+
+Algumas ações definem movimentações de limpeza padrão que deve ser executada após a ação não ser mais necessária.
+
+
 
 ## Exercícios
 
