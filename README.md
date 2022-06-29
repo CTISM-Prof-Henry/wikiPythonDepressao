@@ -22,7 +22,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 | Miguel | Estrutura de dados: tuplas, sets, operadores and, or, in, not in para tuplas/sets     |
 | Alexandre e Bernardo | Estrutura de dados: dicionáros, construção de dicionários, iteração sobre dicionários, operadores and, or, in, not in para dicionários     |
 | Nicole, Thianna e João | Funções: definindo funções, funções com parâmetros padrão, argumentos nomeados, strings de documentação     |
-| Stéfani e Valquíria | Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
+| Stéfani e Valquíria | [Funções:](funções_val_e_tefa.md) parâmetros especiais, funções anônimas, listas de argumentos arbitrárias     |
 | Rafaela | Leitura e escrita de arquivos, método with, biblioteca csv, Gravando dados estruturados com json|
 | Nathielly e Vanessa | Exceções     |
 | Gabriela, Manuela e Mateus | Classes: sintaxe de definição de calsses, objetos de class, objetos instância, objetos método, variáveis de classe e instância, observações aleatórias     |
@@ -52,7 +52,6 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 3. [Resolução](#resolução)
 4. [Escrita arquivos](escrita_arquivos.md)
 5. [if-else](#if-else)
-6. [Introdução : Lista](1-Introduçaozinha.md)
 7. [Funções: definindo funções](funções.md)
 8. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
 9. [introdução : Laços de repetição](laços.md)
@@ -61,65 +60,11 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 12. [if-else](#if-else)
 13. [Funções: definindo funções](funções.md)
 14. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
-15. [introdução: Laços de repetição](laços.md)
-16. [classes](classes.md)
+15. [Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias](funções_val_e_tefa.md)
+16. [introdução: Laços de repetição](laços.md)
+17. [classes](classes.md)
 
 ### Introdução
-
-#### Resumo simplificado de Funções ✨
-
-Blocos de códigos que executam alguma tarefa e que tem um nome, ou manipulam algum dado e são capazes de receber (ou não) parâmetros e/ou argumentos, ou seja, processam informações e retornam valores. Dessa forma, são denominadas funções em python, que possuem alguns tipos, dentre eles: funções especiais, funções anônimas e listas de argumentos arbitrárias. 
-
-
-#### Resumo expandido ✨
-
-Funções são ..    a função inicia com "def" e um nome é atribuído, após isso um parâmetro é criado.
-(exemplo)
-
-
-• Evita repetição de código
-• Deixa o código Menor
-• Mais legível
-• Mais modularizado
-
-
-Funções especiais: são funções passadas por parâmetros que consistem em posições que são preenchidas por parâmetros
-
-Funções anônimas: Funções anônimas ou também popularmente conhecida como
-função Lambda; representa um nome que advém da matemática,
-apresentado pelo matemático americano Alonzo Church em 1930, na qual era
-orientador de Alan Turing. O cálculo lambda trata as funções como
-valores, fazendo com que elas sejam entradas para outras funções, assim
-como funções podem retornar funções como saída, ou seja, funções que
-operam em funções (melhor no exemplo kkk).
-
-Veja logo abaixo um exemplo de uma função normal:
-
-```def funcao (arg,arg2):
-return arg*arg2
-var = funcao (2,2)
-print (var)
-```
-Aqui pode-se notar que definimos uma função, dentro dela atribuímos os
-argumentos que queremos passar para a função e jogamos ela em uma
-variável chamada var que guarda dois valores que vão ser multiplicados no
-return. 
-
-Agora vamos ver como esta função ficaria sendo lambda, logo temos que:
-
-```python
-a = lambda x , y: x*y
-print (a(2,2))
-```
-
-Nesta função atribuímos o nome da função como lambda, que recebe uma
-string (a) como uma variável que armazena dois números inteiros (x=2,y=2)
-que vão ser multiplicados, mas desta vez sem utilizar o return.
-
-listas de argumentos arbitrárias:
-
-
-
 
 # Juh e Jhenni
 ## Sumário:
