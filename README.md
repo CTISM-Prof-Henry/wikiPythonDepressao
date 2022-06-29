@@ -41,7 +41,6 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 * Módulos
 * Pacotes
 
-<<<<<<< HEAD
 
 ## Exemplo de Wiki
 
@@ -58,13 +57,12 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 10. [introdução: Tuplas](Tuplas.md)
 11. [Escrita arquivos](escrita_arquivos.md)
 12. [if-else](#if-else)
-13. [Funções: definindo funções](funções.md)
-14. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
-15. [Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias](funções_val_e_tefa.md)
-16. [introdução: Laços de repetição](laços.md)
-17. [classes](classes.md)
-18. [dicionarios](dicionarios.md)
-19. [introdução : Laços de repetição](laços.md)
+13. [Funções definindo, com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
+14. [Funções: parâmetros especiais, funções anônimas, listas de argumentos arbitrárias](funções_val_e_tefa.md)
+15. [introdução: Laços de repetição](laços.md)
+16. [classes](classes.md)
+17. [dicionarios](dicionarios.md)
+18. [introdução : Laços de repetição](laços.md)
 
 ### Introdução
 
@@ -280,7 +278,6 @@ else:
 
 ```
 
-<<<<<<< HEAD
 O comando try é usado como uma ou mais claúsulas de exceções,utilizado para designar variados tratadores para exceções diferentes.Apenas um tratador executará.Um tratador é frágil a variadas exceções,uma vez que seja designado a uma tupla.
 #### EX:
 =======
@@ -314,7 +311,6 @@ print(a)
 
 ### Resolução exercício 1:
 
->>>>>>> 3545e4183c7f4f7768b282e2a2f5135a6ee233fa
 ```python
 
 except (TypeError , OverflowError,NameError):                  
@@ -325,7 +321,7 @@ A ordem raise deixa com que o programador force o acontecimento de um tipo expec
 ```python
 raise ZeroDivisionError('8/0')
 ```
-<<<<<<< HEAD
+
 O comando raise mostra a exceção que sera erguida.Esse comando se da a um pedido de exceções ou classes de excessões.Se for necessário executar se uma exceção foi erguida ou não,porém não quer operar o erro,uma forma facil de comando raise, torna possivel que você a erga novamente.
 =======
 
@@ -348,4 +344,3 @@ try:
 except ImportError:
     print("tá escrito errado, revisa isso aí")
 ```
->>>>>>> 3545e4183c7f4f7768b282e2a2f5135a6ee233fa
