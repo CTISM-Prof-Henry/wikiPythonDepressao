@@ -17,7 +17,7 @@ If, Else e elif são comandos de desvio de fluxo.
 
 ### Resumo expandido 
 
-If (se) é uma condicional que permite avaliar se a expressão é afirmativa.
+If (se) é uma condicional que permite avaliar se a expressão é verdadeira.
 
 ## Exemplo de if
 ````python
@@ -73,17 +73,18 @@ else:
 
 ### Exercício 3: 
 
-3. Faça um programa para determinar a situação escolar do aluno.(aprovado,reprovado,recuperação)
+3. Faça um programa para determinar a situação escolar do aluno. (se tirar maior que 50 está aprovado, se tirar menor que 30 reprovado, menor ou igual a 50 recuperação)
 
 ### Resolução 
 ````python
 nota = int(input("Digite uma nota: "))
-if nota < 70:
-    print("Reprovado")
-elif nota > 50:
+if nota >= 70:
     print("Aprovado")
-else:
+
+elif 30 <= nota < 70:
     print("Recuperação")
+else:
+    print("Reprovado")
 
 print("fim.")
 ````
