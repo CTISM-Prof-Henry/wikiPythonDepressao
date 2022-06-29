@@ -1,0 +1,19 @@
+# RESUMO
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# [exercicios](exerciciosdicionario.md)
