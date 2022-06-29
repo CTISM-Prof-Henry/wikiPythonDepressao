@@ -54,7 +54,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 5. [if-else](#if-else)
 7. [Funções: definindo funções](funções.md)
 8. [Funções com parâmetros padrão, argumentos nomeados, strings de documentação](quase_tudo_sobre_funções.md)
-9. [introdução : Laços de repetição](laços.md)
+9. [Introdução: Listas](1-Introduçaozinha.md)
 10. [introdução: Tuplas](Tuplas.md)
 11. [Escrita arquivos](escrita_arquivos.md)
 12. [if-else](#if-else)
@@ -64,6 +64,7 @@ Tente este repositório: https://github.com/CTISM-Prof-Henry/gitEssentials
 16. [introdução: Laços de repetição](laços.md)
 17. [classes](classes.md)
 18. [dicionarios](dicionarios.md)
+19. [introdução : Laços de repetição](laços.md)
 
 ### Introdução
 
