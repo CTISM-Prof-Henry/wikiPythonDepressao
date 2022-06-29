@@ -13,7 +13,7 @@
 Blocos de códigos que executam alguma tarefa e que tem um nome, ou manipulam algum dado e são capazes de receber (ou não) parâmetros e/ou argumentos, ou seja, processam informações e retornam valores. Dessa forma, são denominadas funções em python, que possuem alguns tipos, dentre eles: funções especiais, funções anônimas e listas de argumentos arbitrárias. 
 
 
-### Resumo expandido
+### *Resumo expandido*
 
 Funções são sequências de comandos que exercem determinadas funções e que possuem um nome. A função inicia com "def" e um nome é atribuído, após isso um parâmetro é criado. Serve, também, para evitar repetição de código, deixar o código menor, mais compreensível, etc. 
 
@@ -63,52 +63,53 @@ que vão ser multiplicados, mas desta vez sem utilizar o return.
 
  Agora, vendo este exemplo na prática:
 
-``` 
+``` python
 def argumentos_arbitrarias (x, y=3, *args):
       return  [x + y * w for w in args]
 ```
 
 ### *Exercícios✨*
 
-1. Função arbitrária:
-Defina uma funçao que dentro dela chame uma varivél que possa ser passado por mais de um valor (qualquer valor), essa função tem que retornar uma lista com vários itens dentro separado por "/", os itens desta lista tem que ser imutavel, mas a lista tem que ter a posibilidade de acresentar um novo item a ela (oque chamamos de lista tipo tupla). Por fim, defina uma variável que seja atribuída ao nome da função dada no inicio, e imprima na tela a lista. 
+1. Defina uma funçao que dentro dela chame uma varivél que possa ser passado por mais de um valor (qualquer valor), essa função tem que retornar uma lista com vários itens dentro separado por "/", os itens desta lista tem que ser imutavel, mas a lista tem que ter a posibilidade de acresentar um novo item a ela (oque chamamos de lista tipo tupla). Por fim, defina uma variável que seja atribuída ao nome da função dada no inicio, e imprima na tela a lista. 
 
--Resolução:
+2. Passe uma função normal para uma função lambda, e dentro da fução crie uma variável que retorne no resultado o seu dobro.
 
-  def qualquer_nome (*args, sep="/"):
-  return sep.join(args)
-
-  z = qualquer_nome ("minhas bandas do momento são:", "the smiths", "the verve" , "e matchbox twenty") 
-  print(z)
-
-  -Logo, definimos uma função com um nome "qualquer_nome", dentro dela definimos uma variável chamada "args" que vem do nome "argumentos", adjunto a ela observe-se o "*" que é usado para indicar que a variável args pode ser atribuída a qualquer valor e pode ser passada por infinitas casas, e o "sep= /" é o responsavel por colocar a barra para separar os elementos listados. Por fim, definimos uma nova variável chamada "z", na qual vai ser atribuída ao nome da função (qualquer_nome) e que vai printar a ista contida dentro da variável z.
-  
-
-2. Função anônima:
-Passe uma função normal para uma função lambda, e dentro da fução crie uma variável que retorne no resultado o seu dobro.
-
-Resolução:
- Fução normal :def nome(b):
-              return b*2
-                  nome(24)
-
- Passando para uma função Lambda: 
-    praticando = lambda a: a*2
-     praticando (45)
-  
--Na função normal definimos uma função chamada "nome" que é atribuída a uma variável (b), esta variável por sua vez vai retornar qualquer valor atribuído a ela, só que o seu dobro (*2). Passando para uma função lambda, temos que: nome = lambda argumentos (a): return (2 *a), na qual o nome da função lambda chama-se "praticando", e sua váriavel representa a letra "a"  como sendo o argumento da função, que por fim vai ser multiplicado por dois no retorno.
-
-3. Listas de argumentos arbitárias:
-Defina uma função e atribua os valores para as variáveis i, j e k:
-
-Resolução:
- def escolha_algum_nome (a=5, b=6, c=7):
-  return  a + b + c
+3. Defina uma função e atribua os valores para as variáveis a, b e c:
 
 
 
 ### *Resolução✨*
 
-1. Menu Iniciar > prompt de comando > digite `python` e dê Enter
-2. Menu Iniciar > prompt de comando > digite `python` e dê Enter. Digite `print('olá mundo!')`. Feito!
-3. Menu Iniciar > prompt de comando. Digite `python <nome do script>`, e dê Enter.
+1.
+```python
+  def qualquer_nome (*args, sep="/"):
+  return sep.join(args)
+
+  z = qualquer_nome ("minhas bandas do momento são:", "the smiths", "the verve" , "e matchbox twenty") 
+  print(z)
+  ```
+
+  -Logo, definimos uma função com um nome "qualquer_nome", dentro dela definimos uma variável chamada "args" que vem do nome "argumentos", adjunto a ela observe-se o "*" que é usado para indicar que a variável args pode ser atribuída a qualquer valor e pode ser passada por infinitas casas, e o "sep= /" é o responsavel por colocar a barra para separar os elementos listados. Por fim, definimos uma nova variável chamada "z", na qual vai ser atribuída ao nome da função (qualquer_nome) e que vai printar a ista contida dentro da variável z.
+  
+
+2. 
+```python
+//Função normal :
+def nome(b):
+    return b*2
+    nome(24)
+
+//Passando para uma função Lambda: 
+    praticando = lambda a: a*2
+    praticando (45)
+    print(praticando)
+``` 
+
+ -Na função normal definimos uma função chamada "nome" que é atribuída a uma variável (b), esta variável por sua vez vai retornar qualquer valor atribuído a ela, só que o seu dobro (*2). Passando para uma função lambda, temos que: nome = lambda argumentos (a): return (2 *a), na qual o nome da função lambda chama-se "praticando", e sua váriavel representa a letra "a"  como sendo o argumento da função, que por fim vai ser multiplicado por dois no retorno.
+
+
+3. 
+```python 
+ def escolha_algum_nome (a=5, b=6, c=7):
+  return  a + b + c
+  ```
