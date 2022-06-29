@@ -14,3 +14,20 @@ class Série:
 série = Série('nome: You', 'personagem_favorito: Love', 'temporadas: 3')
 série.ExibirInformacoesDaSerie()
 ```
+
+exercício 2:
+```python
+class Filosofia:
+
+    def __init__(self, nome, barba):
+        self.nome = nome
+        self.barba = barba
+        
+    def andardeskate(self):
+        print('andou de skate!')
+    
+
+zolin = Filosofia('Zolin','da barba longa')
+print(zolin.nome, zolin.barba) 
+zolin.andardeskate()
+```
